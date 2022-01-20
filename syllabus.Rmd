@@ -1,21 +1,12 @@
 ---
-title: ""
 output:
-  html_document: default
+  html_document:
+    css: "style.css"
 ---
 
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
+
+# Baltimore Community Data Science Syllabus
+
 
 **Class Website:**  https://jhudatascience.org/Baltimore_Community_Course 
 

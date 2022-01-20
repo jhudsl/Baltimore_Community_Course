@@ -1,16 +1,12 @@
 ---
-title: "Student Evaluation"
 output:
   html_document:
     css: "style.css"
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
-&nbsp;
-&nbsp;
-&nbsp;
+
+# Student Evaluation
+
 All grading for the course will be **pass / fail**. 
 
 We hope that this will take some pressure off the grade and help students focus on:
