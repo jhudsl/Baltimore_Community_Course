@@ -7,7 +7,9 @@ output:
 &nbsp;
 &nbsp;
 &nbsp;
-
+&nbsp;
+&nbsp;
+&nbsp;
 # Code of Conduct
 
 We would like to create an open, safe, welcoming, diverse, inclusive, intellectually stimulating, and hopefully fun class experience. 
