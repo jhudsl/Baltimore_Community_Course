@@ -1,0 +1,60 @@
+
+# This code was originally written by Josh Shapiro and Candace Savonen
+# for the Childhood Cancer Data Lab, an initiative of Alexs Lemonade Stand Foundation.
+# https://github.com/AlexsLemonade/refinebio-examples/blob/33cdeff66d57f9fe8ee4fcb5156aea4ac2dce07f/.github/workflows/style-and-sp-check.yml#L1
+
+
+
+name: Render html
+
+# Controls when the action will run. Triggers the workflow on push
+# events only for the master branch
+on:
+  workflow_dispatch:
+  push:
+    branches: [ main ]
+    paths:
+      - '**.Rmd'
+      - style.css
+jobs:
+  # This workflow contains a single job called "build-all"
+  render-main:
+    runs-on: ubuntu-latest
+    container:
+      image: jhudsl/course_template
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - name: checkout
+        uses: actions/checkout@v2
+        with:
+          # get the full repo
+          fetch-depth: 0
+          # use github PAT
+          token: ${{ secrets.GH_PAT }}
+
+      # We want a fresh run of the renders each time
+      - name: Delete old *.html
+        run: rm -r *.html
+
+      # Run html rendering
+      - name: Run render html
+        id: site
+        run: Rscript -e "rmarkdown::render_site()"
+
+      # This checks on the steps before it and makes sure that they completed.
+      # If the renders didn't complete we don't want to commit the file changes
+      - name: Check on render steps
+        if: steps.site.outcome != 'success'
+        run: |
+          echo site status ${{steps.site.outcome}}
+          exit 1
+
+      # Commit the rendered site files
+      - name: Commit rendered site files
+        run: |
+          git config --local user.email "actions@github.com"
+          git config --local user.name "GitHub Actions"
+          git add --force *.html
+          git commit -m 'Render site' || echo "No changes to commit"
+          git push origin main || echo "No changes to push"

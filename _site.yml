@@ -5,8 +5,10 @@ navbar:
   left:
   - text: Home
     href: index.html
+  - text: Code of Conduct
+    href: code_of_conduct.html   
   - text: Evaluation
-    href: _child_rubric.html
+    href: evaluation.html
   - text: Syllabus
     href: syllabus.html
   - text: Resources
