@@ -1,24 +1,38 @@
 ---
-title: "Grading Rubric"
-output: html_document
+title: "Student Evaluation"
+output:
+  html_document:
+    css: "style.css"
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+All grading for the course will be **pass / fail**. 
+
+We hope that this will take some pressure off the grade and help students focus on:
+
+- the process of their professional development
+- the process of their critical service learning skills
+- the progress of the project for the needs of the CBO   
 
 
+Students will be assessed based on feedback from the faculty, the CBO, project peers, and the students themselves. 
 
+**Students will be assessed based on the following assessment areas:**
+
+<div class = "table_style">
 |**Growth Area**|**Reason**|**Measurements**|
 |--------------|-------------------------|---------------------------------------|
-|Partnership skills|The ability to work well with a team to make progress on a project is useful for nearly every field. As statisticians and data scientists, this skill is useful for both jobs in academia and industry. Honing this skill can be helpful for effectively working on collaborative projects, managing labs, and acting as a consultant|**Efforts to contribute:** <br> * taking notes<br> * Managing scheduling<br> **Efforts to support:** <br>* Open to equitable sharing of roles and tasks (justification for who does what?)<br> * Open to feedback and adaptable to project changes|
-|Communication/<br> Consulting Skills |As data scientists and statisticians we are often asked to explain to others how to work with data|**Efforts to stay connected:** <br> * Help to establish a relationship <br> * Regular communication with the CBO through meetings and emails <br> * Regular communication with group members <br> * Emails are informative, mindful, and concise <br> **Consideration of the CBO:** <br> * continued effort to reassess goals and products <br>  * continually assess if the project goals and progress achieve the larger goals of the CBO <br> * Willingness to adapt the data science products based on CBO feedback <br> * Mindfulness about how the CBO can use and maintain the data science products <br> * Mindfulness about possible limitations for the CBO (time, resources etc.) |
-|Initiative/ Work ethic|Data science careers involve self-motivation. Scientific progress can often be achieved by applying new methods, thinking of a new angle or perspective|**Efforts to think beyond the data science products for the CBOs:** <br> * New ideas for products <br> * New way of approach <br> * Attempt to learn something new where possible/applicable <br> **Efforts to achieve the project goals** <br> * Progress towards creating the data science products|
-|Critical Reflection Skills| The ability to see how your work fits into the larger context of your field or society is essential for identifying projects, questions, and changes to protocols that are more likely to achieve scientific progress and social change. Understanding your context as well as your unique experiences and perspectives, as well as possible blind spots can help you to be a better scientist.|**Efforts to engage in critical reflection activities:** <br> * Substantive contributions to written prompts <br> * Students aim to be: <br> &nbsp;&nbsp;&nbsp;&nbsp; - Thorough <br> &nbsp;&nbsp;&nbsp;&nbsp; - Novel &nbsp;&nbsp;&nbsp;&nbsp; <br> &nbsp;&nbsp;&nbsp;&nbsp; - Genuine <br>  &nbsp;&nbsp;&nbsp;&nbsp; - Authentic|
-Instruction / Education Skills| The ability to clearly explain your work and thoughts is critical as a scientist and educator. An understanding who your audience is and how to effectively reach your audience is essential for productive instruction.| **Efforts are made to know and consider the CBO members that will implement and sustain the data science project:** <br> * perspective <br> * experience <br> * skill level <br> * interests <br> **Efforts are made create documentation** <br> * steps are clear <br> * easy to navigate <br> * steps are appropriately thorough * published is some formal way|
-|Organizational Skills| Strong organizational skills are important for greater transparency and reproducibility in scientific research.| **Efforts are made to coordinate with group members and the CBO** <br> * organized communications <br> * saving communications <br> **Efforts are made throughout to help progress the project : ** <br> * organized notes coordinated with communications <br> * data and code in an organized system|
+|**Partnership skills**|The ability to work well with a team to make progress on a project is useful for nearly every field. As statisticians and data scientists, this skill is useful for both jobs in academia and industry. Honing this skill can be helpful for effectively working on collaborative projects, managing labs, and acting as a consultant. |**Efforts to contribute:** <br> * taking notes<br> * Managing scheduling<br> **Efforts to support:** <br>* Open to equitable sharing of roles and tasks (justification for who does what?)<br> * Open to feedback and adaptable to project changes|
+|**Communication/<br> Consulting Skills**|As data scientists and statisticians we are often asked to explain to others how to work with data. |**Efforts to stay connected:** <br> * Help to establish a relationship <br> * Regular communication with the CBO through meetings and emails <br> * Regular communication with group members <br> * Emails are informative, mindful, and concise <br> **Consideration of the CBO:** <br> * continued effort to reassess goals and products <br>  * continually assess if the project goals and progress achieve the larger goals of the CBO <br> * Willingness to adapt the data science products based on CBO feedback <br> * Mindfulness about how the CBO can use and maintain the data science products <br> * Mindfulness about possible limitations for the CBO (time, resources etc.) |
+|**Initiative/<br> Work Ethic** |Data science careers involve self-motivation. Scientific progress can often be achieved by applying new methods, thinking of a new angle or perspective.|**Efforts to think beyond the data science products for the CBOs:** <br> * New ideas for products <br> * New way of approach <br> * Attempt to learn something new where possible/applicable <br> **Efforts to achieve the project goals** <br> * Progress towards creating the data science products|
+|**Critical Reflection Skills**| The ability to see how your work fits into the larger context of your field or society is essential for identifying projects, questions, and changes to protocols that are more likely to achieve scientific progress and social change. Understanding your context as well as your unique experiences and perspectives, as well as possible blind spots can help you to be a better scientist.|**Efforts to engage in critical reflection activities:** <br> * Substantive contributions to written prompts <br> * Students aim to be: <br> &nbsp;&nbsp;&nbsp;&nbsp; - Thorough <br> &nbsp;&nbsp;&nbsp;&nbsp; - Novel &nbsp;&nbsp;&nbsp;&nbsp; <br> &nbsp;&nbsp;&nbsp;&nbsp; - Genuine <br>  &nbsp;&nbsp;&nbsp;&nbsp; - Authentic|
+**Instruction / Education Skills**| The ability to clearly explain your work and thoughts is critical as a scientist and educator. An understanding who your audience is and how to effectively reach your audience is essential for productive instruction.| **Efforts are made to know and consider the CBO members that will implement and sustain the data science project:** <br> * perspective <br> * experience <br> * skill level <br> * interests <br> **Efforts are made create documentation** <br> * steps are clear <br> * easy to navigate <br> * steps are appropriately thorough <br> * published is some formal way|
+|**Organizational Skills**| Strong organizational skills are important for greater transparency and reproducibility in scientific research.| **Efforts are made to coordinate with group members and the CBO** <br> * organized communications <br> * saving communications <br> **Efforts are made throughout to help progress the project : ** <br> * organized notes coordinated with communications <br> * data and code in an organized system|
 
+</div>
 
 
 

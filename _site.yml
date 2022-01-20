@@ -5,6 +5,8 @@ navbar:
   left:
   - text: Home
     href: index.html
+  - text: Evaluation
+    href: _child_rubric.html
   - text: Syllabus
     href: syllabus.html
   - text: Resources
@@ -16,7 +18,7 @@ navbar:
 
 output:
   html_document:
-    theme: paper
+    theme: cosmo
     lib_dir: site_libs
     self_contained: no
 

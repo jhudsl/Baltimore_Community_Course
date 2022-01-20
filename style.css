@@ -1,0 +1,22 @@
+.table_style {
+    width: 90%;
+    text-align: left;
+}
+.table_style th {
+background: grey;
+color: white;
+word-wrap: break-word;
+text-align: center;
+}
+.table_style tr:nth-child(1) { background: lightgray; }
+.table_style tr:nth-child(3) { background: lightgray; }
+.table_style tr:nth-child(5) { background: lightgray; }
+
+.table {
+    background-color: lightgreen;
+}
+
+.banner {
+  background-color: lightgreen;
+  font-weight:bold;
+}
