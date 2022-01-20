@@ -11,9 +11,16 @@ output:
 
 **Zoom link will be emailed to students.**
 
-**Day:** coming
+**Dates:** 
+
+The course will meet during 3rd and 4th quarters (2 credits each quarter).
+Students who take the class need to commit to both quarters (for continuity of the projects they will work on).
 
 **Time:** 1:30-3 PM EST on Zoom
+
+Students will meet in class (virtually) once per week (1:30-3 PM EST on Zoom).
+
+Students will work in groups outside of class on community-based projects. 
 
 **Instructors:** 
 
@@ -25,6 +32,28 @@ output:
 **Communication will mainly occur through Slack and we will email you about how to connect to slack.**
 
 
+**Requirements**
+
+Students are required to have prior experience with R programming and need to have taken the following data science courses (or have equivalent experience): 
+140.711 Advanced Data Science I and 140.712 Advanced Data Science II
+Instructor permission is required to enroll in the course. 
+
+
+
+## Learning Objectives
+
+Students will be able to:
+
+1) Describe the history of Johns Hopkins and the biostatistics department in the Baltimore community.  Evaluate and discuss how this **historical context** and the **current context** influences our interactions with community members.
+2) **Critically reflect** on their own service-learning project work and how their role as a statistician impacts the organization, as well as the greater context of society and social structures (not just the course project).
+3) Articulate what **critical service learning** is and describe how it differs from traditional community service endeavors. Evaluate and discuss how other methods can cause harm to communities.
+4) Understand more about how to successfully **navigate challenges** that occur when applying data cleaning, wrangling, analysis, collection planning, visualization, and communication skills to problems in **non-academic settings**, as the students **create** (with the guidance and help of the community organization) **data science products** for the goals of the assigned organization project. 
+5) Work with others to **create an implementation plan** for the data science products that is viable and useful for the respective community organization members. Work with stakeholders at a high level to understand their needs as well as the limitations of the data.
+6) Use teaching methods to **teach others** from various backgrounds and experiences  to use data science techniques to work with data and communicate effectively about data. 
+7) Plan for community organizations to continue to work with data science products in a **sustainable way** even after projects are over.
+
+**How often will students and organizations meet?**
+This depends on the project goals, but approximately 30 min - 1 hr every 2 weeks for the duration of the term. (Feb - mid May - 3rd and 4th term). Meetings will also be supplemented by emails. Keep in mind that organizations are busy and staff may not be getting paid for their work.
 
 <!-- ```{r, child="code_of_conduct.Rmd"} -->
 
