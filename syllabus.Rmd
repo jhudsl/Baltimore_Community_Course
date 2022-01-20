@@ -5,6 +5,9 @@ output:
     css: "style.css"
 ---
 
+&nbsp;
+&nbsp;
+&nbsp;
 
 # Baltimore Community Data Science Syllabus
 
