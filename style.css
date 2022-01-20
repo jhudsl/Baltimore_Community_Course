@@ -7,7 +7,6 @@ h1, .h1, {
 
 /*Table Header*/
 .table_style th {
-width: 90%;
 background: grey;
 color: white;
 word-wrap: break-word;
