@@ -16,6 +16,7 @@ on:
     paths:
       - '**.Rmd'
       - style.css
+      - _site.yml
 jobs:
   # This workflow contains a single job called "build-all"
   render-main:
