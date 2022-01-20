@@ -6,9 +6,13 @@ output:
 
 
 <div class = "banner">
-Welcome to the course website for Baltimore Community Data Science (PH140.840)!
+Welcome to the course website for Baltimore Community Data Science (PH140.840)!  
 </div>
 
+### **About**
+This course was developed in partnership with [SOURCE](https://source.jhu.edu/) the the community engagement and service-learning center at the Johns Hopkins Bloomberg School of Public health which is focused on community engagement that involves:  
+**Social Change / Authentic Relationships / Redistributing Power**
+ 
 ### **Logistics**
 
 This course will be taught the **3rd and 4th terms** of this academic year (2021-2022) as a special topics course. 
@@ -39,7 +43,9 @@ Students will **reflect on their role** as a statistician in society.
 
 They will learn more about being **mindful and ethical** practitioners of data science techniques **to advocate for social change**.
 
-
+<div class = "center">
+"Working with community-based organizations in Baltimore to support data science related goals"  
+</div>
 
 
 

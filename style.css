@@ -29,4 +29,10 @@ text-align: center;
 .banner {
   background-color: lightgreen;
   font-weight:bold;
+
+}
+
+.center {
+  font-weight:bold;
+  text-align: center;
 }
