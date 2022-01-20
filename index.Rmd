@@ -1,13 +1,9 @@
 ---
-title: "Baltimore Community Data Science Course"
 output:
   html_document:
     css: "style.css"
 ---
 
-&nbsp;
-&nbsp;
-&nbsp;
 
 <div class = "banner">
 Welcome to the course website for Baltimore Community Data Science (PH140.840)!
