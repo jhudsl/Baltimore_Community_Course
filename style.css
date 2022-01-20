@@ -8,13 +8,15 @@ color: white;
 word-wrap: break-word;
 text-align: center;
 }
+
+.table_style {
+    background-color: lightgreen;
+}
+
 .table_style tr:nth-child(1) { background: lightgray; }
 .table_style tr:nth-child(3) { background: lightgray; }
 .table_style tr:nth-child(5) { background: lightgray; }
 
-.table {
-    background-color: lightgreen;
-}
 
 .banner {
   background-color: lightgreen;
