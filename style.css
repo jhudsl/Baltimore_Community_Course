@@ -13,16 +13,18 @@ color: white;
 word-wrap: break-word;
 text-align: center;
 }
+
+/*Table add gray rows*/
+.table_style tr:nth-child(1) { background: lightgray; }
+.table_style tr:nth-child(3) { background: lightgray; }
+.table_style tr:nth-child(5) { background: lightgray; }
+
 /*Table general style*/
 .table_style {
     width: 90%;
     text-align: left;
     background-color: lightgreen;
 }
-/*Table add gray rows*/
-.table_style tr:nth-child(1) { background: lightgray; }
-.table_style tr:nth-child(3) { background: lightgray; }
-.table_style tr:nth-child(5) { background: lightgray; }
 /* ------------- END Table styling section -----------------------------------*/
 
 .banner {

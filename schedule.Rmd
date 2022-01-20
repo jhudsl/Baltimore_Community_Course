@@ -1,5 +1,5 @@
 ---
-title: "Class Schedule"
+title: ""
 output:
   html_document:
     css: "style.css"
