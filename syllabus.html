@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>Baltimore Community Data Science Course</title>
+
+<script src="site_libs/header-attrs-2.11/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.tab('show');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">BCDS</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">Home</a>
+</li>
+<li>
+  <a href="syllabus.html">Syllabus</a>
+</li>
+<li>
+  <a href="resources.html">Resources</a>
+</li>
+<li>
+  <a href="contact.html">
+    <span class="fa fa-envelope"></span>
+     
+    Contact
+  </a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">Baltimore Community Data Science Course</h1>
+
+</div>
+
+
+<p><strong>Class Website:</strong> coming</p>
+<p><strong>CoursePlus:</strong> coming</p>
+<p><strong>Zoom link will be emailed to students.</strong></p>
+<p><strong>Day:</strong> coming</p>
+<p><strong>Time:</strong> 1:30-3 PM EST on Zoom</p>
+<p><strong>Instructors:</strong></p>
+<ul>
+<li>Carrie Wright (<a href="mailto:cwrigh60@jhu.edu" class="email">cwrigh60@jhu.edu</a>),</li>
+<li>Ava Hoffman (<a href="mailto:ava.hoffman@jhu.edu" class="email">ava.hoffman@jhu.edu</a>), and</li>
+<li>Michael Rosenblum (<a href="mailto:mrosen@jhu.edu" class="email">mrosen@jhu.edu</a>)</li>
+</ul>
+<p><strong>Communication will mainly occur through Slack and we will email you about how to connect to slack.</strong></p>
+<!-- This document contains code of coduct details that appear multiple places. -->
+<div id="code-of-conduct" class="section level2">
+<h2>Code of Conduct</h2>
+<p>We would like to create an open, safe, welcoming, diverse, inclusive, intellectually stimulating, and hopefully fun class experience.</p>
+<p>We strive to be a space in which individual differences are respected, so that each individual can reach their fullest potential.</p>
+<div id="guidelines" class="section level3">
+<h3>Guidelines</h3>
+<ul>
+<li>Demonstrating empathy and kindness toward other people</li>
+<li>Giving and gracefully accepting constructive feedback</li>
+<li>Avoiding making assumptions about others</li>
+<li>Being respectful of differing opinions, viewpoints, and experiences</li>
+<li>Take the time to consider how your speech and actions may influence others</li>
+<li>Actively seek to acknowledge and respect the boundaries of other members</li>
+<li>Demonstrating academic integrity
+<ul>
+<li>Students can work together, but assignments must show unique contributions from the student who turns in the assignment</li>
+<li>Students can use online resources for help, but assignments must show unique contributions from the student who turns in the assignment - plagiarism is not allowed</li>
+<li>If students are struggling, reach out to instructors or TAs as early as possible</li>
+</ul></li>
+</ul>
+<p>This applies to emails, surveys, Slack, Zoom, office hours, meetings with other students, instructors, or TAs.</p>
+<p><strong>Please reach out to a TA or instructor if you witness or experience a violation of the class guidelines or other JHU codes of conduct.</strong></p>
+<ul>
+<li><strong>JHU Student Code of Conduct:</strong><br />
+<a href="https://studentaffairs.jhu.edu/policies-guidelines/student-code/" class="uri">https://studentaffairs.jhu.edu/policies-guidelines/student-code/</a><br />
+</li>
+<li><strong>Hopkins School of Medicine:</strong><br />
+<a href="https://www.hopkinsmedicine.org/research/resources/offices-policies/OPC/Research_Integrity/som_code_of_conduct_04302020.pdf" class="uri">https://www.hopkinsmedicine.org/research/resources/offices-policies/OPC/Research_Integrity/som_code_of_conduct_04302020.pdf</a><br />
+</li>
+<li><strong>JHSPH Academic Ethics Code:</strong><br />
+<a href="https://www.jhsph.edu/offices-and-services/student-affairs/resources/student-policies/_documents/academic-ethics-code.pdf" class="uri">https://www.jhsph.edu/offices-and-services/student-affairs/resources/student-policies/_documents/academic-ethics-code.pdf</a></li>
+</ul>
+<p><strong>The University has developed avenues for reporting and for seeking help including:</strong></p>
+<p>● JHU Sexual Assault Helpline, 410-516-7333 (confidential) ● Campus Safety and Security, 410-516-7777 ● University Sexual Assault Response and Prevention website ● Johns Hopkins Compliance Hotline, 844-SPEAK2US (844-733-2528) ● JHU Office of Institutional Equity 410-516-8075 (nonconfidential) ● Johns Hopkins Student Assistance Program (JHSAP), 443-287-7000 ● University Health Services - Mental Health (UHS-MS), 410-955-1892 ● The Faculty and Staff Assistance Program (FASAP), 443-997-7000</p>
+<table>
+<colgroup>
+<col width="17%" />
+<col width="32%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Growth Area</strong></th>
+<th><strong>Reason</strong></th>
+<th><strong>Measurements</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Partnership skills</td>
+<td>The ability to work well with a team to make progress on a project is useful for nearly every field. As statisticians and data scientists, this skill is useful for both jobs in academia and industry. Honing this skill can be helpful for effectively working on collaborative projects, managing labs, and acting as a consultant</td>
+<td><strong>Efforts to contribute:</strong> <br> * taking notes<br> * Managing scheduling<br> <strong>Efforts to support:</strong> <br>* Open to equitable sharing of roles and tasks (justification for who does what?)<br> * Open to feedback and adaptable to project changes</td>
+</tr>
+<tr class="even">
+<td>Communication/<br> Consulting Skills</td>
+<td>As data scientists and statisticians we are often asked to explain to others how to work with data</td>
+<td><strong>Efforts to stay connected:</strong> <br> * Help to establish a relationship <br> * Regular communication with the CBO through meetings and emails <br> * Regular communication with group members <br> * Emails are informative, mindful, and concise <br> <strong>Consideration of the CBO:</strong> <br> * continued effort to reassess goals and products <br> * continually assess if the project goals and progress achieve the larger goals of the CBO <br> * Willingness to adapt the data science products based on CBO feedback <br> * Mindfulness about how the CBO can use and maintain the data science products <br> * Mindfulness about possible limitations for the CBO (time, resources etc.)</td>
+</tr>
+<tr class="odd">
+<td>Initiative/ Work ethic</td>
+<td>Data science careers involve self-motivation. Scientific progress can often be achieved by applying new methods, thinking of a new angle or perspective</td>
+<td><strong>Efforts to think beyond the data science products for the CBOs:</strong> <br> * New ideas for products <br> * New way of approach <br> * Attempt to learn something new where possible/applicable <br> <strong>Efforts to achieve the project goals</strong> <br> * Progress towards creating the data science products</td>
+</tr>
+<tr class="even">
+<td>Critical Reflection Skills</td>
+<td>The ability to see how your work fits into the larger context of your field or society is essential for identifying projects, questions, and changes to protocols that are more likely to achieve scientific progress and social change. Understanding your context as well as your unique experiences and perspectives, as well as possible blind spots can help you to be a better scientist.</td>
+<td><strong>Efforts to engage in critical reflection activities:</strong> <br> * Substantive contributions to written prompts <br> * Students aim to be: <br>      - Thorough <br>      - Novel      <br>      - Genuine <br>      - Authentic</td>
+</tr>
+<tr class="odd">
+<td>Instruction / Education Skills</td>
+<td>The ability to clearly explain your work and thoughts is critical as a scientist and educator. An understanding who your audience is and how to effectively reach your audience is essential for productive instruction.</td>
+<td><strong>Efforts are made to know and consider the CBO members that will implement and sustain the data science project:</strong> <br> * perspective <br> * experience <br> * skill level <br> * interests <br> <strong>Efforts are made create documentation</strong> <br> * steps are clear <br> * easy to navigate <br> * steps are appropriately thorough * published is some formal way</td>
+</tr>
+<tr class="even">
+<td>Organizational Skills</td>
+<td>Strong organizational skills are important for greater transparency and reproducibility in scientific research.</td>
+<td><strong>Efforts are made to coordinate with group members and the CBO</strong> <br> * organized communications <br> * saving communications <br> <strong>Efforts are made throughout to help progress the project : </strong> <br> * organized notes coordinated with communications <br> * data and code in an organized system</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

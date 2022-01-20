@@ -1,0 +1,37 @@
+---
+title: "Baltimore Community Data Science Course"
+output:
+  html_document: default
+  pdf_document:
+    latex_engine: xelatex
+---
+
+
+**Class Website:**   coming
+
+**CoursePlus:** coming
+
+**Zoom link will be emailed to students.**
+
+**Day:** coming
+
+**Time:** 1:30-3 PM EST on Zoom
+
+**Instructors:** 
+
+* Carrie Wright (cwrigh60@jhu.edu),
+* Ava Hoffman (ava.hoffman@jhu.edu), and 
+* Michael Rosenblum (mrosen@jhu.edu)
+
+
+**Communication will mainly occur through Slack and we will email you about how to connect to slack.**
+
+
+
+```{r, child="_child_code_of_conduct.Rmd"}
+
+```
+
+```{r, child="_child_rubric.Rmd"}
+
+```

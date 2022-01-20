@@ -1,0 +1,20 @@
+---
+title: "Baltimore Community Data Science Course"
+output: html_document
+---
+
+
+# Welcome to the course website for Baltimore Community Data Science (PH140.840)
+
+## Main Goal
+
+Students will learn how to apply their knowledge in non-academic settings, where they will partner with community-based organizations (CBOs) in Baltimore (including, e.g., the Baltimore Transit Equity Coalition, the No Boundaries Coalition, and more). Students will work in teams to develop a data science product (such as a dashboard, data analysis, series of visualizations, etc.) as well as training material on how to use and interpret the product to help the organization achieve a specified goal. Students will focus on developing data science skills to work with community partners and critically reflect on their role as a statistician in society - to be mindful and ethical practitioners of data science techniques enabling social change.
+
+## Logistics
+
+This course will be taught the 3rd and 4th quarters of this academic year (2021-2022) as a special topics. It will be on Zoom but with an optional location at the school of public health (W3031) for students to work together.
+
+
+
+
+

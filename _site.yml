@@ -1,0 +1,34 @@
+name: Baltimore_Comunity_Data_Science_Course
+output_dir: '.'
+navbar:
+  title: BCDS
+  left:
+  - text: Home
+    href: index.html
+  - text: Syllabus
+    href: syllabus.html
+  - text: Resources
+    href: resources.html
+  - text: Contact
+    href: contact.html
+    icon: fa-envelope
+  # right:
+  # - icon: fa-envelope fa-lg
+  #   href: contact.html
+  # - icon: fa-github fa-lg
+  #   href: http://github.com/carriewright11
+  # - icon: fa-linkedin fa-lg
+  #   href: https://www.linkedin.com/in/carrie-wright-36458344
+  # - icon: fa-google fa-lg
+  #   href: https://scholar.google.com/citations?user=LVotQ9oAAAAJ&hl=en
+  # - icon: fab fa-twitter fa-lg
+  #   href: https://twitter.com/mirnas22
+  # - icon: fab fa-researchgate
+  #   href: https://www.researchgate.net/profile/Carrie_Wright6
+
+output:
+  html_document:
+    theme: paper
+    lib_dir: site_libs
+    self_contained: no
+
