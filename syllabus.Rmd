@@ -28,10 +28,10 @@ output:
 
 
 
-```{r, child="_child_code_of_conduct.Rmd"}
+<!-- ```{r, child="code_of_conduct.Rmd"} -->
 
-```
+<!-- ``` -->
 
-```{r, child="_child_rubric.Rmd"}
+<!-- ```{r, child="evaluation.Rmd"} -->
 
-```
+<!-- ``` -->
