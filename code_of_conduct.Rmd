@@ -1,4 +1,4 @@
-<!-- This document contains code of coduct details that appear multiple places. -->
+<!-- This document contains code of conduct details that appear multiple places. -->
 
 ## Code of Conduct
 
