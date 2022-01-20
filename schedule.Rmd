@@ -1,0 +1,23 @@
+---
+title: "Class Schedule"
+output:
+  html_document:
+    css: "style.css"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+### **Daily**
+
+Every class session will start and end with a writing prompt that will be used for class discussions. This course will involve some lectures and speakers, but will largely involve writing exercises, discussion/reflection activities, and team work on the data science project. We want to cultivate a culture that respects all viewpoints and values all experiences,  where there are complicated answers, and where a growth mindset is upheld.
+
+### **Weekly**
+
+- **Week 1-5** - will focus on training and guidance about how our work fits into the greater context of Baltimore, understanding what the CBOs do and why, as well as some instruction on data security, privacy, and ethics 
+- **Week 6-10** - will focus on working on the data science product(s) (Week 8 meeting with CBO to check in overall!)
+- **Week 11-13** - will focus on plans for implementation, sustainability/maintenance, and optionally training
+- **Week 14 -16** - will focus on reflection on the implementation, lessons learned, and future ideas - final report
+
+

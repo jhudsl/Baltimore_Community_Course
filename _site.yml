@@ -11,6 +11,8 @@ navbar:
     href: evaluation.html
   - text: Syllabus
     href: syllabus.html
+  - text: Schedule
+    href: schedule.html  
   - text: Resources
     href: resources.html
   - text: Contact
