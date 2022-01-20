@@ -7,6 +7,15 @@ output:
 &nbsp;
 &nbsp;
 &nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
 
 **Class Website:**  https://jhudatascience.org/Baltimore_Community_Course 
 
