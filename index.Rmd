@@ -20,7 +20,7 @@ Class sessions will be **Friday 1:30- 3:00 PM EST**.
 
 ### **Main Goal**
 
-This course is focused on helping students learn how to apply their data science knowledge in non-academic settings, where they will partner with community-based organizations (CBOs) in Baltimore.
+This course is focused on helping students learn how to apply their data science knowledge in non-academic settings. Students will partner with community-based organizations (CBOs) in Baltimore to work on a data science related goal.
 
 Students will work in teams with a CBO to:
 
