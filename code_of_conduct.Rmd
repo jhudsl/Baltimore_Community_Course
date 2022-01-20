@@ -1,6 +1,18 @@
+---
+title: "Code of Conduct"
+output:
+  html_document:
+    css: "style.css"
+---
 <!-- This document contains code of conduct details that appear multiple places. -->
 
-## Code of Conduct
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+
+
 
 We would like to create an open, safe, welcoming, diverse, inclusive, intellectually stimulating, and hopefully fun class experience. 
 

@@ -4,8 +4,11 @@ output:
   html_document: default
 ---
 
+&nbsp;
+&nbsp;
+&nbsp;
 
-**Class Website:**   coming
+**Class Website:**  https://jhudatascience.org/Baltimore_Community_Course 
 
 **CoursePlus:** coming
 
