@@ -23,4 +23,7 @@ Every class session will start and end with a writing prompt that will be used f
 - **Week 11-13** - will focus on plans for implementation, sustainability/maintenance, and optionally training
 - **Week 14 -16** - will focus on reflection on the implementation, lessons learned, and future ideas - final report
 
+### **Class Sessions**
+
+coming...
 
