@@ -20,11 +20,11 @@ jobs:
   # This workflow contains a single job called "build-all"
   render-main:
     runs-on: ubuntu-latest
-          install.packages("remotes")
-          remotes::install_cran("rmarkdown")
-          remotes::install_deps(dependencies = TRUE)
-    # container:
-    #   image: jhudsl/course_template
+          # install.packages("remotes") # in case we decide not to go with the container...
+          # remotes::install_cran("rmarkdown")
+          # remotes::install_deps(dependencies = TRUE)
+    container:
+      image: jhudsl/course_template
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
