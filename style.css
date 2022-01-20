@@ -1,4 +1,11 @@
+h1, .h1, {
+    margin-top: 84px;
+}
 
+
+/* -------------Table styling section -----------------------------------*/
+
+/*Table Header*/
 .table_style th {
 width: 90%;
 background: grey;
@@ -6,17 +13,17 @@ color: white;
 word-wrap: break-word;
 text-align: center;
 }
-
+/*Table general style*/
 .table_style {
     width: 90%;
     text-align: left;
     background-color: lightgreen;
 }
-
+/*Table add gray rows*/
 .table_style tr:nth-child(1) { background: lightgray; }
 .table_style tr:nth-child(3) { background: lightgray; }
 .table_style tr:nth-child(5) { background: lightgray; }
-
+/* ------------- END Table styling section -----------------------------------*/
 
 .banner {
   background-color: lightgreen;
