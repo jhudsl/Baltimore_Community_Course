@@ -9,6 +9,10 @@ output:
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+&nbsp;
+&nbsp;
+&nbsp;
+
 ### **Daily**
 
 Every class session will start and end with a writing prompt that will be used for class discussions. This course will involve some lectures and speakers, but will largely involve writing exercises, discussion/reflection activities, and team work on the data science project. We want to cultivate a culture that respects all viewpoints and values all experiences,  where there are complicated answers, and where a growth mindset is upheld.
