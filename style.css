@@ -1,8 +1,6 @@
-.table_style {
-    width: 90%;
-    text-align: left;
-}
+
 .table_style th {
+width: 90%;
 background: grey;
 color: white;
 word-wrap: break-word;
@@ -10,6 +8,8 @@ text-align: center;
 }
 
 .table_style {
+    width: 90%;
+    text-align: left;
     background-color: lightgreen;
 }
 
