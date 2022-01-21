@@ -41,64 +41,64 @@ jobs:
           name: spell-check-results
           path: resources/spell_check_results.tsv
 
-       - name: Upload to Gist
-         id: gist
-         run: |
-           echo ${{ secrets.GH_PAT }} > docker/git_token.txt
-           gist_key=${GITHUB_REPOSITORY}_spell_check_${{ github.event.pull_request.number }}
-           gist_url=$(Rscript --vanilla scripts/get_the_gist.R \
-             --git_pat docker/git_token.txt \
-             --gist_key $gist_key \
-             --file resources/spell_check_results.tsv)
-           echo "::set-output name=gist_url::$gist_url"
-           rm docker/git_token.txt
+      - name: Upload to Gist
+        id: gist
+        run: |
+          echo ${{ secrets.GH_PAT }} > docker/git_token.txt
+          gist_key=${GITHUB_REPOSITORY}_spell_check_${{ github.event.pull_request.number }}
+          gist_url=$(Rscript --vanilla scripts/get_the_gist.R \
+            --git_pat docker/git_token.txt \
+            --gist_key $gist_key \
+            --file resources/spell_check_results.tsv)
+          echo "::set-output name=gist_url::$gist_url"
+          rm docker/git_token.txt
 
-       - name: Build components of the spell check comment
-         id: build-components
-         env:
-           GH_PAT: ${{ secrets.GH_PAT }}
-         run: |
-           echo ::set-output name=time::$(date +'%Y-%m-%d')
-           echo ::set-output name=commit_id::$GITHUB_SHA
-           echo ::set-output name=sp_error_url::$sp_error_url
+      - name: Build components of the spell check comment
+        id: build-components
+        env:
+          GH_PAT: ${{ secrets.GH_PAT }}
+        run: |
+          echo ::set-output name=time::$(date +'%Y-%m-%d')
+          echo ::set-output name=commit_id::$GITHUB_SHA
+          echo ::set-output name=sp_error_url::$sp_error_url
 
-       Handle the commenting
-       - name: Find Comment
-         uses: peter-evans/find-comment@v1
-         id: fc
-         with:
-           issue-number: ${{ github.event.pull_request.number }}
-           comment-author: 'github-actions[bot]'
-           body-includes: spelling errors
-      
-       - name: Spelling errors!
-         if: ${{ steps.spell_check_run.outputs.sp_chk_results >= 3 }}
-         uses: peter-evans/create-or-update-comment@v1
-         with:
-           comment-id: ${{ steps.fc.outputs.comment-id }}
-           issue-number: ${{ github.event.pull_request.number }}
-           body: |
-             :warning: There are spelling errors that need to be addressed. [Read this guide for more info](https://github.com/jhudsl/OTTR_Template/wiki/Spell-check).
-      
-             [Download the errors here.](${{ steps.gist.outputs.gist_url }})
-             _Comment updated at ${{ steps.build-components.outputs.time }} with changes from ${{ steps.build-components.outputs.commit_id }}_
-           edit-mode: replace
-      
-       - name: Check spell check results - fail if too many errors
-         if: ${{ steps.spell_check_run.outputs.sp_chk_results >= 3 }}
-         run: exit 1
-      
-       - name: No spelling errors
-         if: ${{ steps.spell_check_run.outputs.sp_chk_results < 3 }}
-         uses: peter-evans/create-or-update-comment@v1
-         with:
-           comment-id: ${{ steps.fc.outputs.comment-id }}
-           issue-number: ${{ github.event.pull_request.number }}
-           body: |
-             No spelling errors! :tada:
-      
-             _Comment updated at ${{ steps.build-components.outputs.time }} with changes from ${{ steps.build-components.outputs.commit_id }}_
-           edit-mode: replace
+      # Handle the commenting
+      - name: Find Comment
+        uses: peter-evans/find-comment@v1
+        id: fc
+        with:
+          issue-number: ${{ github.event.pull_request.number }}
+          comment-author: 'github-actions[bot]'
+          body-includes: spelling errors
+
+      - name: Spelling errors!
+        if: ${{ steps.spell_check_run.outputs.sp_chk_results >= 3 }}
+        uses: peter-evans/create-or-update-comment@v1
+        with:
+          comment-id: ${{ steps.fc.outputs.comment-id }}
+          issue-number: ${{ github.event.pull_request.number }}
+          body: |
+            :warning: There are spelling errors that need to be addressed. [Read this guide for more info](https://github.com/jhudsl/OTTR_Template/wiki/Spell-check).
+
+            [Download the errors here.](${{ steps.gist.outputs.gist_url }})
+            _Comment updated at ${{ steps.build-components.outputs.time }} with changes from ${{ steps.build-components.outputs.commit_id }}_
+          edit-mode: replace
+
+      - name: Check spell check results - fail if too many errors
+        if: ${{ steps.spell_check_run.outputs.sp_chk_results >= 3 }}
+        run: exit 1
+
+      - name: No spelling errors
+        if: ${{ steps.spell_check_run.outputs.sp_chk_results < 3 }}
+        uses: peter-evans/create-or-update-comment@v1
+        with:
+          comment-id: ${{ steps.fc.outputs.comment-id }}
+          issue-number: ${{ github.event.pull_request.number }}
+          body: |
+            No spelling errors! :tada:
+
+            _Comment updated at ${{ steps.build-components.outputs.time }} with changes from ${{ steps.build-components.outputs.commit_id }}_
+          edit-mode: replace
 
       - name: Run styler
         run: Rscript -e "styler::style_file(list.files(pattern = 'Rmd$', recursive = TRUE, full.names = TRUE));warnings()"
