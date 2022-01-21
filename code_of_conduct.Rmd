@@ -10,6 +10,7 @@ output:
 &nbsp;
 &nbsp;
 &nbsp;
+
 # Code of Conduct
 
 We would like to create an open, safe, welcoming, diverse, inclusive, intellectually stimulating, and hopefully fun class experience. 
@@ -47,7 +48,7 @@ https://www.jhsph.edu/offices-and-services/student-affairs/resources/student-pol
 ● Campus Safety and Security, 410-516-7777 
 ● University Sexual Assault Response and Prevention website 
 ● Johns Hopkins Compliance Hotline, 844-SPEAK2US (844-733-2528) 
-● JHU Office of Institutional Equity 410-516-8075 (nonconfidential) 
+● JHU Office of Institutional Equity 410-516-8075 (not confidential) 
 ● Johns Hopkins Student Assistance Program (JHSAP), 443-287-7000 
 ● University Health Services - Mental Health (UHS-MS), 410-955-1892 
 ● The Faculty and Staff Assistance Program (FASAP), 443-997-7000 
