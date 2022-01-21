@@ -1,16 +1,9 @@
 ---
 output:
-  html_document:
-    css: "style.css"
+  html_document
 ---
 
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
+
 
 If you have questions please contact:
 

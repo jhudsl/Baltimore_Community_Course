@@ -4,16 +4,6 @@ output:
 ---
 <!-- This document contains code of conduct details that appear multiple places. -->
 
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
-
 
 # Code of Conduct
 
