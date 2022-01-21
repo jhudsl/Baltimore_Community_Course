@@ -1,7 +1,6 @@
 ---
 output:
-  html_document:
-    css: "style.css"
+  html_document
 ---
 <!-- This document contains code of conduct details that appear multiple places. -->
 

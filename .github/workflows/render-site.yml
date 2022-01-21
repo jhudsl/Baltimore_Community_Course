@@ -3,8 +3,7 @@
 # for the Childhood Cancer Data Lab, an initiative of Alexs Lemonade Stand Foundation.
 # https://github.com/AlexsLemonade/refinebio-examples/blob/33cdeff66d57f9fe8ee4fcb5156aea4ac2dce07f/.github/workflows/style-and-sp-check.yml#L1
 
-
-
+# It was adapted by Candace Savonen for the OTTR_template https://github.com/jhudsl/OTTR_Template and then adapted by Carrie Wright for this repo to render this site
 name: Render html
 
 # Controls when the action will run. Triggers the workflow on push
@@ -39,7 +38,7 @@ jobs:
 
       # We want a fresh run of the renders each time
       - name: Delete old *.html
-        run: rm -r *.html
+        run: Rscript -e "rmarkdown::clean_site(preview = FALSE)"
 
       # Run html rendering
       - name: Run render html
