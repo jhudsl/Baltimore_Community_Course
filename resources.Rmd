@@ -13,6 +13,19 @@ output:
 
 # Resources
 
- Resources are coming...
+More resources are coming...
+
+### **R Resources**
+
+<div class = table_style>
+|Topic| Resource|
+|-------------------|------------------------|
+|Dashboards| [School Shooting Open Case Study](https://www.opencasestudies.org/ocs-bp-school-shootings-dashboard/)|
+|Extracting Text from Images|[Youth Disconnection Open Case Study](https://www.opencasestudies.org/ocs-bp-youth-disconnection/)|
+<div>
+
+
+
+ 
 
 
