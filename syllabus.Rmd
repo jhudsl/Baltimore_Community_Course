@@ -4,18 +4,6 @@ output:
     theme: paper
 ---
 
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
 
 # Baltimore Community Data Science Syllabus
 
