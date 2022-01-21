@@ -39,7 +39,7 @@ jobs:
 
       # We want a fresh run of the renders each time
       - name: Delete old *.html
-        run: rm -r *.html
+        run: Rscript -e "rmarkdown::clean_site(preview = FALSE)"
 
       # Run html rendering
       - name: Run render html
