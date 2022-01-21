@@ -26,4 +26,4 @@ output:
     lib_dir: site_libs
     self_contained: no
     highlight: textmate
-    css: styles.css
+    css: style.css
