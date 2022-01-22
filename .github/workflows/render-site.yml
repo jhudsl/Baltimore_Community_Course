@@ -39,7 +39,10 @@ jobs:
       # We want a fresh run of the renders each time
       - name: Delete old *.html
         run: Rscript -e "rmarkdown::clean_site(preview = FALSE)"
-
+      
+      # Want to render the PDF version of the syllabus
+      - name: Render syllabus
+        run: Rscript -e "rmarkdown::render("syllabus.Rmd", output_format = "pdf_document")"
       # Run html rendering
       - name: Run render html
         id: site

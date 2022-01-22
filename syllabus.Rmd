@@ -1,56 +1,90 @@
 ---
 output:
+  pdf_document: default
   html_document:
     theme: paper
 ---
 
 
-# Baltimore Community Data Science Syllabus
+# Baltimore Community Data Science (PH140.840) Syllabus
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 
-**Class Website:**  https://jhudatascience.org/Baltimore_Community_Course 
-
-**CoursePlus:** coming
-
-**Course Description**
-
-This course is focused on helping students learn how to apply their data science knowledge in non-academic settings. Students will partner with community-based organizations (CBOs) in Baltimore to work on a data science related goal.
+<a href="syllabus.pdf" target="_blank" download = "syllabus.pdf"  ><button class="btn"><i class="fas fa-file-alt"></i> PDF version</button></a>
 
 
-**Zoom link will be emailed to students.**
 
-**Dates:** 
+### Course Description
 
-The course will meet during 3rd and 4th quarters (2 credits each quarter).
-Students who take the class need to commit to both quarters (for continuity of the projects they will work on).
-
-**Time:** 1:30-3 PM EST on Zoom
-
-Students will meet in class (virtually) once per week (1:30-3 PM EST on Zoom).
-
-Students will work in groups outside of class on community-based projects. 
-
-**Instructors:** 
-
-* Carrie Wright (cwrigh60@jhu.edu),
-* Ava Hoffman (ava.hoffman@jhu.edu), and 
-* Michael Rosenblum (mrosen@jhu.edu)
+This course is focused on helping students learn how to apply their data science knowledge in non-academic settings. Students will partner with community-based organizations (CBOs) in Baltimore to work on a data science related goal. Students will focus on developing critical service learning and professional skills as they work with CBOs to accomplish a data science related goal.
 
 
-**Communication will mainly occur through Slack and we will email you about how to connect to slack.**
+### Important Links
+
+- **Class Website:** https://jhudatascience.org/Baltimore_Community_Course 
+- **CoursePlus:** coming...
+- **Zoom link** - will be emailed to registered students
 
 
-**Requirements**
+
+
+### Logistics
+
+
+* **Date:** The course will meet on **Fridays** during 3rd and 4th quarters (2 credits each quarter).  
+Students who take the class need to commit to **both** quarters (for continuity of the projects they will work on).
+    + [Third term dates](https://publichealth.jhu.edu/academics/academic-calendar/2021-2022): January 28 - Friday, March 18 
+  * [Fourth term dates](https://publichealth.jhu.edu/academics/academic-calendar/2021-2022): March 28 - Friday, May 20
+- **Time:** 1:30-3 PM EST
+- **Location:** Students will meet in class (virtually) once per week. Students will work in groups outside of class on community-based projects either virtually on zoom or optionally in person at the school of public health (W3031).
+- **How often will students and CBOs meet?**
+This depends on the project goals, but approximately 30 min - 1 hr every 2 weeks for the duration of the term. (Feb - mid May - 3rd and 4th term). Meetings will also be supplemented by emails. Keep in mind that CBO members are busy and staff may not be getting paid for their work.
+
+**Communication will mainly occur through Slack and we will email you about how to connect to Slack.**
+
+### Instructors
+
+* Carrie Wright
+    + website: https://carriewright11.github.io/
+    + email: cwrigh60 at jhu.edu
+* Ava Hoffman
+    + website: https://www.avahoffman.com/ 
+    + email: ava.hoffman at jhu.edu
+* Michael Rosenblum
+    + website: https://mrosenblumbiostat.wordpress.com/
+    + email: mrosen at jhu.edu
+
+
+
+### Requirements
 
 Students are required to have prior experience with R programming (or other languages) and need to have taken the following data science courses (or have equivalent experience): 
 
 140.711 Advanced Data Science I and 140.712 Advanced Data Science II
+
 Instructor permission is required to enroll in the course. 
 
+### Explectations of Students
+ 
+Students will work with CBO partners as a team (3-5) for the following deliverables:
 
-## Learning Objectives
+- learn about the partner CBO, the goals of the CBO, and how data may be helpful for these goals
+- discuss the data needs of the create a plan to work with the CBO
+- Create a data science product that aligns with the goals of the CBO
+- Create an implementation plan and training for the CBO
+- Create a sustainability plan for the CBO to work with and continue to maintain the data science product respectively including narratives ("story") about the data product - what it means, the limitations etc.
+- Additional possible training and thoughts for CBO partners on further future data-related initiatives
 
-Students will be able to:
+In addition to working on data science projects, students are also expected to individually hone their critical severice learning skills and professional skills.
+
+### Expectations of CBOs
+
+Partners will need to provide students with details on the project goals and uses, access to relevant data (could be de-identified or simulated if privacy is an issue), feedback about whether their goals are being met, and time and willingness to learn about how to use and possibly maintain the data product that the students work with them to create.
+
+### Student Learning Objectives
+
+Students who complete the course will be able to:
 
 1) Describe the history of Johns Hopkins and the biostatistics department in the Baltimore community.  Evaluate and discuss how this **historical context** and the **current context** influences our interactions with community members.
 2) **Critically reflect** on their own service-learning project work and how their role as a statistician impacts the CBO, as well as the greater context of society and social structures (not just the course project).
@@ -60,37 +94,17 @@ Students will be able to:
 6) Use teaching methods to **teach others** from various backgrounds and experiences  to use data science techniques to work with data and communicate effectively about data. 
 7) Plan for CBO to continue to work with data science products in a **sustainable way** even after projects are over.
 
-**How often will students and CBOs meet?**
-This depends on the project goals, but approximately 30 min - 1 hr every 2 weeks for the duration of the term. (Feb - mid May - 3rd and 4th term). Meetings will also be supplemented by emails. Keep in mind that CBOs are busy and staff may not be getting paid for their work.
+### Examples of Data Science Products
 
-
-### **Examples of data science products:**
-
-- **Data Planning** - planning data collection so that it’s tailored to assist the needs of the CBO. This could include survey ethics, design, implementation, or future data analyses.
+- **Data planning** - planning data collection so that it’s tailored to assist the needs of the CBO. This could include survey ethics, design, implementation, or future data analyses.
 - **Data wrangling/cleaning** - working with the data to get it in a format that is readily usable for creating  graphs, tables, and statistics. (This is often the most important step but often overlooked!)
 - **Data visualization** - enabling partners to make highly flexible and effective visualizations to inform themselves and others about patterns in data.
 Dashboard creation - showcasing results in a user-friendly way through a public facing website.
 - **Data analysis** - identifying patterns about the data to assist with decision making processes and to assist with getting funding. 
 - **Data communication** - assisting CBOs in how to interpret and describe trends in the data. This may involve speaking at an event for the CBO.
-- **Shiny App** - automating some processes for the CBO with an app. See https://shiny.rstudio.com/gallery/ for examples.
+- **Shiny app** - automating some processes for the CBO with an app. See https://shiny.rstudio.com/gallery/ for examples.
 - **GitHub actions** - another option for potentially automating processes for the CBO 
 
-### **Expectations of Students**
-
-See [evaluation](https://jhudatascience.org/Baltimore_Community_Course/evaluation.html) section. 
-
-### **Students will work with CBO partners as a team (3-5) for the following deliverables:**
-
-- learn about the partner CBO, the goals of the CBO, and how data may be helpful for these goals
-- discuss the data needs of the create a plan to work with the CBO
-- Create a data science product that aligns with the goals of the CBO
-- Create an implementation plan and training for the CBO
-- Create a sustainability plan for the CBO to work with and continue to maintain the data science product respectively including narratives ("story") about the data product - what it means, the limitations etc.
-- Additional possible training and thoughts for CBO partners on further future data-related initiatives
-
-
-### **Expectations of CBOs**
-Partners will need to provide students with details on the project goals and uses, access to relevant data (could be de-identified or simulated if privacy is an issue), feedback about whether their goals are being met, and time and willingness to learn about how to use and possibly maintain the data product that the students work with them to create.
 
 
 <!-- ```{r, child="code_of_conduct.Rmd"} -->
