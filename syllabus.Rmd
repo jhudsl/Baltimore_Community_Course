@@ -65,7 +65,7 @@ Students are required to have prior experience with R programming (or other lang
 
 Instructor permission is required to enroll in the course. 
 
-### Explectations of Students
+### Expectations of Students
  
 Students will work with CBO partners as a team (3-5) for the following deliverables:
 
@@ -76,7 +76,7 @@ Students will work with CBO partners as a team (3-5) for the following deliverab
 - Create a sustainability plan for the CBO to work with and continue to maintain the data science product respectively including narratives ("story") about the data product - what it means, the limitations etc.
 - Additional possible training and thoughts for CBO partners on further future data-related initiatives
 
-In addition to working on data science projects, students are also expected to individually hone their critical severice learning skills and professional skills.
+In addition to working on data science projects, students are also expected to individually hone their critical service learning skills and professional skills.
 
 ### Expectations of CBOs
 
