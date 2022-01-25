@@ -1,6 +1,6 @@
 ---
 output:
-  pdf_document: default
+  pdf_document:
     latex_engine: xelatex
   html_document:
     theme: paper
@@ -108,10 +108,10 @@ Dashboard creation - showcasing results in a user-friendly way through a public 
 
 
 
-<!-- ```{r, child="code_of_conduct.Rmd"} -->
+```{r, child="code_of_conduct.Rmd"}
 
-<!-- ``` -->
+```
 
-<!-- ```{r, child="evaluation.Rmd"} -->
+```{r, child="evaluation.Rmd"}
 
-<!-- ``` -->
+```
