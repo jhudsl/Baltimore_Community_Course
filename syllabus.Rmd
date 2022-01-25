@@ -9,10 +9,10 @@ output:
 
 # Baltimore Community Data Science (PH140.840) Syllabus
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
 
 
-<a href="syllabus.pdf" target="_blank" download = "syllabus.pdf"  ><button class="btn"><i class="fas fa-file-alt"></i> PDF version</button></a>
+<!-- <a href="syllabus.pdf" target="_blank" download = "syllabus.pdf"  ><button class="btn"><i class="fas fa-file-alt"></i> PDF version</button></a> -->
 
 
 
@@ -108,10 +108,10 @@ Dashboard creation - showcasing results in a user-friendly way through a public 
 
 
 
-```{r, child="code_of_conduct.Rmd"}
+<!-- ```{r, child="code_of_conduct.Rmd"} -->
 
-```
+<!-- ``` -->
 
-```{r, child="evaluation.Rmd"}
+<!-- ```{r, child="evaluation.Rmd"} -->
 
-```
+<!-- ``` -->
