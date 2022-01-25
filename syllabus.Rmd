@@ -1,7 +1,5 @@
 ---
 output:
-  pdf_document:
-    latex_engine: xelatex
   html_document:
     theme: paper
 ---
