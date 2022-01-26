@@ -5,7 +5,7 @@ output:
 
 
 
-# Course Schedule
+# **Course Schedule**
 
 ### **Daily**
 
@@ -14,26 +14,85 @@ Every class session will start and end with a writing prompt that will be used f
 ### **Weekly**
 
 - **Week 1-5** - will focus on training and guidance about how our work fits into the greater context of Baltimore, understanding what the CBOs do and why, as well as some instruction on data security, privacy, and ethics 
-- **Week 6-10** - will focus on working on the data science product(s) (**Week 8 meeting with CBO to check in overall!!**)
+- **Week 6-10** - will focus on working on the data science product(s) (**Week 8 - meeting with CBO to check in overall, as well as individual meetings with instructors**)
 - **Week 11-13** - will focus on plans for implementation, sustainability/maintenance, and optionally training
 - **Week 14 -16** - will focus on reflection on the implementation, lessons learned, and future ideas - final report
 
-### **Class Sessions**
+### **Class Sessions**{.tabset .tabset-fade}
 
-## **Third Term**
+#### **Third Term**{.tabset .tabset-fade}
+
+##### **Week 1**
+
+**Course and Context - Historical and Present**
+
 
 <div class = "table_style">
-|**Time**|**Focus**|**Resources**|**Summary**| **Homework**|
-|:-------:|:--------------:|----------------|-------------------|-----------------|
-|**Week 1**|Course and Context - Historical and Present| **Extra Reading:** <br> * [Greenwood Tulsa Massacre](https://www.nytimes.com/interactive/2021/05/24/us/tulsa-race-massacre.html)<br> * [Rosewood Massacre](https://en.wikipedia.org/wiki/Rosewood_massacre) <br> * [Red Summer](https://en.wikipedia.org/wiki/Red_Summer) <br> * [Not in My Neighborhood: How Bigotry Shaped a Great American City](https://www.anteropietila.com/not-in-my-neighborhood) <br> * [Henrietta Lacks: science must right a historical wrong](https://www.nature.com/articles/d41586-020-02494-z) |This week will focus on the **rationale**, **structure**, **philosophy**, and **goals** of the course. <br> We will also examine resources and discuss how the **historical and current context** of Johns Hopkins in the Baltimore Community may influence our work. |* [SOURCE Module 1: How History Impacts Our Work](https://courseplus.jhu.edu/core/index.cfm/go/course.home/coid/8136/) <br> * [Black Butterfly Academy: Baltimore Apartheid](https://black-butterfly-academy.teachable.com/p/baltimore-apartheid)|
-|**Week 2**|Critical Service Learning - Guest Speaker: Tyler Derreth| * Resource Coming <br> * Resource Coming|This week Tyler Derreth, the Associate Director of SOURCE, will discuss what critical service learning is and how it differs from other forms of service. | Assignments coming...|
-|**Week 3**|Critical Reflection Practices| * Resource Coming <br> * Resource Coming| This week we will discuss how and why there is a focus on social and historical context and not just the data science for this course.  We will talk about how this context can or perhaps should influence how we perform the data science tasks planned and how we interact with community partners.|Assignments coming...|
-|**Week 4**| Project Planning and Forecasting| * Resource Coming <br> * Resource Coming|This week we will discuss how students will interact with partners, as well as examples of what has and has not worked well in past similar projects. We will also do an activity to describe our expectations for the projects.|Assignments coming...|
-|**Week 5**| Data Security/Privacy/Ethics and updates|* Resource Coming <br> * Resource Coming|This week we will discuss topics related to data privacy, security, and ethics and how we can incorporate best practices into our projects. We will also discuss updates about each project.|Assignments coming...|
-|**Weeks 6 - 8**|Critical reflection and updates|* Resource Coming <br> * Resource Coming|These weeks we will reflect on the challenges of our projects and give updates on how the project is going and how we are interacting with our community partners.**Check in with the CBO!**|Assignments coming...|
+|**Summary**| **Homework <br> (please do before next week)**|**Resources**|
+|----------------|----------------|-----------------|
+|This week will focus on the **rationale**, **structure**, **philosophy**, and **goals** of the course. <br> We will also examine resources and discuss how the **historical and current context** of Johns Hopkins in the Baltimore Community may influence our work. |* [SOURCE Module 1: How History Impacts Our Work](https://courseplus.jhu.edu/core/index.cfm/go/course.home/coid/8136/) <br> * [Black Butterfly Academy: Baltimore Apartheid](https://black-butterfly-academy.teachable.com/p/baltimore-apartheid) <br> *[Mitigating Bias Training](https://learning.jhu.edu/) |**Extra Reading About History:** <br> * [Greenwood Tulsa Massacre](https://www.nytimes.com/interactive/2021/05/24/us/tulsa-race-massacre.html)<br> * [Rosewood Massacre](https://en.wikipedia.org/wiki/Rosewood_massacre) <br> * [Red Summer](https://en.wikipedia.org/wiki/Red_Summer) <br> * [Not in My Neighborhood: How Bigotry Shaped a Great American City](https://www.anteropietila.com/not-in-my-neighborhood) <br> * [Henrietta Lacks: science must right a historical wrong](https://www.nature.com/articles/d41586-020-02494-z) <br> **Extra Reading About Bias:** <br> * [Discrimination in Workplace Dynamics: Toward a Structural Account of Disparate Treatment Theory](http://web.archive.org/web/20120218231339/http://www.law.harvard.edu/students/orgs/crcl/vol38_1/green.pdf)|
 </div>
 
-## **Forth Term**
+For the Mitigating Bias Training:
+
+* Click on the link above
+* Log into your JHU account
+* Search for "Managing Bias" in the catalog search
+* Add this course to your development plan
+* Select this course from your to do list to go to the course
+
+##### **Week 2**
+
+**Critical Service Learning**
+
+<div class = "table_style">
+|**Summary**| **Homework <br> (please do before next week)**|**Resources**|
+|----------------|----------------|-----------------|
+|This week Tyler Derreth, the Associate Director of SOURCE, will discuss what critical service learning is and how it differs from other forms of service. | Assignments coming...|* Resource Coming <br> * Resource Coming|
+</div>
+
+##### **Week 3**
+
+**Critical Reflection Practices**
+
+<div class = "table_style">
+|**Summary**| **Homework <br> (please do before next week)**|**Resources**|
+|----------------|----------------|-----------------|
+|This week we will discuss how and why there is a focus on social and historical context and not just the data science for this course.  We will talk about how this context can or perhaps should influence how we perform the data science tasks planned and how we interact with community partners.|Assignments coming...| * Resource Coming <br> * Resource Coming|
+</div>
+
+##### **Week 4**
+
+**Project Planning and Forecasting**
+
+<div class = "table_style">
+|**Summary**| **Homework <br> (please do before next week)**|**Resources**|
+|----------------|----------------|-----------------|
+|This week we will discuss how students will interact with partners, as well as examples of what has and has not worked well in past similar projects. We will also do an activity to describe our expectations for the projects.|Assignments coming...| * Resource Coming <br> * Resource Coming|
+</div>
+
+##### **Week 5**
+
+**Data Security/Privacy/Ethics and updates**
+
+<div class = "table_style">
+|**Summary**| **Homework <br> (please do before next week)**|**Resources**|
+|----------------|----------------|-----------------|
+|This week we will discuss topics related to data privacy, security, and ethics and how we can incorporate best practices into our projects. We will also discuss updates about each project.|Assignments coming...|* Resource Coming <br> * Resource Coming|
+</div>
+
+##### **Week 6-8**
+
+**Critical reflection and updates**
+
+<div class = "table_style">
+|**Summary**| **Homework <br> (please do before next week)**|**Resources**|
+|----------------|----------------|-----------------|
+|These weeks we will reflect on the challenges of our projects and give updates on how the project is going and how we are interacting with our community partners.**Check in with the CBO!**|Assignments coming...|* Resource Coming <br> * Resource Coming|
+</div>
+
+
+#### **Forth Term**
 <div class = "table_style">
 |**Time**|**Focus**|**Resources**|**Summary**|
 |:-----------:|:------------------:|---------------------------|--------------------------|
