@@ -16,6 +16,7 @@ on:
       - '**.Rmd'
       - style.css
       - _site.yml
+      - '/Assignments/*.Rmd'
 jobs:
   # This workflow contains a single job called "build-all"
   render-main:
