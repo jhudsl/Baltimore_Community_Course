@@ -1,0 +1,70 @@
+---
+output: 
+  html_document:
+runtime: shiny_prerendered
+---
+
+```{r setup, include=FALSE}
+library(learnr)
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+# Week 1 Baltimore Apartheid Assignment
+
+Complete the [Black Butterfly Academy: Baltimore Apartheid](https://black-butterfly-academy.teachable.com/p/baltimore-apartheid) training and then return here to answer the following questions.
+
+``` {r DW_Quiz, echo = FALSE}
+quiz(caption = "",
+  question("What other racial populations were segregated via redlining in Baltimore? (select all that apply)",
+    answer("Jewish community", correct = TRUE),
+    answer("Eastern European immigrants", correct = TRUE),
+    answer("British immigrants", message = "not all immigrant populations were treated the same"),
+    answer("Black residents", correct = TRUE),
+    allow_retry = TRUE,
+    random_answer_order = TRUE
+  ),
+  question("When was redlining outlawed by the Supreme Court? Think about other things that were happening in this time period in America. (select one)",
+    answer("1884"),
+    answer("1909"),
+    answer("1940"),
+    answer("1968", correct = TRUE),
+    allow_retry = TRUE,
+    random_answer_order = TRUE
+  ),
+  question("Which of the following displacement events was/were directly shaped by Johns Hopkins? (select all that apply)",
+    answer("Displacement of 800+ Black families for campus expansion made possible by the 1949 Housing Act / urban renewal.", correct = TRUE),
+    answer("Displacement of 700+ Black families for the expansion of campus biotech buildings, where land was seized via eminent domain.
+", correct = TRUE),
+    answer("The Baltimore `highway to nowhere`."),
+    answer("The renaming of the Middle East neighborhood to Eager Park.", correct = TRUE),
+    allow_retry = TRUE,
+    random_answer_order = TRUE
+  ),
+
+
+  question("Which of the following are **not** a way to mitigate/end apartheid in Baltimore? (select all that apply)",
+    answer("Reduce tax breaks for development in high-income areas."),
+    answer("Increase representation and participation by communities via neighboorhood councils that decide how to administer city funds."),
+    answer("Ramp up urban renewal plans.", correct = TRUE),
+    answer("Provide housing vouchers for Black families to live in racially exclusive neighborhoods (e.g., Roland Park)."),
+        answer(" Tell people in communities/neighborhoods what has to be done.", correct = TRUE),
+    allow_retry = TRUE,
+    random_answer_order = TRUE
+  )
+)
+```
+
+<div data-iframe-height></div>
+
+**Reflection Questions:**
+
+Journal about your choice of two of these questions and contribute to the Slack asynchronous discussion about one of these questions.
+
+1) The premise of segregation was being “separate but equal”, a paradigm set by Plessy vs. Ferguson in 1896. Discuss what intentions people may have had and why they possibly chose this phrasing?
+
+2) What impact do you think the massive demographic shifts (rise of Black population in Baltimore and reduction of white population) in Baltimore had on Baltimore today?
+
+3) The course quotes: “Bankers no longer talk openly about denying loans to Black people.” Instead, “some banks have quietly institutionalized bias in their operations, deliberately placing branches, brokers, and mortgage services outside minority communities”. How do other sectors of the economy follow similar “unofficial redlining” practices?
+
+4) Dr. Brown states that “poverty is a process”. Do you agree? Explain what he means by this.
+
