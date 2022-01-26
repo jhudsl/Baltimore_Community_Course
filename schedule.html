@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>schedule.knit</title>
+
+<script src="site_libs/header-attrs-2.10/header-attrs.js"></script>
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+<link rel="stylesheet" href="styles.css" type="text/css" />
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.tab('show');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">BCDS</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">Home</a>
+</li>
+<li>
+  <a href="code_of_conduct.html">Code of Conduct</a>
+</li>
+<li>
+  <a href="evaluation.html">Evaluation</a>
+</li>
+<li>
+  <a href="syllabus.html">Syllabus</a>
+</li>
+<li>
+  <a href="schedule.html">Schedule</a>
+</li>
+<li>
+  <a href="resources.html">Resources</a>
+</li>
+<li>
+  <a href="contact.html">
+    <span class="fa fa-envelope"></span>
+     
+    Contact
+  </a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+
+</div>
+
+
+<div id="course-schedule" class="section level1">
+<h1><strong>Course Schedule</strong></h1>
+<div id="daily" class="section level3">
+<h3><strong>Daily</strong></h3>
+<p>Every class session will start and end with a writing prompt that will be used for class discussions. This course will involve some lectures and speakers, but will largely involve writing exercises, discussion/reflection activities, and team work on the data science project. We want to cultivate a culture that respects all viewpoints and values all experiences, where there are complicated answers, and where a growth mindset is upheld.</p>
+</div>
+<div id="weekly" class="section level3">
+<h3><strong>Weekly</strong></h3>
+<ul>
+<li><strong>Week 1-5</strong> - will focus on training and guidance about how our work fits into the greater context of Baltimore, understanding what the CBOs do and why, as well as some instruction on data security, privacy, and ethics</li>
+<li><strong>Week 6-10</strong> - will focus on working on the data science product(s) (<strong>Week 8 - meeting with CBO to check in overall, as well as individual meetings with instructors</strong>)</li>
+<li><strong>Week 11-13</strong> - will focus on plans for implementation, sustainability/maintenance, and optionally training</li>
+<li><strong>Week 14 -16</strong> - will focus on reflection on the implementation, lessons learned, and future ideas - final report</li>
+</ul>
+</div>
+<div id="class-sessions" class="section level3 tabset tabset-fade">
+<h3 class="tabset tabset-fade"><strong>Class Sessions</strong></h3>
+<div id="third-term" class="section level4 tabset tabset-fade">
+<h4 class="tabset tabset-fade"><strong>Third Term</strong></h4>
+<div id="week-1" class="section level5">
+<h5><strong>Week 1</strong></h5>
+<p><strong>Course and Context - Historical and Present</strong></p>
+<div class="table_style">
+<table>
+<colgroup>
+<col width="20%" />
+<col width="16%" />
+<col width="30%" />
+<col width="32%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Summary</strong></th>
+<th><strong>Content</strong></th>
+<th><strong>Homework <br> (please do before week 2)</strong></th>
+<th><strong>Resources</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>This week will focus on the <strong>rationale</strong>, <strong>structure</strong>, <strong>philosophy</strong>, and <strong>goals</strong> of the course. <br> We will also examine resources and discuss how the <strong>historical and current context</strong> of Johns Hopkins in the Baltimore Community may influence our work.</td>
+<td>* <a href="https://courseplus.jhu.edu/core/index.cfm/go/course.home/coid/8136/">SOURCE Module 1: How History Impacts Our Work</a></td>
+<td>* <a href="https://black-butterfly-academy.teachable.com/p/baltimore-apartheid">Black Butterfly Academy: Baltimore Apartheid</a> <br> * <a href="https://learning.jhu.edu/">Mitigating Bias Training</a></td>
+<td><strong>Extra Reading About History:</strong> <br> * <a href="https://www.nytimes.com/interactive/2021/05/24/us/tulsa-race-massacre.html">Greenwood Tulsa Massacre</a><br> * <a href="https://en.wikipedia.org/wiki/Rosewood_massacre">Rosewood Massacre</a> <br> * <a href="https://en.wikipedia.org/wiki/Red_Summer">Red Summer</a> <br> * <a href="https://www.anteropietila.com/not-in-my-neighborhood">Not in My Neighborhood: How Bigotry Shaped a Great American City</a> <br> * <a href="https://www.nature.com/articles/d41586-020-02494-z">Henrietta Lacks: science must right a historical wrong</a> <br> <strong>Extra Reading About Bias:</strong> <br> * <a href="http://web.archive.org/web/20120218231339/http://www.law.harvard.edu/students/orgs/crcl/vol38_1/green.pdf">Discrimination in Workplace Dynamics: Toward a Structural Account of Disparate Treatment Theory</a></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>For the Mitigating Bias Training:</p>
+<ul>
+<li>Click on the link above</li>
+<li>Log into your JHU account</li>
+<li>Search for “Managing Bias” in the catalog search</li>
+<li>Add this course to your development plan</li>
+<li>Select this course from your to do list to go to the course</li>
+</ul>
+</div>
+<div id="week-2" class="section level5">
+<h5><strong>Week 2</strong></h5>
+<p><strong>Critical Service Learning</strong></p>
+<div class="table_style">
+<table>
+<colgroup>
+<col width="32%" />
+<col width="32%" />
+<col width="34%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Summary</strong></th>
+<th><strong>Homework <br> (please do before next week)</strong></th>
+<th><strong>Resources</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>This week Tyler Derreth, the Associate Director of SOURCE, will discuss what critical service learning is and how it differs from other forms of service.</td>
+<td>Assignments coming…</td>
+<td>* Resource Coming <br> * Resource Coming</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div id="week-3" class="section level5">
+<h5><strong>Week 3</strong></h5>
+<p><strong>Critical Reflection Practices</strong></p>
+<div class="table_style">
+<table>
+<colgroup>
+<col width="32%" />
+<col width="32%" />
+<col width="34%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Summary</strong></th>
+<th><strong>Homework <br> (please do before next week)</strong></th>
+<th><strong>Resources</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>This week we will discuss how and why there is a focus on social and historical context and not just the data science for this course. We will talk about how this context can or perhaps should influence how we perform the data science tasks planned and how we interact with community partners.</td>
+<td>Assignments coming…</td>
+<td>* Resource Coming <br> * Resource Coming</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div id="week-4" class="section level5">
+<h5><strong>Week 4</strong></h5>
+<p><strong>Project Planning and Forecasting</strong></p>
+<div class="table_style">
+<table>
+<colgroup>
+<col width="32%" />
+<col width="32%" />
+<col width="34%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Summary</strong></th>
+<th><strong>Homework <br> (please do before next week)</strong></th>
+<th><strong>Resources</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>This week we will discuss how students will interact with partners, as well as examples of what has and has not worked well in past similar projects. We will also do an activity to describe our expectations for the projects.</td>
+<td>Assignments coming…</td>
+<td>* Resource Coming <br> * Resource Coming</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div id="week-5" class="section level5">
+<h5><strong>Week 5</strong></h5>
+<p><strong>Data Security/Privacy/Ethics and updates</strong></p>
+<div class="table_style">
+<table>
+<colgroup>
+<col width="32%" />
+<col width="32%" />
+<col width="34%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Summary</strong></th>
+<th><strong>Homework <br> (please do before next week)</strong></th>
+<th><strong>Resources</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>This week we will discuss topics related to data privacy, security, and ethics and how we can incorporate best practices into our projects. We will also discuss updates about each project.</td>
+<td>Assignments coming…</td>
+<td>* Resource Coming <br> * Resource Coming</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div id="week-6-8" class="section level5">
+<h5><strong>Week 6-8</strong></h5>
+<p><strong>Critical reflection and updates</strong></p>
+<div class="table_style">
+<table>
+<colgroup>
+<col width="32%" />
+<col width="32%" />
+<col width="34%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Summary</strong></th>
+<th><strong>Homework <br> (please do before next week)</strong></th>
+<th><strong>Resources</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>These weeks we will reflect on the challenges of our projects and give updates on how the project is going and how we are interacting with our community partners.<strong>Check in with the CBO!</strong></td>
+<td>Assignments coming…</td>
+<td>* Resource Coming <br> * Resource Coming</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div id="forth-term" class="section level4">
+<h4><strong>Forth Term</strong></h4>
+<div class="table_style">
+<table>
+<colgroup>
+<col width="15%" />
+<col width="23%" />
+<col width="31%" />
+<col width="30%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="center"><strong>Time</strong></th>
+<th align="center"><strong>Focus</strong></th>
+<th><strong>Resources</strong></th>
+<th><strong>Summary</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="center"><strong>Week 1 -2</strong></td>
+<td align="center">Critical reflection and updates</td>
+<td>* Resource Coming <br> * Resource Coming</td>
+<td>These weeks we will reflect on the challenges of our projects and give updates on how the project is going and how we are interacting with our community partners.</td>
+</tr>
+<tr class="even">
+<td align="center"><strong>Week 3-6</strong></td>
+<td align="center">Critical reflection and updates with emphasis on implementation, sustainability, and training plans</td>
+<td>* Resource Coming <br> * Resource Coming</td>
+<td>These weeks we will especially focus on how the community partners will use the data project product and how they might sustain the product over time, as well as work on training guides for the community partners if they asked for it.</td>
+</tr>
+<tr class="odd">
+<td align="center"><strong>Week 7-8</strong></td>
+<td align="center">Implementation reflection and updates</td>
+<td>* Resource Coming <br> * Resource Coming</td>
+<td>This week we will focus on how the implementation is going, lessons learned, and thoughts about future directions for the community organization and for careers for students.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
