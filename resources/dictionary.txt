@@ -1,3 +1,4 @@
+Apartheid
 ava
 biostatistics
 BCDS
@@ -10,6 +11,7 @@ de
 deliverables
 edu
 FASAP
+Ferguson
 hoffman
 Hotline
 JHSAP
@@ -17,6 +19,7 @@ JHSPH
 jhu
 JHU
 mrosen
+Plessy
 Rosenblum
 TAs
 th

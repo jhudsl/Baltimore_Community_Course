@@ -9,7 +9,7 @@ library(learnr)
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-# Week 1 Baltimore Apartied Assignment
+# Week 1 Baltimore Apartheid Assignment
 
 Complete the [Black Butterfly Academy: Baltimore Apartheid](https://black-butterfly-academy.teachable.com/p/baltimore-apartheid) training and then return here to answer the following questions.
 
@@ -60,7 +60,7 @@ quiz(caption = "",
 
 Journal about your choice of two of these questions and contribute to the Slack asynchronous discussion about one of these questions.
 
-1) The premise of segregation was being “separate but equal”, a paradigm set by Plessy vs. Furguson in 1896. Discuss what intentions people may have had and why they possibly chose this phrasing?
+1) The premise of segregation was being “separate but equal”, a paradigm set by Plessy vs. Ferguson in 1896. Discuss what intentions people may have had and why they possibly chose this phrasing?
 
 2) What impact do you think the massive demographic shifts (rise of Black population in Baltimore and reduction of white population) in Baltimore had on Baltimore today?
 
