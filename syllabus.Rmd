@@ -96,13 +96,14 @@ Students who complete the course will be able to:
 ### Examples of Data Science Products
 
 - **Data planning** - planning data collection so that it’s tailored to assist the needs of the CBO. This could include survey ethics, design, implementation, or future data analyses.
+- **Data import** - working with the CBO partners to identify sources of data  and how to capture that data in a programmatic way. This could be scraping data from a website or importing data from an API.
 - **Data wrangling/cleaning** - working with the data to get it in a format that is readily usable for creating  graphs, tables, and statistics. (This is often the most important step but often overlooked!)
 - **Data visualization** - enabling partners to make highly flexible and effective visualizations to inform themselves and others about patterns in data.
 Dashboard creation - showcasing results in a user-friendly way through a public facing website.
 - **Data analysis** - identifying patterns about the data to assist with decision making processes and to assist with getting funding. 
 - **Data communication** - assisting CBOs in how to interpret and describe trends in the data. This may involve speaking at an event for the CBO.
 - **Shiny app** - automating some processes for the CBO with an app. See https://shiny.rstudio.com/gallery/ for examples.
-- **GitHub actions** - another option for potentially automating processes for the CBO 
+- **GitHub actions** - another option for potentially automating processes for the CBO. 
 
 
 
