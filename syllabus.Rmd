@@ -105,6 +105,32 @@ Dashboard creation - showcasing results in a user-friendly way through a public 
 - **GitHub actions** - another option for potentially automating processes for the CBO. 
 
 
+### Student Roles for Projects
+
+Students may end up taking on multiple critical roles for the projects. Furthermore, students can play a different role for different phases of the project.
+
+#### Leadership Roles:
+
+* Results Manager - This student will ensure that project development timelines are being met by developing milestones and tracking project process.
+
+* Communication Lead - This student is the main point of contact for the group to interact with one another, interact with the CBO, and interact with instructors.
+
+* Sustainability Lead - This student helps identify and coordinate with the future handlers of the data science product at the partner organization. They will identify key areas for partner education and training.
+
+* Project Lead - This student will make sure that all group members are enjoying their role(s) and are being productive in their role(s). They will consider how each members works and where collaboration can be improved if possible. They will also be in charge of considering the big picture goals of the project as a whole.
+
+#### Technical Roles:
+
+* Infrastructure/Organization Lead - This student is in charge of organizing and maintaining a file structure for the documentation, notes, communication, code, etc. for the project. (We will provide workflow suggestions for this - it will largely involve GitHub.)
+
+
+* Documentation Lead - This student will take notes at meetings and create documentation text about how to contribute to projects and descriptions for others about the project.
+
+
+* Development Lead - This student will manage the production of the code / code standards by assigning themselves and delegating to others to various code-related tasks.
+
+
+* Design/Aesthetics Lead - This student will manage aesthetic or design related aspects for the project, including visualizations and graphics for documentation, apps, and other content readable, engaging, and appropriate for the given audience.
 
 <!-- ```{r, child="code_of_conduct.Rmd"} -->
 
