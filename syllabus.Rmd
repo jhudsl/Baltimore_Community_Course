@@ -1,7 +1,6 @@
 ---
 output:
-  html_document:
-    theme: paper
+  html_document
 ---
 
 
