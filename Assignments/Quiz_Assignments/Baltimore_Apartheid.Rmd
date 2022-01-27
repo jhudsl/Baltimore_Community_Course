@@ -1,4 +1,5 @@
 ---
+title: "Baltimore Apartheid Assignment"
 output: 
   html_document:
 runtime: shiny_prerendered
@@ -9,7 +10,7 @@ library(learnr)
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-# Week 1 Baltimore Apartheid Assignment
+
 
 Complete the [Black Butterfly Academy: Baltimore Apartheid](https://black-butterfly-academy.teachable.com/p/baltimore-apartheid) training and then return here to answer the following questions.
 
@@ -58,7 +59,7 @@ quiz(caption = "",
 
 **Reflection Questions:**
 
-Journal about your choice of two of these questions and contribute to the Slack asynchronous discussion about one of these questions.
+Journal about your choice of two of these questions and contribute to the Slack asynchronous discussion about one of these questions. Additionally, respond to at least one response from another student on the discussion thread on Slack. In your responses aim to be: thorough, novel, and authentic.
 
 1) The premise of segregation was being “separate but equal”, a paradigm set by Plessy vs. Ferguson in 1896. Discuss what intentions people may have had and why they possibly chose this phrasing?
 
