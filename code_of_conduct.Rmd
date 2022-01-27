@@ -5,7 +5,7 @@ output:
 <!-- This document contains code of conduct details that appear multiple places. -->
 
 
-# Code of Conduct
+# **Code of Conduct**
 
 We would like to create an open, safe, welcoming, diverse, inclusive, intellectually stimulating, and hopefully fun class experience. 
 

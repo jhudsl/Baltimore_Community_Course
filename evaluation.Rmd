@@ -5,7 +5,7 @@ output:
 
 
 
-# Student Evaluation
+# **Student Evaluation**
 
 All grading for the course will be **pass / fail**. 
 
