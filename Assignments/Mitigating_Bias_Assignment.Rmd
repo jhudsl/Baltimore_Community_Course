@@ -3,7 +3,7 @@ title: "Mitigating Bias Assignment"
 output: html_document
 ---
 
-Throughout this course you will interact with people backgrounds and life experiences that may be different from your own. Thus we would like you be aware of how we are influenced by bias. 
+Throughout this course you will interact with people with backgrounds and life experiences that may be different from your own. Thus we would like you to be aware of how our biases may influence our interactions. 
 
 For this assignment you will need to complete a JHU training module. To access this module do the following:
 
