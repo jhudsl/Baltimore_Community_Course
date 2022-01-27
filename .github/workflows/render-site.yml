@@ -14,7 +14,7 @@ on:
     branches: [ main ]
     paths:
       - '**.Rmd'
-      - style.css
+      - styles.css
       - _site.yml
       - Assignments/*.Rmd
 jobs:
