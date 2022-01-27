@@ -5,18 +5,31 @@ output:
 
 
 
-# Resources
+# **Resources**
 
 More resources are coming...
 
 ### **R Resources**
 
 <div class = table_style>
-|Topic| Resource|
-|-------------------|------------------------|
-|Dashboards| [School Shooting Open Case Study](https://www.opencasestudies.org/ocs-bp-school-shootings-dashboard/)|
-|Extracting Text from Images|[Youth Disconnection Open Case Study](https://www.opencasestudies.org/ocs-bp-youth-disconnection/)|
-<div>
+|Topic| Resource| Use |
+|-------------------|--------------------|--------------------|
+|Dashboards| [School Shooting Open Case Study](https://www.opencasestudies.org/ocs-bp-school-shootings-dashboard/)| Dashboards can be a great way to demonstrate many aspects about a data set efficiently. They can help tell a data story. 
+|Extracting text from images|[Youth Disconnection Open Case Study](https://www.opencasestudies.org/ocs-bp-youth-disconnection/)| You might  find that you need to import text from image files.|
+|Importing data from an API|[Opioid Case Study](https://www.opencasestudies.org/ocs-bp-opioid-rural-urban/)| Some common websites (like many social media websites) have APIs that allow you to access data.|
+|Importing multiple files| [Vaping Behaviors Case Study](https://www.opencasestudies.org/ocs-bp-vaping-case-study/#Data_Import)|It can be helpful to programmatically import files efficiently using fewer steps.|
+|Sentiment analysis| [tidytextmining](https://www.tidytextmining.com/sentiment.html)| Sentiment analysis can be useful for understanding the "emotional intent" of text data.|
+</div>
+
+### **Git and GitHub Resources**
+
+<div class = table_style>
+|Topic| Resource| Use|
+|-------------------|--------------------|--------------------|
+|General Resource | [Happy Git and GitHub for the use R ](https://happygitwithr.com/)| Git and GitHub are great for version control to ensure that you don't lose any of your work and you can clearly see how your code (or other files) changed  over time|
+|Reproducibility & GitHub Actions | [ITN Advanced Reproducibility Course ](https://jhudatascience.org/Adv_Reproducibility_in_Cancer_Informatics/)| GitHub Actions can help you to automate aspects about your work. It is especially helpful when you are rendering files and working with a team.|
+</div>
+
 
 
 
