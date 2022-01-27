@@ -16,7 +16,7 @@ on:
       - '**.Rmd'
       - style.css
       - _site.yml
-      - '/Assignments/*.Rmd'
+      - Assignments/*.Rmd
 jobs:
   # This workflow contains a single job called "build-all"
   render-main:
@@ -41,14 +41,14 @@ jobs:
       - name: Delete old *.html
         run: Rscript -e "rmarkdown::clean_site(preview = FALSE)"
       
-      # # Want to render the PDF version of the syllabus
-      # - name: Render syllabus
-      #   run: Rscript -e "rmarkdown::render('syllabus.Rmd', output_format = 'pdf_document')"
-      # Run html rendering
       - name: Run render html
         id: site
         run: Rscript -e "rmarkdown::render_site()"
-
+        
+      - name: Render assignments
+        id: assignments
+        run: Rscript -e "for (i in list.files(path = './Assignments', pattern = 'Rmd$', recursive = FALSE, full.names = TRUE)){rmarkdown::render(i)}"
+    
       # This checks on the steps before it and makes sure that they completed.
       # If the renders didn't complete we don't want to commit the file changes
       - name: Check on render steps
