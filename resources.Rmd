@@ -15,8 +15,10 @@ More resources are coming...
 |Topic| Resource| Use |
 |-------------------|--------------------|--------------------|
 |Dashboards| [School Shooting Open Case Study](https://www.opencasestudies.org/ocs-bp-school-shootings-dashboard/)| Dashboards can be a great way to demonstrate many aspects about a data set efficiently. They can help tell a data story. 
-|Extracting Text from Images|[Youth Disconnection Open Case Study](https://www.opencasestudies.org/ocs-bp-youth-disconnection/)| You might  ind that you need to import text from image files.|
-|Iterating across multiple files| [Vaping Behaviors Case Study](https://www.opencasestudies.org/ocs-bp-vaping-case-study/#Data_Import)|It can be helpful to programmatically import files efficiently using fewer steps. 
+|Extracting text from images|[Youth Disconnection Open Case Study](https://www.opencasestudies.org/ocs-bp-youth-disconnection/)| You might  find that you need to import text from image files.|
+|Importing data from an API|[Opioid Case Study](https://www.opencasestudies.org/ocs-bp-opioid-rural-urban/)| Some common websites (like many social media websites) have APIs that allow you to access data.|
+|Importing multiple files| [Vaping Behaviors Case Study](https://www.opencasestudies.org/ocs-bp-vaping-case-study/#Data_Import)|It can be helpful to programmatically import files efficiently using fewer steps.|
+|Sentiment analysis| [tidytextmining](https://www.tidytextmining.com/sentiment.html)| Sentiment analysis can be useful for understanding the "emotional intent" of text data.|
 </div>
 
 ### **Git and GitHub Resources**
