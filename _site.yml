@@ -12,7 +12,9 @@ navbar:
   - text: Syllabus
     href: syllabus.html
   - text: Schedule
-    href: schedule.html  
+    href: schedule.html
+  - text: Projects
+    href: projects.html
   - text: Resources
     href: resources.html
   - text: Contact
