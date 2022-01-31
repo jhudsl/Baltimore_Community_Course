@@ -17,10 +17,13 @@ The projects are intended to **scale** based on the time and capacity available 
 
 Things to remember: 
 
-- As this is an extra difficult time for everyone due to the pressures of the pandemic, **try to practice patience** with the CBO members and your fellow project members. Remember that the CBO members may or may not be able to get back to you as quickly as you might expect in academic settings. They have many other important priorities. 
+- As this is an extra difficult time for everyone due to the pressures of the pandemic, **try to practice patience** with the CBO members and your fellow project members. Remember that the CBO members have other priorities and may not be able to get back to you as quickly as you might expect. 
 
-- Additionally, remember that some of the CBOs members may be new to data science and so **there will be learning period** for you to explain what data products are possible. This may cause the process of defining the **main project goals to evolve over time**. 
+- Some of the CBOs members may be new to data science and so **there will be learning period** for you to explain what data products are possible. This may cause the **main project goals to evolve over time**. 
 
-- Furthermore, remember that **you are learning** about what the CBO does and what their goals are. This will also cause the definition of the main project goals to potentially evolve over time.
+- Remember that **you are learning** about what the CBO does and about their goals. This may also cause the definition of the main project goals to evolve over time.
+
+- **We will have misunderstandings** with each other and the CBO members. This is expected and part of the process. Try to **stay open to adapting** as we clarify our communications with one another.
+
 
 
