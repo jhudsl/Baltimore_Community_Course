@@ -4,7 +4,6 @@ output:
   html_document
 ---
 
-More resources are coming...
 
 ### **Assignment Resources**
 
@@ -14,6 +13,15 @@ More resources are coming...
 |Critical Reflection| [Reflection Journal Template](https://docs.google.com/document/d/16FIPvK3MI3Jd_TKcGoklysANy1aqbkw7BjhlcJnFva8/edit?usp=sharing)| This template can serve as an example for how to structure your reflection journal.|
 |Slack Discussions|[Contributing to Slack Discussions](https://docs.google.com/document/d/1Wh01tDp_JFbwE1EDRcONXfjFJIpuLNbcQJAW9W1ALbk/edit?usp=sharing)| This document has instructions for how to participate in an asynchronous class discussion using Slack.|
 </div>
+
+### **Baltimore Resources**
+<div class = table_style>
+|Topic| Resource| Use |
+|-------------------|--------------------|--------------------|
+|Baltimore Neighborhood Indicators Alliance (BNIA) Resources| * [Learning Modules](https://bniajfi.org/resources/learning-community/for-instructors/faculty-resources/downloads/) <br> * [BNAI Data](https://bniajfi.org/vital_signs/data_downloads/) <br> *[GIS mapping resources](https://mapping-bniajfi.opendata.arcgis.com/)| BNIA has data,learning modules, and information related to Baltimore Neighborhoods|
+
+</div>
+
 
 ### **R Resources**
 
