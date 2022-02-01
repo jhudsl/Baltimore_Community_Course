@@ -1,11 +1,8 @@
 ---
+title: "**Resources**"
 output:
   html_document
 ---
-
-
-
-# **Resources**
 
 More resources are coming...
 
