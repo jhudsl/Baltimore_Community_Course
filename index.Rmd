@@ -6,7 +6,7 @@ output:
 ---
 
 
-# **Baltimore Community Data Science**
+
 
 <div class = "banner">
 Welcome to the course website for Baltimore Community Data Science (PH140.840)!  
