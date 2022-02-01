@@ -1,10 +1,12 @@
 ---
+title: "Baltimore Community Data Science"
+favicon: resources/images/bcds_favicon.ico
 output:
   html_document
 ---
 
 
-# **Baltimore Community Data Science**
+
 
 <div class = "banner">
 Welcome to the course website for Baltimore Community Data Science (PH140.840)!  
