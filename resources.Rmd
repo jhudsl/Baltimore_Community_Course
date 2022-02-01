@@ -4,6 +4,7 @@ output:
   html_document
 ---
 
+The following resources may be helpful to students as they work on their projects with one another. 
 
 ### **Assignment Resources**
 
@@ -14,12 +15,22 @@ output:
 |Slack Discussions|[Contributing to Slack Discussions](https://docs.google.com/document/d/1Wh01tDp_JFbwE1EDRcONXfjFJIpuLNbcQJAW9W1ALbk/edit?usp=sharing)| This document has instructions for how to participate in an asynchronous class discussion using Slack.|
 </div>
 
+### **Critical Service Learning Resources**
+<div class = table_style>
+|Topic| Resource| Use |
+|-------------------|--------------------|--------------------|
+|SOURCE - the community engagement and service-learning center at the Johns Hopkins Bloomberg School of Public health| * [SOURCE website](https://source.jhu.edu/) <br> * [SOURCE resources](https://source.jhu.edu/publications-and-resources/national-resources.html) <br> * [Service Opportunities](https://source.jhu.edu/audiences/students/opportunities/index.html)| SOURCE has lots of valuable resources on the philosophy of critical service learning, as well as  information on other ways to engage with the community|
+|Course reading material | [Course assignments and extra reading resources](https://jhudatascience.org/Baltimore_Community_Course/schedule.html) | Please see the course schedule for additional resources about the history of Baltimore and the US, as well as reading material about the basis of critical service learning.|
+</div>
+
+
+
 ### **Baltimore Resources**
 <div class = table_style>
 |Topic| Resource| Use |
 |-------------------|--------------------|--------------------|
 |Baltimore Neighborhood Indicators Alliance (BNIA) Resources| * [Learning Modules](https://bniajfi.org/resources/learning-community/for-instructors/faculty-resources/downloads/) <br> * [BNIA Data](https://bniajfi.org/vital_signs/data_downloads/) <br> *[GIS mapping resources](https://mapping-bniajfi.opendata.arcgis.com/)| BNIA has data,learning modules, and information related to Baltimore Neighborhoods|
-
+General information |[SOURCE Baltimore Information](https://source.jhu.edu/audiences/students/know-baltimore/index.html)| Learn more about the Baltimore community|
 </div>
 
 
