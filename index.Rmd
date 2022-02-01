@@ -1,4 +1,6 @@
 ---
+title: "Baltimore Community Data Science"
+favicon: resources/images/bcds_favicon.ico
 output:
   html_document
 ---
