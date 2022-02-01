@@ -1,11 +1,8 @@
 ---
+title: "**Student Evaluation**"
 output:
   html_document
 ---
-
-
-
-# **Student Evaluation**
 
 All grading for the course will be **pass / fail**. 
 
