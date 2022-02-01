@@ -18,7 +18,7 @@ output:
 <div class = table_style>
 |Topic| Resource| Use |
 |-------------------|--------------------|--------------------|
-|Baltimore Neighborhood Indicators Alliance (BNIA) Resources| * [Learning Modules](https://bniajfi.org/resources/learning-community/for-instructors/faculty-resources/downloads/) <br> * [BNAI Data](https://bniajfi.org/vital_signs/data_downloads/) <br> *[GIS mapping resources](https://mapping-bniajfi.opendata.arcgis.com/)| BNIA has data,learning modules, and information related to Baltimore Neighborhoods|
+|Baltimore Neighborhood Indicators Alliance (BNIA) Resources| * [Learning Modules](https://bniajfi.org/resources/learning-community/for-instructors/faculty-resources/downloads/) <br> * [BNIA Data](https://bniajfi.org/vital_signs/data_downloads/) <br> *[GIS mapping resources](https://mapping-bniajfi.opendata.arcgis.com/)| BNIA has data,learning modules, and information related to Baltimore Neighborhoods|
 
 </div>
 
