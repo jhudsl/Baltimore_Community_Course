@@ -1,4 +1,5 @@
 ---
+title: "Baltimore Community Data Science"
 output:
   html_document
 ---
