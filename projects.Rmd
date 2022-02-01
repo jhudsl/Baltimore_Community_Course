@@ -1,13 +1,8 @@
 ---
+title: "**Projects**"
 output:
   html_document
 ---
-
-
-
-
-
-# Projects
 
 Students will work in groups of 3-5 on projects with a community based organization (CBO). Students will work with the CBO to identify the **main priority project goals**, as well as to identify other goals would be of interest but are not the priority. Students should keep an open dialog with the CBO about what they think might possible for these additional goals, while being mindful about not over promising. 
 
