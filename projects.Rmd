@@ -19,7 +19,7 @@ Things to remember:
 
 - As this is an extra difficult time for everyone due to the pressures of the pandemic, **try to practice patience** with the CBO members and your fellow project members. Remember that the CBO members have other priorities and may not be able to get back to you as quickly as you might expect. 
 
-- Some of the CBOs members may be new to data science and so **there will be learning period** for you to explain what data products are possible. This may cause the **main project goals to evolve over time**. 
+- Some of the CBO members may be new to data science and so **there will be a learning period** for you to explain what data products are possible. This may cause the **main project goals to evolve over time**. 
 
 - Remember that **you are learning** about what the CBO does and about their goals. This may also cause the definition of the main project goals to evolve over time.
 
