@@ -11,7 +11,7 @@ The following resources may be helpful to students as they work on their project
 <div class = table_style>
 |Topic| Resource| Use |
 |-------------------|--------------------|--------------------|
-|Critical Reflection| [Reflection Journal Template](https://docs.google.com/document/d/16FIPvK3MI3Jd_TKcGoklysANy1aqbkw7BjhlcJnFva8/edit?usp=sharing)| This template can serve as an example for how to structure your reflection journal.|
+|Critical Reflection| [Reflection Journal Template](https://docs.google.com/document/d/16FIPvK3MI3Jd_TKcGoklysANy1aqbkw7BjhlcJnFva8/edit?usp=sharing)| This template can serve as an example for how to structure your reflection journal.Please submit your journal using this [form](https://forms.gle/m67DyJNsehYB8qnSA)|
 |Slack Discussions|[Contributing to Slack Discussions](https://docs.google.com/document/d/1Wh01tDp_JFbwE1EDRcONXfjFJIpuLNbcQJAW9W1ALbk/edit?usp=sharing)| This document has instructions for how to participate in an asynchronous class discussion using Slack.|
 </div>
 
