@@ -38,7 +38,7 @@ Every class session will start and end with a writing prompt that will be used f
 <div class = "table_style">
 |**Summary**| **Homework <br> (please do before  week 3)**|**Resources**|
 |----------------|----------------|-----------------|
-|This week Tyler Derreth, the Associate Director of [SOURCE](https://source.jhu.edu), will discuss what critical service learning is and how it differs from other forms of service. | [Traditional vs Critical Service Learning](https://files.eric.ed.gov/fulltext/EJ831374.pdf) |* [Product or Process? Reciprocity or Solidarity](https://files.eric.ed.gov/fulltext/EJ1163945.pdf)  <br> * [Theoretical roots of CSL](https://quod.lib.umich.edu/m/mjcsl/3239521.0001.109/1) <br> * [A case study of CSL](https://www.tandfonline.com/doi/full/10.1080/10665680701228797) <br> * [SOURCE Dos and donts](https://source.jhu.edu/publications-and-resources/DosAndDontsOfPartnerships.pdf)|
+|This week Tyler Derreth, the Associate Director of [SOURCE](https://source.jhu.edu), will discuss what critical service learning is and how it differs from other forms of service. | [Traditional vs Critical Service Learning](https://jhudatascience.org/Baltimore_Community_Course/Assignments/Critical_Service_Learning_Assignment.html) |* [Product or Process? Reciprocity or Solidarity](https://files.eric.ed.gov/fulltext/EJ1163945.pdf)  <br> * [Theoretical roots of CSL](https://quod.lib.umich.edu/m/mjcsl/3239521.0001.109/1) <br> * [A case study of CSL](https://www.tandfonline.com/doi/full/10.1080/10665680701228797) <br> * [SOURCE Dos and donts](https://source.jhu.edu/publications-and-resources/DosAndDontsOfPartnerships.pdf)|
 </div>
 
 ##### **Week 3**
