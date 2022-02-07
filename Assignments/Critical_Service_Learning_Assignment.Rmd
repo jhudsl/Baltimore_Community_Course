@@ -3,7 +3,7 @@ title: "Critical Service Learning Assignment"
 output: html_document
 ---
 
-For this assignment you will need to have first read the paper (which is part of this homework) Traditional vs. Critical Service-Learning: Engaging the Literature to Differentiate Two Models, by Tania D. Mitchell
+For this assignment you will need to have first read the following [paper](https://files.eric.ed.gov/fulltext/EJ831374.pdf): Traditional vs. Critical Service-Learning: Engaging the Literature to Differentiate Two Models, by Tania D. Mitchell
 
 **Reflection Questions:**
 
