@@ -1,0 +1,10 @@
+---
+title: "Critical Reflection Review Assignment"
+output: html_document
+---
+
+First start by reading the [Course Guide to Critical Reflection](https://docs.google.com/document/d/10dM6WA2LHmX922-hlehJULX5IWSizsH6kWnNAVe_VYw/edit?usp=sharing). 
+
+Next, read through your previous Slack discussion reflections and use the guide to help you expand upon one of your previous responses of your choosing. This will be in a new channel. Please be sure to include the prompt. 
+
+Next, choose one of your previous journal responses (except the first in class reflection - we have a different activity planned for that) and expand on this response in your Journal for this week.
