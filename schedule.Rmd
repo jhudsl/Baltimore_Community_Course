@@ -6,7 +6,7 @@ output:
 
 ### **Daily**
 
-Every class session will start and end with a writing prompt that will be used for class discussions. This course will involve some lectures and speakers, but will largely involve writing exercises, discussion/reflection activities, and team work on the data science project. We want to cultivate a culture that respects all viewpoints and values all experiences,  where there are complicated answers, and where a growth mindset is upheld.
+Every class session will start and end with a writing prompt that will be used for class discussions. This course will involve some lectures and speakers, but will largely involve writing exercises, discussion/reflection activities, and teamwork on the data science project. We want to cultivate a culture that respects all viewpoints and values all experiences,  where there are complicated answers, and where a growth mindset is upheld.
 
 ### **Weekly**
 
@@ -38,7 +38,7 @@ Every class session will start and end with a writing prompt that will be used f
 <div class = "table_style">
 |**Summary**| **Homework <br> (please do before  week 3)**|**Resources**|
 |----------------|----------------|-----------------|
-|This week Tyler Derreth, the Associate Director of [SOURCE](https://source.jhu.edu), will discuss what critical service learning is and how it differs from other forms of service. | [Traditional vs Critical Service Learning](https://jhudatascience.org/Baltimore_Community_Course/Assignments/Critical_Service_Learning_Assignment.html) |* [Product or Process? Reciprocity or Solidarity](https://files.eric.ed.gov/fulltext/EJ1163945.pdf)  <br> * [Theoretical roots of CSL](https://quod.lib.umich.edu/m/mjcsl/3239521.0001.109/1) <br> * [A case study of CSL](https://www.tandfonline.com/doi/full/10.1080/10665680701228797) <br> * [SOURCE Dos and donts](https://source.jhu.edu/publications-and-resources/DosAndDontsOfPartnerships.pdf)|
+|This week Tyler Derreth, the Associate Director of [SOURCE](https://source.jhu.edu), will discuss what critical service learning is and how it differs from other forms of service. | [Traditional vs Critical Service Learning](https://jhudatascience.org/Baltimore_Community_Course/Assignments/Critical_Service_Learning_Assignment.html) |* [Product or Process? Reciprocity or Solidarity](https://files.eric.ed.gov/fulltext/EJ1163945.pdf)  <br> * [Theoretical roots of CSL](https://quod.lib.umich.edu/m/mjcsl/3239521.0001.109/1) <br> * [A case study of CSL](https://www.tandfonline.com/doi/full/10.1080/10665680701228797) <br> * [SOURCE Dos and don'ts](https://source.jhu.edu/publications-and-resources/DosAndDontsOfPartnerships.pdf)|
 </div>
 
 ##### **Week 3**
@@ -47,7 +47,7 @@ Every class session will start and end with a writing prompt that will be used f
 
 <div class = "table_style">
 |**Summary**| **Content** |**Homework <br> (please do before week 4)**|**Resources**|
-|-----------|---------|----------------|-----------------|
+|---------------|------------|---------------|---------------|
 |This week we will discuss how and why there is a focus on social and historical context and not just the data science for this course.  We will talk about how this context can or perhaps should influence how we perform the data science tasks planned and how we interact with community partners.|* [What is critical reflection?](https://www.dso.ufl.edu/documents/nsfp/What_is_Critical_Reflection.pdf) <br> * [Example Rubric for Reflection](https://uwaterloo.ca/centre-for-teaching-excellence/sites/ca.centre-for-teaching-excellence/files/uploads/files/critreflectrubric_trevor_holmes.pdf) <br> * [Models of reflection](https://uwaterloo.ca/centre-for-teaching-excellence/resources/reflection-framework-and-prompts#borton) <br> * [Course Guide to Critical Reflection](https://docs.google.com/document/d/10dM6WA2LHmX922-hlehJULX5IWSizsH6kWnNAVe_VYw/edit?usp=sharing)| * [Approaching Critical Service-Learning Assignment ](https://jhudatascience.org/Baltimore_Community_Course/Assignments/Approaching_Critical_Service_Learning_Assignment.html)  <br> * [Critical Reflection Review Assignment](https://jhudatascience.org/Baltimore_Community_Course/Assignments/Critical_Reflection_Review_Assignment.html) |**Extra Reading:** <br> * [Critical Reflective Practice](https://www.kent.ac.uk/teaching/documents/academic-practice/New%20to%20teaching%20Staff/Brookfield%20models%20of%20reflective%20practice.pdf)  <br> * [Critical Reflection in Higher Education Review](https://www.sciencedirect.com/science/article/pii/S1747938X20308368) <br> **Extra Videos:** <br>* ["What, So What, Now What" Model video](https://youtu.be/vGyjF9Ngd8Y) <br> * [Understanding reflective practice video](https://youtu.be/iBmtH0Qx0YU) <br>|
 </div>
 
@@ -58,17 +58,17 @@ Every class session will start and end with a writing prompt that will be used f
 <div class = "table_style">
 |**Summary**| **Homework <br> (please do before next week)**|**Resources**|
 |----------------|----------------|-----------------|
-|This week we will discuss how students will interact with partners, as well as examples of what has and has not worked well in past similar projects. We will also do an activity to describe our expectations for the projects.|Assignments coming...| * Resource Coming <br> * Resource Coming|
+|This week we will discuss more specifically about how students will **interact** with partners, as well as examples of what has and has not worked well in past similar projects. Students will meet with their **project group** for the first time and start assigning **student roles**.| * Assignment about Git/GitHub is coming... <br> * Assignment about CBOs is coming...|  * [SOURCE Dos and don'ts](https://source.jhu.edu/publications-and-resources/DosAndDontsOfPartnerships.pdf) <br> * [Project Student Roles](https://jhudatascience.org/Baltimore_Community_Course/projects.html/) <br> * [Project Reminders](https://jhudatascience.org/Baltimore_Community_Course/Projects.html/)|
 </div>
 
 ##### **Week 5**
 
-**Data Security/Privacy/Ethics and updates**
+**Reproducibility & Data Security/Privacy/Ethics**
 
 <div class = "table_style">
 |**Summary**| **Homework <br> (please do before next week)**|**Resources**|
 |----------------|----------------|-----------------|
-|This week we will discuss topics related to data privacy, security, and ethics and how we can incorporate best practices into our projects. We will also discuss updates about each project.|Assignments coming...|* Resource Coming <br> * Resource Coming|
+|This week we will discuss topics related to reproducibility, as well as data privacy, security, and ethics and how we can incorporate best practices into our projects. We will also discuss updates about each project.|Assignments coming...|* [Intro Reproducibility Course (check back soon if link is broken)](https://jhudatascience.org/Reproducibility_in_Cancer_Informatics/) <br> * [Advanced Reproducibility Course](https://jhudatascience.org/Adv_Reproducibility_in_Cancer_Informatics/)|
 </div>
 
 ##### **Week 6-8**
