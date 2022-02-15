@@ -58,7 +58,7 @@ Every class session will start and end with a writing prompt that will be used f
 <div class = "table_style">
 |**Summary**| **Homework <br> (please do before next week)**|**Resources**|
 |----------------|----------------|-----------------|
-|This week we will discuss more specifically about how students will **interact** with partners, as well as examples of what has and has not worked well in past similar projects. Students will meet with their **project group** for the first time and start assigning **student roles**.| * Assignment about Git/GitHub is coming... <br> * Assignment about CBOs is coming...|  * [SOURCE Dos and don'ts](https://source.jhu.edu/publications-and-resources/DosAndDontsOfPartnerships.pdf) <br> * [Project Student Roles](https://jhudatascience.org/Baltimore_Community_Course/Projects.html/) <br> * [Project Reminders](https://jhudatascience.org/Baltimore_Community_Course/Projects.html/)|
+|This week we will discuss more specifically about how students will **interact** with partners, as well as examples of what has and has not worked well in past similar projects. Students will meet with their **project group** for the first time and start assigning **student roles**.| * Assignment about Git/GitHub is coming... <br> * Assignment about CBOs is coming...|  * [SOURCE Dos and don'ts](https://source.jhu.edu/publications-and-resources/DosAndDontsOfPartnerships.pdf) <br> * [Project Student Roles](https://jhudatascience.org/Baltimore_Community_Course/projects.html/) <br> * [Project Reminders](https://jhudatascience.org/Baltimore_Community_Course/Projects.html/)|
 </div>
 
 ##### **Week 5**
