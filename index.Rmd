@@ -29,15 +29,7 @@ Class sessions will be **Friday 1:30- 3:00 PM EST**.
 
 ### **Main Goal**
 
-This course is focused on helping students learn how to apply their data science knowledge in non-academic settings. Students will partner with community-based organizations (CBOs) in Baltimore to work on a data science related goal.
-
-Students will work in teams with a CBO to:
-
-- develop **data science products** (such as a dashboard, data analysis, series of visualizations, etc.)
-
-- develop **training material** for CBO users to use and implement the products
-
-- develop **sustainability / maintenance plans** for CBOs to continue with the data science product
+This course is focused on helping students learn how to apply their data science knowledge in non-academic settings. Students will **reflect on their role** as a statistician in society. They will learn more about being **mindful and ethical** practitioners of data science techniques **to advocate for social change**. Students will partner with community-based organizations (CBOs) in Baltimore to work on a data science related goal.
 
 Students will focus on developing:
 
@@ -45,10 +37,12 @@ Students will focus on developing:
 - data science skills
 - professional skills
 
+Students will work in teams with a CBO to:
 
-Students will **reflect on their role** as a statistician in society.
+- develop **data science products** (such as a dashboard, data analysis, series of visualizations, etc.)
+- develop **training material** for CBO users to use and implement the products
+- develop **sustainability / maintenance plans** for CBOs to continue with the data science product in the future and how they can continue to use more data science methods more generally 
 
-They will learn more about being **mindful and ethical** practitioners of data science techniques **to advocate for social change**.
 
 <div class = "center">
 "Working with community-based organizations in Baltimore to support data science related goals"  
