@@ -41,9 +41,10 @@ Students will work in teams with a CBO to:
 
 Students will focus on developing:
 
+- critical service learning skills
 - data science skills
 - professional skills
-- critical service learning skills
+
 
 Students will **reflect on their role** as a statistician in society.
 
