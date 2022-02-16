@@ -55,9 +55,9 @@ Students may end up taking on multiple critical roles for the projects. Furtherm
 
 * **Communication Lead** - This student is the main point of contact for the group to interact with one another, interact with the CBO, and interact with instructors.
 
-* **Sustainability Lead** - This student helps identify and coordinate with the future handlers of the data science product at the partner organization. They will identify key areas for partner education and training.
+* **Sustainability Lead** - This student will help identify and coordinate with the future handlers of the data science product at the partner organization. They will identify key areas for partner education and training.
 
-* **Project Lead** - This student will make sure that all group members are enjoying their role(s) and are being productive in their role(s). They will consider how each members works and where collaboration can be improved if possible. They will also be in charge of considering the big picture goals of the project as a whole.
+* **Project Lead** - This student will make sure that all group members are enjoying their role(s) and are being productive in their role(s). They will consider how each member works and where collaboration can be improved if possible. They will also be in charge of considering the big picture goals of the project as a whole.
 
 #### **Technical Roles:**
 
