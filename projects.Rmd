@@ -51,13 +51,13 @@ Students may end up taking on multiple critical roles for the projects. Furtherm
 
 #### **Leadership Roles:**
 
-* **Results Manager** - This student will ensure that project development timelines are being met by developing milestones and tracking project process.
+* **Results Manager** - This student will ensure that project development timelines are being met by developing milestones and tracking project process. *This student will focus on ensuring that the timelines meet the expectations of the CBO and that communications regarding expectations are clear and appropriate. Thus this student will contribute to the accountability necessary to build **authentic relationships**.*
 
-* **Communication Lead** - This student is the main point of contact for the group to interact with one another, interact with the CBO, and interact with instructors.
+* **Communication Lead** - This student is the main point of contact for the group to interact with one another, interact with the CBO, and interact with instructors. *This student will focus on ensuring that the CBO is given the space to guide discussions and the overall direction, that communications are friendly and respectful of the CBO member's time and needs, and that the group is transparent about what is possible without over-promising. They will focus on creating **authentic relationships**.* 
 
-* **Sustainability Lead** - This student will help identify and coordinate with the future handlers of the data science product at the partner organization. They will identify key areas for partner education and training.
+* **Sustainability Lead** - This student will help identify and coordinate with the future handlers of the data science product at the partner organization. They will identify key areas for partner education and training. *This student will be especially mindful of how the CBO can maintain the products of the project and consider how the CBO might want to implement data science methods in the future to help them meet their larger goals. They will focus on how the project may **redistribute power**.*
 
-* **Project Lead** - This student will make sure that all group members are enjoying their role(s) and are being productive in their role(s). They will consider how each member works and where collaboration can be improved if possible. They will also be in charge of considering the big picture goals of the project as a whole.
+* **Project Lead** - This student will make sure that all group members are enjoying their role(s) and are being productive in their role(s). They will consider how each member works and where collaboration can be improved if possible. They will also be in charge of considering the big picture goals of the project as a whole. *This student will make sure that the members of the group continue to consider the root cause of the CBOs mission and how our project may ultimately assist with creating **social change**.*
 
 #### **Technical Roles:**
 
