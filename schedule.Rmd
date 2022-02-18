@@ -56,9 +56,9 @@ Every class session will start and end with a writing prompt that will be used f
 **Project Planning and Forecasting**
 
 <div class = "table_style">
-|**Summary**| **Homework <br> (please do before next week)**|**Resources**|
-|----------------|----------------|-----------------|
-|This week we will discuss more specifically about how students will **interact** with partners, as well as examples of what has and has not worked well in past similar projects. Students will meet with their **project group** for the first time and start assigning **student roles**.| * Assignment about Git/GitHub is coming... <br> * Assignment about CBOs is coming...|  * [SOURCE Dos and don'ts](https://source.jhu.edu/publications-and-resources/DosAndDontsOfPartnerships.pdf) <br> * [Project Student Roles](https://jhudatascience.org/Baltimore_Community_Course/projects.html/) <br> * [Project Reminders](https://jhudatascience.org/Baltimore_Community_Course/Projects.html/)|
+|**Summary**| **Content** |**Homework <br> (please do before next week)**|**Resources**|
+|--------------|------------|-------------|--------------|
+|This week we will discuss more specifically about how students will **interact** with partners, as well as examples of what has and has not worked well in past similar projects. Students will meet with their **project group** for the first time and start assigning **student roles**.|* [Project planning form](https://docs.google.com/document/d/1b0XHuKsys_ACCtA9nI_M9F1CR2oWo2RLR-A1C6cvz0U/edit?usp=sharing) <br> * [Project organization and infrastructure suggestions](https://docs.google.com/document/d/1RveTbckBTomgx2JiiCbm01SE88OvODK7JCQxo1gbLbo/edit?usp=sharing)  |* Assignment about Git/GitHub is coming... <br> * Assignment about CBOs is coming...|  * [SOURCE Dos and don'ts](https://source.jhu.edu/publications-and-resources/DosAndDontsOfPartnerships.pdf) <br> * [Project Student Roles](https://jhudatascience.org/Baltimore_Community_Course/projects.html/) <br> * [Project Reminders](https://jhudatascience.org/Baltimore_Community_Course/Projects.html/)|
 </div>
 
 ##### **Week 5**
