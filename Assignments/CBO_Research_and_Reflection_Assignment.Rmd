@@ -1,0 +1,32 @@
+---
+title: "CBO Research and Reflection Assignment"
+output: html_document
+---
+
+Please research the CBO you were assigned and respond to these questions in your journal. 
+ 
+
+
+1) What is the mission for the CBO?
+
+
+2) How old is the CBO?
+
+
+3) Do you think the CBO is large (many employees) or small (few employees)?
+
+
+
+4) What kind of background/experiences do you think the CBO’s employees have?
+
+
+
+5) What problem(s) do(es) the CBO address? How?
+
+
+
+6) What is your impression of  the root cause of these problems? (remember that the CBO members have a great wealth of knowledge about these issues)
+
+
+
+7) What from your first impression could potentially be helpful to the CBO? (remember to let the CBO guide the project direction, but balance this with contributing your input/experience particularly when it comes to data science - one way to do this is to ask open ended questions and let them explain before you make suggestions)

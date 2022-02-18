@@ -34,6 +34,15 @@ The following resources may be helpful to students as they work on their project
 General information |[SOURCE Baltimore Information](https://source.jhu.edu/audiences/students/know-baltimore/index.html)| Learn more about the Baltimore community|
 </div>
 
+### **Project Planning and Infrastructure Resources**
+
+<div class = table_style>
+|Topic| Resource| Use|
+|-------------------|--------------------|--------------------|
+|Project Organization and Resources | [Suggestions for project planning and Resources](https://docs.google.com/document/d/1RveTbckBTomgx2JiiCbm01SE88OvODK7JCQxo1gbLbo/edit?usp=sharing)| Thoughts about how to track communications, take notes, share files, create timelines and other graphics, write code, and work on GitHub together. You are allowed to use other options, but this should help get you started.| 
+|Project template form | [Form to aid planning discussions](https://docs.google.com/document/d/1b0XHuKsys_ACCtA9nI_M9F1CR2oWo2RLR-A1C6cvz0U/edit?usp=sharing) | This form will help the group document and make important planning decisions about the project.|
+</div>
+
 
 ### **R Resources**
 
@@ -59,7 +68,5 @@ General information |[SOURCE Baltimore Information](https://source.jhu.edu/audie
 
 
 
-
- 
 
 

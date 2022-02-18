@@ -51,23 +51,41 @@ Students may end up taking on multiple critical roles for the projects. Furtherm
 
 #### **Leadership Roles:**
 
-* **Results Manager** - This student will ensure that project development timelines are being met by developing milestones and tracking project process.
+***Note that while all students should keep all of the main Critical Service Learning goals in mind, some roles will place particular emphasis on certain aspects.***
 
-* **Communication Lead** - This student is the main point of contact for the group to interact with one another, interact with the CBO, and interact with instructors.
+* **Results Manager** 
+  - This student will ensure that project development timelines are being met by developing milestones and tracking project process. 
+  - This student will focus on ensuring that the timelines meet the expectations of the CBO and that communications regarding expectations are clear and appropriate. Thus this student will contribute to the accountability necessary to build **authentic relationships**, to create products that drive **social change** and to ultimately **redistribute power** for the CBO members or youths.
 
-* **Sustainability Lead** - This student helps identify and coordinate with the future handlers of the data science product at the partner organization. They will identify key areas for partner education and training.
+* **Communication Lead** 
+  - This student is the main point of contact for the group to interact with one another, interact with the CBO, and interact with instructors.
+  - This student will focus on ensuring that the CBO is given the space to guide discussions and the overall direction, that communications are friendly and respectful of the CBO member's time and needs, and that the group is transparent about what is possible without over-promising. They will focus on creating **authentic relationships**. 
 
-* **Project Lead** - This student will make sure that all group members are enjoying their role(s) and are being productive in their role(s). They will consider how each members works and where collaboration can be improved if possible. They will also be in charge of considering the big picture goals of the project as a whole.
+* **Sustainability Lead** 
+  - This student will help identify and coordinate with the future handlers of the data science product at the partner organization. They will identify key areas for partner education and training. 
+  - This student will be especially mindful of how the CBO can maintain the products of the project and consider how the CBO might want to implement data science methods in the future to help them meet their larger goals. They will focus on how the project may **redistribute power**.
+
+* **Project Lead** 
+  - This student will make sure that all group members are enjoying their role(s) and are being productive in their role(s). They will consider how each member works and where collaboration can be improved if possible. They will also be in charge of considering the big picture goals of the project as a whole.
+  - This student will make sure that the members of the group continue to consider the root cause of the CBOs mission and how our project may ultimately assist with creating **social change**.
 
 #### **Technical Roles:**
 
-* **Infrastructure/Organization Lead** - This student is in charge of organizing and maintaining a file structure for the documentation, notes, communication, code, etc. for the project. (We will provide workflow suggestions for this - it will largely involve GitHub.)
+* **Infrastructure/Organization Lead** 
+  - This student is in charge of organizing and maintaining a file structure for the documentation, notes, communication, code, etc. for the project. (We will provide [workflow suggestions](https://docs.google.com/document/d/1RveTbckBTomgx2JiiCbm01SE88OvODK7JCQxo1gbLbo/edit?usp=sharing) and require that groups use GitHub.) 
+  - Ensuring that the CBO is given an organized product is a tangible **action** that should help address the CBO’s needs.
 
 
-* **Documentation Lead** - This student will take notes at meetings and create documentation text about how to contribute to projects and descriptions for others about the project.
+* **Documentation Lead** 
+  - This student will take notes at meetings and create documentation text about how to contribute to projects and descriptions for others about the project.
+  - Documentation **redistributes power** by providing the CBO the tools/instructions to follow your work.
 
 
-* **Development Lead** - This student will manage the production of the code / code standards by assigning themselves and delegating to others to various code-related tasks.
+* **Development Lead** 
+  - This student will manage the production of the code / code standards by assigning themselves and delegating to others to various code-related tasks.
+  - Leading the product’s technical development is an **action** meant to help meet the CBO’s needs.
 
 
-* **Design/Aesthetics Lead** - This student will manage aesthetic or design related aspects for the project, including visualizations and graphics for documentation, apps, and other content readable, engaging, and appropriate for the given audience.
+* **Design/Aesthetics Lead** 
+  - This student will manage aesthetic or design related aspects for the project, including visualizations and graphics for documentation, apps, and other content readable, engaging, and appropriate for the given audience. They should make the material easier to understand.
+  - This role should help **redistribute power** by meeting the CBO where they are, rather than the other way around.
