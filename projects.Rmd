@@ -72,16 +72,20 @@ Students may end up taking on multiple critical roles for the projects. Furtherm
 #### **Technical Roles:**
 
 * **Infrastructure/Organization Lead** 
-  - This student is in charge of organizing and maintaining a file structure for the documentation, notes, communication, code, etc. for the project. (We will provide workflow suggestions for this - it will largely involve GitHub.)
+  - This student is in charge of organizing and maintaining a file structure for the documentation, notes, communication, code, etc. for the project. (We will provide [workflow suggestions](https://docs.google.com/document/d/1RveTbckBTomgx2JiiCbm01SE88OvODK7JCQxo1gbLbo/edit?usp=sharing) and require that groups use GitHub.) 
+  - Ensuring that the CBO is given an organized product is a tangible **action** that should help address the CBO’s needs.
 
 
 * **Documentation Lead** 
   - This student will take notes at meetings and create documentation text about how to contribute to projects and descriptions for others about the project.
+  - Documentation **redistributes power** by providing the CBO the tools/instructions to follow your work.
 
 
 * **Development Lead** 
   - This student will manage the production of the code / code standards by assigning themselves and delegating to others to various code-related tasks.
+  - Leading the product’s technical development is an **action** meant to help meet the CBO’s needs.
 
 
 * **Design/Aesthetics Lead** 
-  - This student will manage aesthetic or design related aspects for the project, including visualizations and graphics for documentation, apps, and other content readable, engaging, and appropriate for the given audience.
+  - This student will manage aesthetic or design related aspects for the project, including visualizations and graphics for documentation, apps, and other content readable, engaging, and appropriate for the given audience. They should make the material easier to understand.
+  - This role should help **redistribute power** by meeting the CBO where they are, rather than the other way around.
