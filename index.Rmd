@@ -12,7 +12,7 @@ Welcome to the course website for Baltimore Community Data Science (PH140.840)!
 This course was developed in partnership with [SOURCE](https://source.jhu.edu/), the community engagement and service-learning center at the Johns Hopkins Bloomberg School of Public health, which is focused on community engagement that involves:  
 **Social Change / Authentic Relationships / Redistributing Power**
 
-```{r, fig.align='center', fig.alt= "BCDC logo", echo = FALSE}
+```{r, fig.align='center', fig.alt= "BCDC logo", echo = FALSE, out.width= "25%"}
 knitr::include_graphics("resources/images/BCDS.png")
 ```
 
