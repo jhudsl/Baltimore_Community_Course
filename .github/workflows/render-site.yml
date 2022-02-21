@@ -17,6 +17,7 @@ on:
       - styles.css
       - _site.yml
       - Assignments/*.Rmd
+      - site_libs/*
 jobs:
   # This workflow contains a single job called "build-all"
   render-main:
@@ -64,5 +65,6 @@ jobs:
           git config --local user.name "GitHub Actions"
           git add --force *.html
           git add --force Assignments/*.html
+          git add --force site_libs/*
           git commit -m 'Render site' || echo "No changes to commit"
           git push origin main || echo "No changes to push"
