@@ -1,0 +1,32 @@
+---
+title: "Using Git and GitHub Assignment"
+output: html_document
+---
+
+We will be using Git and GitHub throughout the project. These are among the most widely used version control tools used throughout academia and industry.
+
+1) Install/update: 
+
+    - [git](https://git-scm.com/downloads)
+    - [RStudio](https://www.rstudio.com/products/rstudio/download/)
+    - Make sure you have a [GitHub account](https://github.com/join)
+    - If you are new to git, you might want to install [GitHub Desktop](https://desktop.github.com/) - a user-friendly interface for performing git commands.<br><br>
+
+2) Watch the video about Git and GitHub [here](https://youtu.be/eWxxfttcMts). 
+
+    - You can find the slides [here](https://speakerdeck.com/alicebartlett/git-for-humans). 
+    - This will include some review for those of you who are familiar with Git.<br><br>
+
+3) _Optional_: Read Jenny Bryan's paper [here](https://peerj.com/preprints/3159v2/). 
+
+    - This paper goes into detail about the "why" of Git and GitHub. It might be useful if you have never used Git before or want extra background.
+
+After watching the video, _return here to think about the following questions_. 
+
+**Reflection Questions:**
+
+Journal about one prompt and write a response to the discussion thread on Slack for the other prompt (your choice). Additionally, respond to at least one response from another student on the discussion thread on Slack. In your responses aim to be: thorough, novel, and authentic.
+
+1) Taking what you now know about Git, describe how it can be helpful in our critical service learning practice and meeting the CBO's goals. Aim to be specific. For example, try to think beyond a use such as "serving as a backup" since most people and organizations should do this. 
+
+2) Git is a challenging tool to master. Does this elicit any specific feelings/thoughts/concerns? How could your relationship with Git influence your critical service learning practice?

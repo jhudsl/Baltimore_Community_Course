@@ -27,6 +27,7 @@ positionality
 Positionality
 Reproducibility
 Rosenblum
+RStudio
 tabset
 TAs
 th
