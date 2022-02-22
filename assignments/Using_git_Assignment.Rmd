@@ -15,7 +15,11 @@ We will be using Git and GitHub throughout the project. These are among the most
 2) Watch the video about Git and GitHub [here](https://youtu.be/eWxxfttcMts). 
 
     - You can find the slides [here](https://speakerdeck.com/alicebartlett/git-for-humans). 
-    - This will include some review for those of you who are familiar with Git.
+    - This will include some review for those of you who are familiar with Git.<br><br>
+
+3) _Optional_: Read Jenny Bryan's paper [here](https://peerj.com/preprints/3159v2/). 
+
+    - This paper goes into detail about the "why" of Git and GitHub. It might be useful if you have never used Git before or want extra background.
 
 After watching the video, _return here to think about the following questions_. 
 
