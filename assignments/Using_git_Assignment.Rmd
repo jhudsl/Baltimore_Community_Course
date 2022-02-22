@@ -12,7 +12,7 @@ We will be using Git and GitHub throughout the project. These are among the most
     - Make sure you have a [GitHub account](https://github.com/join)
     - If you are new to git, you might want to install [GitHub Desktop](https://desktop.github.com/) - a user-friendly interface for performing git commands.<br><br>
 
-2) Watch the video about Git and GitHub here: [https://youtu.be/eWxxfttcMts](https://youtu.be/eWxxfttcMts). 
+2) Watch the video about Git and GitHub [here](https://youtu.be/eWxxfttcMts). 
 
     - You can find the slides [here](https://speakerdeck.com/alicebartlett/git-for-humans). 
     - This will include some review for those of you who are familiar with Git.
