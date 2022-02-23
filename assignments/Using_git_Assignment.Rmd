@@ -30,3 +30,5 @@ Journal about one prompt and write a response to the discussion thread on Slack 
 1) Taking what you now know about Git, describe how it can be helpful in our critical service learning practice and meeting the CBO's goals. Aim to be specific. For example, try to think beyond a use such as "serving as a backup" since most people and organizations should do this. 
 
 2) Git is a challenging tool to master. Does this elicit any specific feelings/thoughts/concerns? How could your relationship with Git influence your critical service learning practice?
+
+
