@@ -91,7 +91,7 @@ Every class session will start and end with a writing prompt that will be used f
 |This week we will focus on working on our projects.| Work on the project! (Please track your work on Slack - details coming on Slack)|* [SOURCE Dos and don'ts](https://source.jhu.edu/publications-and-resources/DosAndDontsOfPartnerships.pdf) <br> * [Project Student Roles](https://jhudatascience.org/Baltimore_Community_Course/projects.html) <br> * [Project Reminders](https://jhudatascience.org/Baltimore_Community_Course/projects.html)|
 </div>
 
-##### **Week 6**
+##### **Week 8**
 
 **Critical reflection and updates**
 
