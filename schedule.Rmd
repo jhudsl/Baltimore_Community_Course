@@ -71,16 +71,35 @@ Every class session will start and end with a writing prompt that will be used f
 |This week we will discuss topics related to reproducibility, as well as data privacy, security, and ethics and how we can incorporate best practices into our projects. We will also discuss updates about each project.|* [Version Control with GitHub (slides)](https://docs.google.com/presentation/d/1zd-UWGc03ltSFYlri2thQnCfojCHiQGsh6qdVSqn3Nk/edit?usp=sharing) |* [CBO Research and Reflection Assignment](https://jhudatascience.org/Baltimore_Community_Course/Assignments/CBO_Research_and_Reflection_Assignment.html)|* [Intro Reproducibility Course (check back soon if link is broken)](https://jhudatascience.org/Reproducibility_in_Cancer_Informatics/) <br> * [Advanced Reproducibility Course](https://jhudatascience.org/Adv_Reproducibility_in_Cancer_Informatics/)|
 </div>
 
-##### **Week 6-8**
+##### **Week 6**
+
+**Work on the project**
+
+<div class = "table_style">
+|**Summary**| **Homework <br> (please do before next week)**|**Resources**|
+|----------------|----------------|-----------------|
+|This week we will focus on working on our projects and will continue to get familiar with GitHub.| Work on the project! (Please track your work on Slack - details coming on Slack)|* [SOURCE Dos and don'ts](https://source.jhu.edu/publications-and-resources/DosAndDontsOfPartnerships.pdf) <br> * [Project Student Roles](https://jhudatascience.org/Baltimore_Community_Course/projects.html) <br> * [Project Reminders](https://jhudatascience.org/Baltimore_Community_Course/projects.html)|
+</div>
+
+##### **Week 7**
+
+**Work on the project**
+
+<div class = "table_style">
+|**Summary**| **Homework <br> (please do before next week)**|**Resources**|
+|----------------|----------------|-----------------|
+|This week we will focus on working on our projects.| Work on the project! (Please track your work on Slack - details coming on Slack)|* [SOURCE Dos and don'ts](https://source.jhu.edu/publications-and-resources/DosAndDontsOfPartnerships.pdf) <br> * [Project Student Roles](https://jhudatascience.org/Baltimore_Community_Course/projects.html) <br> * [Project Reminders](https://jhudatascience.org/Baltimore_Community_Course/projects.html)|
+</div>
+
+##### **Week 6**
 
 **Critical reflection and updates**
 
 <div class = "table_style">
 |**Summary**| **Homework <br> (please do before next week)**|**Resources**|
 |----------------|----------------|-----------------|
-|These weeks we will reflect on the challenges of our projects and give updates on how the project is going and how we are interacting with our community partners.**Check in with the CBO!**|Assignments coming...|* Resource Coming <br> * Resource Coming|
+|This week we will focus on working on our projects and we will check in on how things are going.| Work on the project! (Please track your work on Slack - details coming on Slack)|* [SOURCE Dos and don'ts](https://source.jhu.edu/publications-and-resources/DosAndDontsOfPartnerships.pdf) <br> * [Project Student Roles](https://jhudatascience.org/Baltimore_Community_Course/projects.html) <br> * [Project Reminders](https://jhudatascience.org/Baltimore_Community_Course/projects.html)|
 </div>
-
 
 #### **Forth Term**
 <div class = "table_style">
