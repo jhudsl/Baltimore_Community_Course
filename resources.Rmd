@@ -55,6 +55,7 @@ General information |[SOURCE Baltimore Information](https://source.jhu.edu/audie
 |Importing data from an API|[Opioid Case Study](https://www.opencasestudies.org/ocs-bp-opioid-rural-urban/)| Some common websites (like many social media websites) have APIs that allow you to access data.|
 |Importing multiple files| [Vaping Behaviors Case Study](https://www.opencasestudies.org/ocs-bp-vaping-case-study/#Data_Import)|It can be helpful to programmatically import files efficiently using fewer steps.|
 |Sentiment analysis| [tidytextmining](https://www.tidytextmining.com/sentiment.html)| Sentiment analysis can be useful for understanding the "emotional intent" of text data.|
+|Importing Google Sheet data| [Advanced Data IO - UW Course](http://sisbid.github.io/Data-Wrangling/lecture_notes/Advanced_Data_IO.pdf) <br> [Tidyverse Course - Google Sheets](https://jhudatascience.org/tidyversecourse/get-data.html#google-sheets)| Securely bring Google Sheet data into R without downloading data.|
 </div>
 
 ### **Git and GitHub Resources**
