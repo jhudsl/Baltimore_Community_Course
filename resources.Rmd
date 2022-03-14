@@ -31,7 +31,8 @@ The following resources may be helpful to students as they work on their project
 |Topic| Resource| Use |
 |-------------------|--------------------|--------------------|
 |Baltimore Neighborhood Indicators Alliance (BNIA) Resources| * [Learning Modules](https://bniajfi.org/resources/learning-community/for-instructors/faculty-resources/downloads/) <br> * [BNIA Data](https://bniajfi.org/vital_signs/data_downloads/) <br> *[GIS mapping resources](https://mapping-bniajfi.opendata.arcgis.com/)| BNIA has data,learning modules, and information related to Baltimore Neighborhoods|
-General information |[SOURCE Baltimore Information](https://source.jhu.edu/audiences/students/know-baltimore/index.html)| Learn more about the Baltimore community|
+|General information |[SOURCE Baltimore Information](https://source.jhu.edu/audiences/students/know-baltimore/index.html)| Learn more about the Baltimore community|
+|Baltimore Neighborhood Data |[Maryland.gov](https://data.imap.maryland.gov/datasets/fc5d183b20a145009eae8f8b171eeb0d_0/explore?location=39.284600%2C-76.620550%2C12.26)| Spatial extent/data for Baltimore's Neighborhoods |
 </div>
 
 ### **Project Planning and Infrastructure Resources**
