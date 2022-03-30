@@ -11,9 +11,9 @@ Every class session will start and end with a writing prompt that will be used f
 ### **Weekly**
 
 - **Week 1-5** - will focus on training and guidance about how our work fits into the greater context of Baltimore, understanding what the CBOs do and why, as well as some instruction on data security, privacy, and ethics 
-- **Week 6-10** - will focus on working on the data science product(s) (**Week 8 - meeting with CBO to check in overall, as well as individual meetings with instructors**)
-- **Week 11-13** - will focus on plans for implementation, sustainability/maintenance, and optionally training
-- **Week 14 -16** - will focus on reflection on the implementation, lessons learned, and future ideas - final report
+- **Week 6-11** - will focus on working on the data science product(s) 
+- **Week 12-15** - will focus on plans for implementation, sustainability/maintenance, and optionally training
+- **Week 16** - will focus on reflection on the implementation, lessons learned, and future ideas
 
 ### **Class Sessions**{.tabset .tabset-fade}
 
@@ -103,10 +103,14 @@ Every class session will start and end with a writing prompt that will be used f
 
 #### **Forth Term**
 <div class = "table_style">
-|**Time**|**Focus**|**Resources**|**Summary**|
-|:-----------:|:------------------:|---------------------------|--------------------------|
-|**Week 1 -2**|Critical reflection and updates|* Resource Coming <br> * Resource Coming|These weeks we will reflect on the challenges of our projects and give updates on how the project is going and how we are interacting with our community partners.|
-|**Week 3-6**|Critical reflection and updates with emphasis on implementation, sustainability, and training plans| * Resource Coming <br> * Resource Coming|These weeks we will especially focus on how the community partners will use the data project product and how they might sustain the product over time, as well as work on training guides for the community partners if they asked for it.|
-|**Week 7-8**|Implementation reflection and updates| * Resource Coming <br> * Resource Coming| This week we will focus on how the implementation is going, lessons learned, and thoughts about future directions for the community organization and for careers for students. |
+|**Time**|**Focus**|**Summary**|
+|:-----------:|:------------------:|-|--------------------------|
+|**Week 9 & 10 & 11**|Focus on projects!|These weeks we will focus on the products for our projects. |
+|**Week 12**| 20 min (15 min + 5 min for questions) Internal presentations | This week we will check in with the class to describe what we have done so far. **The core data science products should largely be complete.** Last 30 min for adjustment plan. In the following weeks we will shift focus to implementation plans and documentation.|
+|**Week 13**| Adjustments and Implementation | This week will we modify core products based on feedback and start focusing on documentation, implementation, and training materials. |
+|**Week 14**|Presentation of products to organizations | This week we will present our core data science products to the organizations. We will discuss our implementation/training plans with them and continue to work on these materials.|
+|**Week 15**|Implementation & Sustainability|
+These weeks we will especially focus on how the community partners will use the data project product and how they might sustain the product over time, as well as training for the community partners if they asked for it.|
+|**Week 16**|Reflections, Future plans, and Wrap-up| This week we will focus on how the implementation is going, lessons learned, and thoughts about future directions for the community organization.|
 
 </div>
