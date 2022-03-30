@@ -104,13 +104,12 @@ Every class session will start and end with a writing prompt that will be used f
 #### **Forth Term**
 <div class = "table_style">
 |**Time**|**Focus**|**Summary**|
-|:-----------:|:------------------:|-|--------------------------|
+|:-----------:|:------------------:|--------------------------|
 |**Week 9 & 10 & 11**|Focus on projects!|These weeks we will focus on the products for our projects. |
 |**Week 12**| 20 min (15 min + 5 min for questions) Internal presentations | This week we will check in with the class to describe what we have done so far. **The core data science products should largely be complete.** Last 30 min for adjustment plan. In the following weeks we will shift focus to implementation plans and documentation.|
 |**Week 13**| Adjustments and Implementation | This week will we modify core products based on feedback and start focusing on documentation, implementation, and training materials. |
 |**Week 14**|Presentation of products to organizations | This week we will present our core data science products to the organizations. We will discuss our implementation/training plans with them and continue to work on these materials.|
-|**Week 15**|Implementation & Sustainability|
-These weeks we will especially focus on how the community partners will use the data project product and how they might sustain the product over time, as well as training for the community partners if they asked for it.|
+|**Week 15**|Implementation and Sustainability|These weeks we will especially focus on how the community partners will use the data project product and how they might sustain the product over time, as well as training for the community partners if they asked for it.|
 |**Week 16**|Reflections, Future plans, and Wrap-up| This week we will focus on how the implementation is going, lessons learned, and thoughts about future directions for the community organization.|
 
 </div>
