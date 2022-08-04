@@ -43,6 +43,7 @@ Students will work in teams with a CBO to:
 - develop **training material** for CBO users to use and implement the products
 - develop **sustainability / maintenance plans** for CBOs to continue with the data science product in the future and how they can continue to use more data science methods more generally 
 
+CBOs include those that work with youths, work for resource equity, and more.
 
 <div class = "center">
 "Working with community-based organizations in Baltimore to support data science related goals"  
