@@ -10,6 +10,9 @@ Student groups should focus on the development of these main priorities and **se
 
 The projects are intended to **scale** based on the time and capacity available to the students working on the projects. If the main goals of the project are met, students can then work on additional project goals. 
 
+<br>
+<br>
+
 ### **Things to remember:** 
 
 - As this is an extra difficult time for everyone due to the pressures of the pandemic, **try to practice patience** with the CBO members and your fellow project members. Remember that the CBO members have other priorities and may not be able to get back to you as quickly as you might expect. 
@@ -20,11 +23,11 @@ The projects are intended to **scale** based on the time and capacity available 
 
 - **We will have misunderstandings** with each other and the CBO members. This is expected and part of the process. Try to **stay open to adapting** as we clarify our communications with one another.
 
-- Keep the following [dos and don'ts](https://source.jhu.edu/publications-and-resources/DosAndDontsOfPartnerships.pdf) in mind from [SOURCE](https://source.jhu.edu).
+- Keep the [dos and don'ts](https://source.jhu.edu/publications-and-resources/DosAndDontsOfPartnerships.pdf) in mind from [SOURCE](https://source.jhu.edu).
 
 <br>
 
-```{r, echo = FALSE, out.width="100%"}
+```{r, echo = FALSE, out.width="100%", eval = FALSE}
 knitr::include_url(url = "https://source.jhu.edu/publications-and-resources/DosAndDontsOfPartnerships.pdf")
 ```
 
@@ -44,6 +47,8 @@ Dashboard creation - showcasing results in a user-friendly way through a public 
 - **Shiny app** - automating some processes for the CBO with an app. See https://shiny.rstudio.com/gallery/ for examples.
 - **GitHub actions** - another option for potentially automating processes for the CBO. 
 
+<br>
+<br>
 
 ### **Student Roles for Projects**
 
