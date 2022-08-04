@@ -16,12 +16,12 @@ The following resources may be helpful to students as they work on their project
 |Slack Discussions|[Contributing to Slack Discussions](https://docs.google.com/document/d/1Wh01tDp_JFbwE1EDRcONXfjFJIpuLNbcQJAW9W1ALbk/edit?usp=sharing)| This document has instructions for how to participate in an asynchronous class discussion using Slack.|
 </div>
 
-### **Critical Service Learning Resources**
+### **Critical Service-Learning Resources**
 <div class = table_style>
 |Topic| Resource| Use |
 |-------------------|--------------------|--------------------|
-|SOURCE - the community engagement and service-learning center at the Johns Hopkins Bloomberg School of Public health| * [SOURCE website](https://source.jhu.edu/) <br> * [SOURCE resources](https://source.jhu.edu/publications-and-resources/national-resources.html) <br> * [Service Opportunities](https://source.jhu.edu/audiences/students/opportunities/index.html)| SOURCE has lots of valuable resources on the philosophy of critical service learning, as well as  information on other ways to engage with the community|
-|Course reading material | [Course assignments and extra reading resources](https://jhudatascience.org/Baltimore_Community_Course/schedule.html) | Please see the course schedule for additional resources about the history of Baltimore and the US, as well as reading material about the basis of critical service learning.|
+|SOURCE - the community engagement and service-learning center at the Johns Hopkins Bloomberg School of Public health| * [SOURCE website](https://source.jhu.edu/) <br> * [SOURCE resources](https://source.jhu.edu/publications-and-resources/national-resources.html) <br> * [Service Opportunities](https://source.jhu.edu/audiences/students/opportunities/index.html)| SOURCE has lots of valuable resources on the philosophy of critical service-learning, as well as  information on other ways to engage with the community|
+|Course reading material | [Course assignments and extra reading resources](https://jhudatascience.org/Baltimore_Community_Course/schedule.html) | Please see the course schedule for additional resources about the history of Baltimore and the US, as well as reading material about the basis of critical service-learning.|
 </div>
 
 

@@ -13,7 +13,7 @@ output:
 
 ### Course Description
 
-This course is focused on helping students learn how to apply their data science knowledge in non-academic settings. Students will partner with community-based organizations (CBOs) in Baltimore to work on a data science related goal. Students will focus on developing critical service learning and professional skills as they work with CBOs to accomplish a data science related goal.
+This course is focused on helping students learn how to apply their data science knowledge in non-academic settings. Students will partner with community-based organizations (CBOs) in Baltimore to work on a data science related goal. Students will focus on developing critical service-learning and professional skills as they work with CBOs to accomplish a data science related goal.
 
 
 ### Important Links
@@ -72,7 +72,7 @@ Students will work with CBO partners as a team (3-5) for the following deliverab
 - Create a sustainability plan for the CBO to work with and continue to maintain the data science product respectively including narratives ("story") about the data product - what it means, the limitations etc.
 - Additional possible training and thoughts for CBO partners on further future data-related initiatives
 
-In addition to working on data science projects, students are also expected to individually hone their critical service learning skills and professional skills. This involves participating in written exercises and discussions, as well as active work to stay organized and maintain communication with teammates and the CBO. 
+In addition to working on data science projects, students are also expected to individually hone their critical service-learning skills and professional skills. This involves participating in written exercises and discussions, as well as active work to stay organized and maintain communication with teammates and the CBO. 
 
 See the [project page](https://jhudatascience.org/Baltimore_Community_Course/projects.html) for more information about project guidelines.
 
@@ -86,7 +86,7 @@ Students who complete the course will be able to:
 
 1) Describe the history of Johns Hopkins and the biostatistics department in the Baltimore community.  Evaluate and discuss how this **historical context** and the **current context** influences our interactions with community members.
 2) **Critically reflect** on their own service-learning project work and how their role as a statistician impacts the CBO, as well as the greater context of society and social structures (not just the course project).
-3) Articulate what **critical service learning** is and describe how it differs from traditional community service endeavors. Evaluate and discuss how other methods can cause harm to communities.
+3) Articulate what **critical service-learning** is and describe how it differs from traditional community service endeavors. Evaluate and discuss how other methods can cause harm to communities.
 4) Understand more about how to successfully **navigate challenges** that occur when applying data cleaning, wrangling, analysis, collection planning, visualization, and communication skills to problems in **non-academic settings**, as the students **create** (with the guidance and help of the CBO) **data science products** for the goals of the assigned CBO project. 
 5) Work with others to **create an implementation plan** for the data science products that is viable and useful for the respective CBO members. Work with stakeholders at a high level to understand their needs as well as the limitations of the data.
 6) Use teaching methods to **teach others** from various backgrounds and experiences  to use data science techniques to work with data and communicate effectively about data. 

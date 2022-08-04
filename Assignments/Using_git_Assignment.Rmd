@@ -27,7 +27,7 @@ After watching the video, _return here to think about the following questions_.
 
 Journal about one prompt and write a response to the discussion thread on Slack for the other prompt (your choice). Additionally, respond to at least one response from another student on the discussion thread on Slack. In your responses aim to be: thorough, novel, and authentic.
 
-1) Taking what you now know about Git, describe how it can be helpful in our critical service learning practice and meeting the CBO's goals. Aim to be specific. For example, try to think beyond a use such as "serving as a backup" since most people and organizations should do this. 
+1) Taking what you now know about Git, describe how it can be helpful in our critical service-learning practice and meeting the CBO's goals. Aim to be specific. For example, try to think beyond a use such as "serving as a backup" since most people and organizations should do this. 
 
 2) Git is a challenging tool to master. Does this elicit any specific feelings/thoughts/concerns? How could your relationship with Git influence your critical service learning practice?
 

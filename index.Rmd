@@ -33,7 +33,7 @@ This course is focused on helping students learn how to apply their data science
 
 Students will focus on developing:
 
-- critical service learning skills
+- critical service-learning skills
 - data science skills
 - professional skills
 
