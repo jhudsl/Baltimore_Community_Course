@@ -1,7 +1,8 @@
 ---
-title: "**Baltimore Community Data Science (PH140.840) Syllabus**"
+title: '**Baltimore Community Data Science (PH140.840) Syllabus**'
 output:
-  html_document
+  pdf_document: default
+  html_document: default
 ---
 
 <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
@@ -28,14 +29,14 @@ This course is focused on helping students learn how to apply their data science
 ### Logistics
 
 
-* **Date:** The course will meet on **Fridays** during 3rd and 4th quarters (2 credits each quarter).  
-Students who take the class need to commit to **both** quarters (for continuity of the projects they will work on).
-    + [Third term dates](https://publichealth.jhu.edu/academics/academic-calendar/2021-2022): January 28 - Friday, March 18 
-  * [Fourth term dates](https://publichealth.jhu.edu/academics/academic-calendar/2021-2022): March 28 - Friday, May 20
-- **Time:** 1:30-3 PM EST
-- **Location:** Students will meet in class (virtually) once per week. Students will work in groups outside of class on community-based projects either virtually on zoom or optionally in person at the school of public health (W3031).
+* **Date:** The course will meet on **Fridays** during 1st and 2nd terms (1.5 credits each term).  
+Students who take the class need to commit to **both** terms (for continuity of the projects they will work on).
+    + [First term dates](https://publichealth.jhu.edu/academics/academic-calendar/2023-2024): Monday, August 28 - Monday, October 23
+  * [Second term dates](https://publichealth.jhu.edu/academics/academic-calendar/2023-2024): 	Wednesday, October 25 - Friday, December 22
+- **Time:** 1:30-2:50 PM EST
+- **Location:** Students will meet in class (virtually) once per week. Students will work in groups outside of class on community-based projects virtually on zoom.
 - **How often will students and CBOs meet?**
-This depends on the project goals, but approximately 30 min - 1 hr every 2 weeks for the duration of the term. (Feb - mid May - 3rd and 4th term). Meetings will also be supplemented by emails. Keep in mind that CBO members are busy and staff may not be getting paid for their work.
+This depends on the project goals, but approximately 30 min - 1 hr every 2 weeks for the duration of the terms. Meetings will also be supplemented by emails. Keep in mind that CBO members are busy and staff may not be getting paid for their work.
 
 **Communication will mainly occur through Slack and we will email you about how to connect to Slack.**
 
@@ -55,9 +56,7 @@ This depends on the project goals, but approximately 30 min - 1 hr every 2 weeks
 
 ### Requirements
 
-Students are required to have prior experience with R programming (or other languages) and need to have taken the following data science courses (or have equivalent experience): 
-
-140.711 Advanced Data Science I and 140.712 Advanced Data Science II
+Students are required to have some prior experience with R programming (or other languages). 
 
 Instructor permission is required to enroll in the course. 
 
