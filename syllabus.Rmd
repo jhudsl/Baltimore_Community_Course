@@ -1,5 +1,5 @@
 ---
-title: '**Baltimore Community Data Science (PH140.840) Syllabus**'
+title: '**Baltimore Community Data Science (PH140.801) Syllabus**'
 output:
   pdf_document: default
   html_document: default
