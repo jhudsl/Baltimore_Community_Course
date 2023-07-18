@@ -35,9 +35,9 @@ In this course, students partner with [community-based organizations (CBOs)](htt
 - **Reflect on their role** as a statistician in society
 - Learn more about being **mindful and ethical** practitioners of data science techniques **to advocate for social change**
 - Develop critical service-learning, data science, and professional skills
-- Develop **data science product(s)** (such as a dashboard, data analysis, series of visualizations, etc.)
-- Develop **training material** to help CBOs use and implement the product(s)
-- Develop **sustainability / maintenance plans** for CBOs to continue using the product(s) long-term
+- Develop **data science product(s)** such as a dashboard, data analysis, series of visualizations, etc.
+- Create **training material** to help CBOs use and implement the product(s)
+- Design **sustainability / maintenance plans** for CBOs to continue using the product(s) long-term
 
 <br>
 
