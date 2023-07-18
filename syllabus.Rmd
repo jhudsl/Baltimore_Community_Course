@@ -29,36 +29,24 @@ This course is focused on helping students learn how to apply their data science
 ### Logistics
 
 
-* **Date:** The course will meet on **Fridays** during 1st and 2nd terms (1.5 credits each term).  
-Students who take the class need to commit to **both** terms (for continuity of the projects they will work on).
-    + [First term dates](https://publichealth.jhu.edu/academics/academic-calendar/2023-2024): Monday, August 28 - Monday, October 23
-  * [Second term dates](https://publichealth.jhu.edu/academics/academic-calendar/2023-2024): 	Wednesday, October 25 - Friday, December 22
-- **Time:** 1:30-2:50 PM EST
+* **Date:** The course will meet on Fridays during `r config::get("terms")` (1.5 credits each term).  
+    + Students who take the class must commit to **both** terms for project continuity.
+    + [Part I dates](`r config::get("catalog_pt1")`): `r config::get("catalog_pt1_dates")`
+    + [Part II dates](`r config::get("catalog_pt2")`): `r config::get("catalog_pt2_dates")`
+- **Time:** `r config::get("course_time")`
 - **Location:** Students will meet in class (virtually) once per week. Students will work in groups outside of class on community-based projects virtually on zoom.
-- **How often will students and CBOs meet?**
-This depends on the project goals, but approximately 30 min - 1 hr every 2 weeks for the duration of the terms. Meetings will also be supplemented by emails. Keep in mind that CBO members are busy and staff may not be getting paid for their work.
-
-**Communication will mainly occur through Slack and we will email you about how to connect to Slack.**
+- **How often will students and CBOs meet?** This depends on the project goals, but approximately 30 min - 1 hr every 2 weeks for the duration of the terms. Meetings will also be supplemented by emails. Keep in mind that CBO members are busy and staff may not be getting paid for their work.
+- **Communication will mainly occur through Slack**. Instructors will email you about how to connect to Slack.**
 
 ### Instructors
 
-* Carrie Wright
-    + website: https://carriewright11.github.io/
-    + email: cwrigh60 at jhu.edu
-* Ava Hoffman
-    + website: https://www.avahoffman.com/ 
-    + email: ava.hoffman at jhu.edu
-* Michael Rosenblum
-    + website: https://mrosenblumbiostat.wordpress.com/
-    + email: mrosen at jhu.edu
-
+`r config::get("instructors")`
 
 
 ### Requirements
 
-Students are required to have some prior experience with R programming (or other languages). 
-
-Instructor permission is required to enroll in the course. 
+- Students are required to have some prior experience with R programming (or other languages). 
+- Instructor permission is required to enroll in the course. 
 
 ### Expectations of Students
  
