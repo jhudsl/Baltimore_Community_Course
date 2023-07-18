@@ -14,7 +14,7 @@ knitr::opts_chunk$set(warning = FALSE, message = FALSE)
 
 ### **About**
 
-`r config::get("course_name_long")` was developed in partnership with [SOURCE](https://source.jhu.edu/) at the Johns Hopkins Bloomberg School of Public Health. Their mission focuses on **social change**, **authentic relationships**, **redistributing power**.
+`r config::get("course_name_long")` was developed in partnership with [SOURCE](https://source.jhu.edu/) at the Johns Hopkins Bloomberg School of Public Health. Their mission focuses on **social change**, **authentic relationships**, and **redistributing power**.
 
 <br>
  
