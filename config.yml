@@ -1,6 +1,10 @@
 default:
   course_name_long: "Baltimore Community Data Science (PH.140.801 + 802)"
   course_time: "**Friday 1:30 - 2:50pm EST**"
-  instructors: "[Carrie Wright](https://carriewright11.github.io/) (cwrigh60 at jhu.edu), [Ava Hoffman](https://www.avahoffman.com/) (ava.hoffman at jhu.edu), [Clifton McKee](https://clifmckee.github.io/) (cmckee7 at jhu.edu)"
-  terms: "**[1st](https://www.jhsph.edu/courses/course/38607/2023/140.801.01/baltimore-community-data-science) and [2nd](https://www.jhsph.edu/courses/course/38608/2023/140.802.01/baltimore-community-data-science-ii) terms**"
+  instructors: "[Carrie Wright](https://carriewright11.github.io/) ([cwrigh60@jhu.edu](mailto:cwrigh60@jhu.edu)) <br> [Ava Hoffman](https://www.avahoffman.com/) ([ava.hoffman@jhu.edu](mailto:ava.hoffman@jhu.edu)) <br> [Michael Rosenblum](https://mrosenblumbiostat.wordpress.com/) ([mrosen@jhu.edu](mailto:mrosen@jhu.edu))"
+  terms: "**1st and 2nd terms**"
+  catalog_pt1: "https://www.jhsph.edu/courses/course/38607/2023/140.801.01/baltimore-community-data-science""
+  catalog_pt1_dates: "Monday, August 28 - Monday, October 23"
+  catalog_pt2: "https://www.jhsph.edu/courses/course/38608/2023/140.802.01/baltimore-community-data-science-ii"
+  catalog_pt2_dates: "Wednesday, October 25 - Friday, December 22"
   acad_year: "2023-2024"
