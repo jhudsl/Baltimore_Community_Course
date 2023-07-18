@@ -28,10 +28,7 @@ This course is focused on helping students learn how to apply their data science
 - **Zoom link** - will be emailed to registered students
 
 
-
-
 ### Logistics
-
 
 * **Date:** The course will meet on Fridays during `r config::get("terms")` (1.5 credits each term).  
     + Students who take the class must commit to **both** terms for project continuity.
@@ -42,6 +39,7 @@ This course is focused on helping students learn how to apply their data science
 - **How often will students and CBOs meet?** This depends on the project goals, but approximately 30 min - 1 hr every 2 weeks for the duration of the terms. Meetings will also be supplemented by emails. Keep in mind that CBO members are busy and staff may not be getting paid for their work.
 - **Communication will mainly occur through Slack**. Instructors will email you about how to connect to Slack.**
 
+
 ### Instructors
 
 `r config::get("instructors")`
@@ -51,6 +49,7 @@ This course is focused on helping students learn how to apply their data science
 
 - Students are required to have some prior experience with R programming (or other languages). 
 - Instructor permission is required to enroll in the course. 
+
 
 ### Expectations of Students
  
@@ -67,9 +66,11 @@ In addition to working on data science projects, students are also expected to i
 
 See the [project page](https://jhudatascience.org/Baltimore_Community_Course/projects.html) for more information about project guidelines.
 
+
 ### Expectations of CBOs
 
 Partners will need to provide students with details on the project goals and uses, access to relevant data (could be de-identified or simulated if privacy is an issue), feedback about whether their goals are being met, and time and willingness to learn about how to use and possibly maintain the data product that the students work with them to create.
+
 
 ### Student Learning Objectives
 
