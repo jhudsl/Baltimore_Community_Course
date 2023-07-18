@@ -16,29 +16,44 @@ knitr::opts_chunk$set(warning = FALSE, message = FALSE)
 
 <!-- <a href="syllabus.pdf" target="_blank" download = "syllabus.pdf"  ><button class="btn"><i class="fas fa-file-alt"></i> PDF version</button></a> -->
 
+<br>
+
 ### Course Description
 
-This course is focused on helping students learn how to apply their data science knowledge in non-academic settings. Students will partner with community-based organizations (CBOs) in Baltimore to work on a data science related goal. Students will focus on developing critical service-learning and professional skills as they work with CBOs to accomplish a data science related goal.
+This course is focused on helping students learn how to apply their data science knowledge in non-academic settings. Students will partner with [community-based organizations (CBOs)](https://source.jhu.edu/about/partner-organizations) in Baltimore to work on a data science related goal. Students will focus on developing critical service-learning and professional skills as they work with CBOs to accomplish a data science related goal. _This course may feel unusual: students are expected to be self motivated and work on solutions to problems without being told what to do._
 
+<br>
 
 ### Important Links
 
 - **Class Website:** https://jhudatascience.org/Baltimore_Community_Course 
-- **CoursePlus:** coming...
-- **Zoom link** - will be emailed to registered students
+- **Zoom link**: Instructors will send to registered students
+- **Slack Workspace**: Instructors will send to registered students
 
+<br>
 
 ### Logistics
 
-* **Date:** The course will meet on Fridays during `r config::get("terms")` (1.5 credits each term).  
+* **Class Sessions:** 
+    + The course will meet `r config::get("course_time")` during `r config::get("terms")`.
     + Students who take the class must commit to **both** terms for project continuity.
+    + Each term is worth 1.5 credit hours (3 total).
     + [Part I dates](`r config::get("catalog_pt1")`): `r config::get("catalog_pt1_dates")`
     + [Part II dates](`r config::get("catalog_pt2")`): `r config::get("catalog_pt2_dates")`
-- **Time:** `r config::get("course_time")`
-- **Location:** Students will meet in class (virtually) once per week. Students will work in groups outside of class on community-based projects virtually on zoom.
-- **How often will students and CBOs meet?** This depends on the project goals, but approximately 30 min - 1 hr every 2 weeks for the duration of the terms. Meetings will also be supplemented by emails. Keep in mind that CBO members are busy and staff may not be getting paid for their work.
-- **Communication will mainly occur through Slack**. Instructors will email you about how to connect to Slack.**
 
+- **Location:** 
+    + Students will meet in class (virtually) once per week.
+    + Students will work in groups outside of class on community-based projects virtually on Zoom.
+
+- **CBO Meetings:** 
+    + This depends on the project goals, but students are expected to meet with CBO leadership for approximately 30 min - 1 hr every 2 weeks for the duration of the terms. 
+    + Meetings will also be supplemented by emails. Keep in mind that CBO members are busy and staff may not be getting paid for this work.
+    
+- **Communication:** 
+    + Instructors and students will communicate through Slack.
+    + Instructors will email you about how to connect to Slack.*
+
+<br>
 
 ### Instructors
 
@@ -46,12 +61,15 @@ This course is focused on helping students learn how to apply their data science
 - `r config::get("instructor_2")`
 - `r config::get("instructor_3")`
 
+<br>
 
 ### Requirements
 
-- Students are required to have some prior experience with R programming (or other languages). 
+- Students are required to have some prior experience with R programming (or other languages) and need to have taken the following data science courses (or have equivalent experience):
+    + 140.711 Advanced Data Science I and 140.712 Advanced Data Science II
 - Instructor permission is required to enroll in the course. 
 
+<br>
 
 ### Expectations of Students
  
@@ -68,11 +86,13 @@ In addition to working on data science projects, students are also expected to i
 
 See the [project page](https://jhudatascience.org/Baltimore_Community_Course/projects.html) for more information about project guidelines.
 
+<br>
 
 ### Expectations of CBOs
 
 Partners will need to provide students with details on the project goals and uses, access to relevant data (could be de-identified or simulated if privacy is an issue), feedback about whether their goals are being met, and time and willingness to learn about how to use and possibly maintain the data product that the students work with them to create.
 
+<br>
 
 ### Student Learning Objectives
 
