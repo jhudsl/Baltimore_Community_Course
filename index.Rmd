@@ -28,24 +28,19 @@ knitr::include_graphics("resources/images/BCDS.png")
 - Please refer to the [Syllabus](Syllabus.html) for more details
 
 
-### **Main Goal**
+### **Course Goals**
 
-This course is focused on helping students learn how to apply their data science knowledge in non-academic settings. Students will **reflect on their role** as a statistician in society. They will learn more about being **mindful and ethical** practitioners of data science techniques **to advocate for social change**. Students will partner with community-based organizations (CBOs) in Baltimore to work on a data science related goal.
+In this course, students partner with [community-based organizations (CBOs)](https://source.jhu.edu/about/partner-organizations) in Baltimore to work on a data science related goal. CBOs work with youths, advocate for resource equity, and meet other needs within their communities. Students will:
 
-Students will focus on developing:
+- Apply their data science knowledge in non-academic settings
+- **Reflect on their role** as a statistician in society
+- Learn more about being **mindful and ethical** practitioners of data science techniques **to advocate for social change**
+- Develop critical service-learning, data science, and professional skills
+- Develop **data science product(s)** (such as a dashboard, data analysis, series of visualizations, etc.)
+- Develop **training material** to help CBOs use and implement the product(s)
+- Develop **sustainability / maintenance plans** for CBOs to continue using the product(s) long-term
 
-- critical service-learning skills
-- data science skills
-- professional skills
-
-Students will work in teams with a CBO to:
-
-- develop **data science products** (such as a dashboard, data analysis, series of visualizations, etc.)
-- develop **training material** for CBO users to use and implement the products
-- develop **sustainability / maintenance plans** for CBOs to continue with the data science product in the future and how they can continue to use more data science methods more generally 
-
-CBOs include those that work with youths, work for resource equity, and more.
-
+<br>
 <div class = "center">
 "Working with community-based organizations in Baltimore to support data science related goals"  
 </div>
