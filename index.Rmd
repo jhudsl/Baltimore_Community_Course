@@ -10,16 +10,10 @@ library(config)
 knitr::opts_chunk$set(warning = FALSE, message = FALSE)
 ```
 
-<div class = "banner">
-<!-- Welcome to the course website for `r config::get("course_name_long")`!   -->
-</div>
-<br>
-
 
 ### **About**
 
-This course was developed in partnership with [SOURCE](https://source.jhu.edu/), the community engagement and service-learning center at the Johns Hopkins Bloomberg School of Public health, which is focused on community engagement that involves:  
-**Social Change / Authentic Relationships / Redistributing Power**
+`r config::get("course_name_long")` was developed in partnership with [SOURCE](https://source.jhu.edu/), the community engagement and service-learning center at the Johns Hopkins Bloomberg School of Public health, which is focused on community engagement that involves: **Social Change** / **Authentic Relationships** / **Redistributing Power**
 
 ```{r, fig.align='center', fig.alt= "BCDC logo", echo = FALSE, out.width= "25%"}
 knitr::include_graphics("resources/images/BCDS.png")
@@ -28,7 +22,7 @@ knitr::include_graphics("resources/images/BCDS.png")
  
 ### **Logistics**
 
-`r config::get("course_name_long")` will be taught the `r config::get("terms")` of this academic year (`r config::get("acad_year")`) as a special topics course. 
+The course will be taught the `r config::get("terms")` of this academic year (`r config::get("acad_year")`) as a special topics course. 
 
 Class will be **on Zoom**. Most communications will be through Slack. A link to join the Slack Workspace will be emailed to students.
 
