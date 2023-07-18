@@ -11,7 +11,7 @@ knitr::opts_chunk$set(warning = FALSE, message = FALSE)
 ```
 
 <div class = "banner">
-Welcome to the course website for `r config::get("course_name_long")`!  
+<!-- Welcome to the course website for `r config::get("course_name_long")`!   -->
 </div>
 
 <br>
