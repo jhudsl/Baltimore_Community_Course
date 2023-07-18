@@ -4,8 +4,14 @@ output:
   html_document
 ---
 
+```{r setup, echo = FALSE, message = FALSE}
+library(config)
+
+knitr::opts_chunk$set(warning = FALSE, message = FALSE)
+```
+
 <div class = "banner">
-Welcome to the course website for Baltimore Community Data Science (PH140.840)!  
+Welcome to the course website for `r config::get("course_name_long")`!  
 </div>
 
 ### **About**
@@ -21,11 +27,9 @@ knitr::include_graphics("resources/images/BCDS.png")
 
 This course will be taught the **3rd and 4th terms** of this academic year (2021-2022) as a special topics course. 
 
-Class will be **on Zoom** but with an optional location at the school of public health (W3031) for students to work together. 
+Class will be **on Zoom**. Most communications will be through Slack. A link to join the Slack Workspace will be emailed to students.
 
-Most communications will be through Slack. A link to join the Slack workspace will be emailed to students.
-
-Class sessions will be **Friday 1:30- 3:00 PM EST**.
+Class sessions will be `r config::get("course_time")`.
 
 ### **Main Goal**
 
