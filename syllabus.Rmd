@@ -42,7 +42,9 @@ This course is focused on helping students learn how to apply their data science
 
 ### Instructors
 
-`r config::get("instructors")`
+- `r config::get("instructor_1")`
+- `r config::get("instructor_2")`
+- `r config::get("instructor_3")`
 
 
 ### Requirements
