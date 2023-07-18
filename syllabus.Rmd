@@ -74,7 +74,7 @@ This course is focused on helping students learn how to apply their data science
 
 ### Schedule and Materials
 
-Please see the (Schedule)[schedule.html] tab.
+Please see the [Schedule](schedule.html) tab.
 
 <br>
 
@@ -117,7 +117,7 @@ Students who complete the course will be able to:
 
 ### Grading
 
-Please see the (Evaluation)[evaluation.html] tab.
+Please see the [Evaluation](evaluation.html) tab.
 
 
 <!-- ```{r, child="code_of_conduct.Rmd"} -->
