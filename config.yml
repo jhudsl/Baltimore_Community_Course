@@ -10,3 +10,4 @@ default:
   catalog_pt2: https://www.jhsph.edu/courses/course/38608/2023/140.802.01/baltimore-community-data-science-ii
   catalog_pt2_dates: "Wednesday, October 25 - Friday, December 22"
   acad_year: "2023-2024"
+  grading_model: "**letter grade** or **pass/fail**"
