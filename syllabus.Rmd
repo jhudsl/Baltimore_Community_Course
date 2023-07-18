@@ -1,16 +1,20 @@
 ---
-title: '**Baltimore Community Data Science (PH140.801) Syllabus**'
+title: '**Syllabus**'
 output:
   pdf_document: default
   html_document: default
 ---
 
+```{r setup, echo = FALSE, message = FALSE}
+library(config)
+
+knitr::opts_chunk$set(warning = FALSE, message = FALSE)
+```
+
 <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
 
 
 <!-- <a href="syllabus.pdf" target="_blank" download = "syllabus.pdf"  ><button class="btn"><i class="fas fa-file-alt"></i> PDF version</button></a> -->
-
-
 
 ### Course Description
 
