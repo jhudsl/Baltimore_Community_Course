@@ -1,6 +1,6 @@
 default:
   course_name_long: "Baltimore Community Data Science (PH.140.801 + 802)"
-  # course_time: "**Friday 1:30 - 2:50pm EST**"
+  course_time: "**Friday 1:30 - 2:50pm EST**"
   # instructors: "[Carrie Wright](https://carriewright11.github.io/) ([cwrigh60@jhu.edu](mailto:cwrigh60@jhu.edu)) <br> [Ava Hoffman](https://www.avahoffman.com/) ([ava.hoffman@jhu.edu](mailto:ava.hoffman@jhu.edu)) <br> [Michael Rosenblum](https://mrosenblumbiostat.wordpress.com/) ([mrosen@jhu.edu](mailto:mrosen@jhu.edu))"
   # terms: "**1st and 2nd terms**"
   # catalog_pt1: "https://www.jhsph.edu/courses/course/38607/2023/140.801.01/baltimore-community-data-science""

@@ -13,8 +13,8 @@ knitr::opts_chunk$set(warning = FALSE, message = FALSE)
 <div class = "banner">
 <!-- Welcome to the course website for `r config::get("course_name_long")`!   -->
 </div>
-
 <br>
+
 
 ### **About**
 
@@ -28,7 +28,7 @@ knitr::include_graphics("resources/images/BCDS.png")
  
 ### **Logistics**
 
-This course will be taught the `r config::get("terms")` of this academic year (`r config::get("acad_year")`) as a special topics course. 
+`r config::get("course_name_long")` will be taught the `r config::get("terms")` of this academic year (`r config::get("acad_year")`) as a special topics course. 
 
 Class will be **on Zoom**. Most communications will be through Slack. A link to join the Slack Workspace will be emailed to students.
 
@@ -56,8 +56,3 @@ CBOs include those that work with youths, work for resource equity, and more.
 <div class = "center">
 "Working with community-based organizations in Baltimore to support data science related goals"  
 </div>
-
-
-
-
-
