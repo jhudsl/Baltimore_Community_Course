@@ -10,14 +10,11 @@ library(config)
 knitr::opts_chunk$set(warning = FALSE, message = FALSE)
 ```
 
+<br>
 
 ### **About**
 
 `r config::get("course_name_long")` was developed in partnership with [SOURCE](https://source.jhu.edu/) at the Johns Hopkins Bloomberg School of Public Health. Their mission focuses on **social change**, **authentic relationships**, **redistributing power**.
-
-```{r, fig.align='center', fig.alt= "BCDC logo", echo = FALSE, out.width= "25%"}
-knitr::include_graphics("resources/images/BCDS.png")
-```
 
  
 ### **Logistics**
@@ -41,6 +38,9 @@ In this course, students partner with [community-based organizations (CBOs)](htt
 - Develop **sustainability / maintenance plans** for CBOs to continue using the product(s) long-term
 
 <br>
+```{r, fig.align='center', fig.alt= "BCDC logo", echo = FALSE, out.width= "25%"}
+knitr::include_graphics("resources/images/BCDS.png")
+```
 <div class = "center">
 "Working with community-based organizations in Baltimore to support data science related goals"  
 </div>
