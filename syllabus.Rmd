@@ -20,7 +20,7 @@ knitr::opts_chunk$set(warning = FALSE, message = FALSE)
 
 ### Course Description
 
-This course is focused on helping students learn how to apply their data science knowledge in non-academic settings. Students will partner with [community-based organizations (CBOs)](https://source.jhu.edu/about/partner-organizations) in Baltimore to work on a data science related goal. Students will focus on developing critical service-learning and professional skills as they work with CBOs to accomplish a data science related goal. _This course may feel unusual: students are expected to be self motivated and work on solutions to problems without being told what to do._
+This course is focused on helping students learn how to apply their data science knowledge in non-academic settings. Students will partner with [community-based organizations (CBOs)](https://source.jhu.edu/about/partner-organizations) in Baltimore to work on a data science related goal. Students will focus on developing critical service-learning and professional skills as they work with CBOs to accomplish a data science related goal. _This course can feel uncomfortable: students are expected to be self motivated and work on solutions to problems without being told what to do._
 
 <br>
 
@@ -47,11 +47,12 @@ This course is focused on helping students learn how to apply their data science
 
 - **CBO Meetings:** 
     + This depends on the project goals, but students are expected to meet with CBO leadership for approximately 30 min - 1 hr every 2 weeks for the duration of the terms. 
-    + Meetings will also be supplemented by emails. Keep in mind that CBO members are busy and staff may not be getting paid for this work.
+    + Meetings will also be supplemented by emails. 
+    + Keep in mind that CBO members are busy and staff may not be getting paid for this work.
     
 - **Communication:** 
     + Instructors and students will communicate through Slack.
-    + Instructors will email you about how to connect to Slack.*
+    + Instructors will email you about how to connect to Slack.
 
 <br>
 
@@ -68,6 +69,12 @@ This course is focused on helping students learn how to apply their data science
 - Students are required to have some prior experience with R programming (or other languages) and need to have taken the following data science courses (or have equivalent experience):
     + 140.711 Advanced Data Science I and 140.712 Advanced Data Science II
 - Instructor permission is required to enroll in the course. 
+
+<br>
+
+### Schedule and Materials
+
+Please see the (Schedule)[schedule.html] tab.
 
 <br>
 
@@ -105,6 +112,12 @@ Students who complete the course will be able to:
 5) Work with others to **create an implementation plan** for the data science products that is viable and useful for the respective CBO members. Work with stakeholders at a high level to understand their needs as well as the limitations of the data.
 6) Use teaching methods to **teach others** from various backgrounds and experiences  to use data science techniques to work with data and communicate effectively about data. 
 7) Plan for CBO to continue to work with data science products in a **sustainable way** even after projects are over.
+
+<br>
+
+### Grading
+
+Please see the (Evaluation)[evaluation.html] tab.
 
 
 <!-- ```{r, child="code_of_conduct.Rmd"} -->
