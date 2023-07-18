@@ -1,7 +1,7 @@
 default:
-  course_name_long: "Baltimore Community Data Science (PH140.840)"
+  course_name_long: "Baltimore Community Data Science (NUMBERS)"
   course_dates: "June 12-16 and 20-23, 2023"
-  course_time: "1:30 p.m. - 5:00 p.m. ET"
+  course_time: "**Friday 1:30- 3:00 PM EST**"
   final_due_date: "June 30th at 11:59pm ET"
   grades_due: "August 25"
   holiday: "In recognition of [Juneteenth](https://en.wikipedia.org/wiki/Juneteenth), there will be **no class on Monday June 19th, 2023**."
