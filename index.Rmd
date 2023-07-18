@@ -23,7 +23,7 @@ knitr::opts_chunk$set(warning = FALSE, message = FALSE)
 - Class sessions are `r config::get("terms")` (`r config::get("acad_year")`) `r config::get("course_time")`
 - **Zoom** will be used for classes.
 - **Slack** will be used for communication.
-- Please refer to the [Syllabus](Syllabus.html) for more details
+- Please refer to the [Syllabus](syllabus.html) for more details
 
 <br>
 
