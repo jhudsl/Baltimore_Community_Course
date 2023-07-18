@@ -13,8 +13,8 @@
 
 <title>Resources</title>
 
-<script src="site_libs/header-attrs-2.10/header-attrs.js"></script>
-<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<script src="site_libs/header-attrs-2.22/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
@@ -32,8 +32,8 @@
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
-<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
-<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.4.0/css/all.min.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.4.0/css/v4-shims.min.css" rel="stylesheet" />
 <link rel="shortcut icon" href="resources/images/BCDS_favicon.ico" />
 
 <style type="text/css">
@@ -55,6 +55,7 @@ if (window.hljs) {
   }
 }
 </script>
+
 
 
 
@@ -84,6 +85,9 @@ button.code-folding-btn:focus {
 }
 summary {
   display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
 }
 pre code {
   padding: 0;
@@ -141,11 +145,15 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -174,8 +182,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -183,16 +191,9 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -236,7 +237,7 @@ $(document).ready(function () {
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -290,7 +291,8 @@ $(document).ready(function () {
 </div>
 
 
-<p>The following resources may be helpful to students as they work on their projects with one another.</p>
+<p>The following resources may be helpful to students as they work on
+their projects with one another.</p>
 <div id="assignment-resources" class="section level3">
 <h3><strong>Assignment Resources</strong></h3>
 <div class="table_style">
@@ -310,18 +312,28 @@ $(document).ready(function () {
 <tbody>
 <tr class="odd">
 <td>Guidelines for Critical Reflection</td>
-<td><a href="https://docs.google.com/document/d/10dM6WA2LHmX922-hlehJULX5IWSizsH6kWnNAVe_VYw/edit?usp=sharing">Course Guide to Critical Reflection</a></td>
-<td>This guide can help you to think about prompts in different ways and remind you of good practices.</td>
+<td><a
+href="https://docs.google.com/document/d/10dM6WA2LHmX922-hlehJULX5IWSizsH6kWnNAVe_VYw/edit?usp=sharing">Course
+Guide to Critical Reflection</a></td>
+<td>This guide can help you to think about prompts in different ways and
+remind you of good practices.</td>
 </tr>
 <tr class="even">
 <td>Critical Reflection Journal</td>
-<td><a href="https://docs.google.com/document/d/16FIPvK3MI3Jd_TKcGoklysANy1aqbkw7BjhlcJnFva8/edit?usp=sharing">Reflection Journal Template</a></td>
-<td>This template can serve as an example for how to structure your reflection journal.Please submit your journal using this <a href="https://forms.gle/m67DyJNsehYB8qnSA">form</a></td>
+<td><a
+href="https://docs.google.com/document/d/16FIPvK3MI3Jd_TKcGoklysANy1aqbkw7BjhlcJnFva8/edit?usp=sharing">Reflection
+Journal Template</a></td>
+<td>This template can serve as an example for how to structure your
+reflection journal.Please submit your journal using this <a
+href="https://forms.gle/m67DyJNsehYB8qnSA">form</a></td>
 </tr>
 <tr class="odd">
 <td>Slack Discussions</td>
-<td><a href="https://docs.google.com/document/d/1Wh01tDp_JFbwE1EDRcONXfjFJIpuLNbcQJAW9W1ALbk/edit?usp=sharing">Contributing to Slack Discussions</a></td>
-<td>This document has instructions for how to participate in an asynchronous class discussion using Slack.</td>
+<td><a
+href="https://docs.google.com/document/d/1Wh01tDp_JFbwE1EDRcONXfjFJIpuLNbcQJAW9W1ALbk/edit?usp=sharing">Contributing
+to Slack Discussions</a></td>
+<td>This document has instructions for how to participate in an
+asynchronous class discussion using Slack.</td>
 </tr>
 </tbody>
 </table>
@@ -345,14 +357,25 @@ $(document).ready(function () {
 </thead>
 <tbody>
 <tr class="odd">
-<td>SOURCE - the community engagement and service-learning center at the Johns Hopkins Bloomberg School of Public health</td>
-<td>* <a href="https://source.jhu.edu/">SOURCE website</a> <br> * <a href="https://source.jhu.edu/publications-and-resources/national-resources.html">SOURCE resources</a> <br> * <a href="https://source.jhu.edu/audiences/students/opportunities/index.html">Service Opportunities</a></td>
-<td>SOURCE has lots of valuable resources on the philosophy of critical service-learning, as well as information on other ways to engage with the community</td>
+<td>SOURCE - the community engagement and service-learning center at the
+Johns Hopkins Bloomberg School of Public health</td>
+<td>* <a href="https://source.jhu.edu/">SOURCE website</a> <br> * <a
+href="https://source.jhu.edu/publications-and-resources/national-resources.html">SOURCE
+resources</a> <br> * <a
+href="https://source.jhu.edu/audiences/students/opportunities/index.html">Service
+Opportunities</a></td>
+<td>SOURCE has lots of valuable resources on the philosophy of critical
+service-learning, as well as information on other ways to engage with
+the community</td>
 </tr>
 <tr class="even">
 <td>Course reading material</td>
-<td><a href="https://jhudatascience.org/Baltimore_Community_Course/schedule.html">Course assignments and extra reading resources</a></td>
-<td>Please see the course schedule for additional resources about the history of Baltimore and the US, as well as reading material about the basis of critical service-learning.</td>
+<td><a
+href="https://jhudatascience.org/Baltimore_Community_Course/schedule.html">Course
+assignments and extra reading resources</a></td>
+<td>Please see the course schedule for additional resources about the
+history of Baltimore and the US, as well as reading material about the
+basis of critical service-learning.</td>
 </tr>
 </tbody>
 </table>
@@ -377,24 +400,34 @@ $(document).ready(function () {
 <tbody>
 <tr class="odd">
 <td>Baltimore Neighborhood Indicators Alliance (BNIA) Resources</td>
-<td>* <a href="https://bniajfi.org/resources/learning-community/for-instructors/faculty-resources/downloads/">Learning Modules</a> <br> * <a href="https://bniajfi.org/vital_signs/data_downloads/">BNIA Data</a> <br> *<a href="https://mapping-bniajfi.opendata.arcgis.com/">GIS mapping resources</a></td>
-<td>BNIA has data,learning modules, and information related to Baltimore Neighborhoods</td>
+<td>* <a
+href="https://bniajfi.org/resources/learning-community/for-instructors/faculty-resources/downloads/">Learning
+Modules</a> <br> * <a
+href="https://bniajfi.org/vital_signs/data_downloads/">BNIA Data</a>
+<br> *<a href="https://mapping-bniajfi.opendata.arcgis.com/">GIS mapping
+resources</a></td>
+<td>BNIA has data,learning modules, and information related to Baltimore
+Neighborhoods</td>
 </tr>
 <tr class="even">
 <td>General information</td>
-<td><a href="https://source.jhu.edu/audiences/students/know-baltimore/index.html">SOURCE Baltimore Information</a></td>
+<td><a
+href="https://source.jhu.edu/audiences/students/know-baltimore/index.html">SOURCE
+Baltimore Information</a></td>
 <td>Learn more about the Baltimore community</td>
 </tr>
 <tr class="odd">
 <td>Baltimore Neighborhood Data</td>
-<td><a href="https://data.imap.maryland.gov/datasets/fc5d183b20a145009eae8f8b171eeb0d_0/explore?location=39.284600%2C-76.620550%2C12.26">Maryland.gov</a></td>
+<td><a
+href="https://data.imap.maryland.gov/datasets/fc5d183b20a145009eae8f8b171eeb0d_0/explore?location=39.284600%2C-76.620550%2C12.26">Maryland.gov</a></td>
 <td>Spatial extent/data for Baltimore’s Neighborhoods</td>
 </tr>
 </tbody>
 </table>
 </div>
 </div>
-<div id="project-planning-and-infrastructure-resources" class="section level3">
+<div id="project-planning-and-infrastructure-resources"
+class="section level3">
 <h3><strong>Project Planning and Infrastructure Resources</strong></h3>
 <div class="table_style">
 <table>
@@ -413,13 +446,21 @@ $(document).ready(function () {
 <tbody>
 <tr class="odd">
 <td>Project Organization and Resources</td>
-<td><a href="https://docs.google.com/document/d/1RveTbckBTomgx2JiiCbm01SE88OvODK7JCQxo1gbLbo/edit?usp=sharing">Suggestions for project planning and Resources</a></td>
-<td>Thoughts about how to track communications, take notes, share files, create timelines and other graphics, write code, and work on GitHub together. You are allowed to use other options, but this should help get you started.</td>
+<td><a
+href="https://docs.google.com/document/d/1RveTbckBTomgx2JiiCbm01SE88OvODK7JCQxo1gbLbo/edit?usp=sharing">Suggestions
+for project planning and Resources</a></td>
+<td>Thoughts about how to track communications, take notes, share files,
+create timelines and other graphics, write code, and work on GitHub
+together. You are allowed to use other options, but this should help get
+you started.</td>
 </tr>
 <tr class="even">
 <td>Project template form</td>
-<td><a href="https://docs.google.com/document/d/1b0XHuKsys_ACCtA9nI_M9F1CR2oWo2RLR-A1C6cvz0U/edit?usp=sharing">Form to aid planning discussions</a></td>
-<td>This form will help the group document and make important planning decisions about the project.</td>
+<td><a
+href="https://docs.google.com/document/d/1b0XHuKsys_ACCtA9nI_M9F1CR2oWo2RLR-A1C6cvz0U/edit?usp=sharing">Form
+to aid planning discussions</a></td>
+<td>This form will help the group document and make important planning
+decisions about the project.</td>
 </tr>
 </tbody>
 </table>
@@ -444,38 +485,61 @@ $(document).ready(function () {
 <tbody>
 <tr class="odd">
 <td>Dashboards</td>
-<td><a href="https://www.opencasestudies.org/ocs-bp-school-shootings-dashboard/">School Shooting Open Case Study</a><a href="https://rfortherestofus.com/2022/02/data-viz-org-branding/">Data visualization and organization branding</a></td>
-<td>Dashboards can be a great way to demonstrate many aspects about a data set efficiently. They can help tell a data story.</td>
+<td><a
+href="https://www.opencasestudies.org/ocs-bp-school-shootings-dashboard/">School
+Shooting Open Case Study</a><a
+href="https://rfortherestofus.com/2022/02/data-viz-org-branding/">Data
+visualization and organization branding</a></td>
+<td>Dashboards can be a great way to demonstrate many aspects about a
+data set efficiently. They can help tell a data story.</td>
 </tr>
 <tr class="even">
 <td>Data Visualization</td>
-<td><a href="https://rfortherestofus.com/2022/02/data-viz-org-branding/">Data visualization and organization branding</a></td>
-<td>R has many opportunities for customizing visualizations to the organization’s needs.</td>
+<td><a
+href="https://rfortherestofus.com/2022/02/data-viz-org-branding/">Data
+visualization and organization branding</a></td>
+<td>R has many opportunities for customizing visualizations to the
+organization’s needs.</td>
 </tr>
 <tr class="odd">
 <td>Extracting text from images</td>
-<td><a href="https://www.opencasestudies.org/ocs-bp-youth-disconnection/">Youth Disconnection Open Case Study</a></td>
+<td><a
+href="https://www.opencasestudies.org/ocs-bp-youth-disconnection/">Youth
+Disconnection Open Case Study</a></td>
 <td>You might find that you need to import text from image files.</td>
 </tr>
 <tr class="even">
 <td>Importing data from an API</td>
-<td><a href="https://www.opencasestudies.org/ocs-bp-opioid-rural-urban/">Opioid Case Study</a></td>
-<td>Some common websites (like many social media websites) have APIs that allow you to access data.</td>
+<td><a
+href="https://www.opencasestudies.org/ocs-bp-opioid-rural-urban/">Opioid
+Case Study</a></td>
+<td>Some common websites (like many social media websites) have APIs
+that allow you to access data.</td>
 </tr>
 <tr class="odd">
 <td>Importing multiple files</td>
-<td><a href="https://www.opencasestudies.org/ocs-bp-vaping-case-study/#Data_Import">Vaping Behaviors Case Study</a></td>
-<td>It can be helpful to programmatically import files efficiently using fewer steps.</td>
+<td><a
+href="https://www.opencasestudies.org/ocs-bp-vaping-case-study/#Data_Import">Vaping
+Behaviors Case Study</a></td>
+<td>It can be helpful to programmatically import files efficiently using
+fewer steps.</td>
 </tr>
 <tr class="even">
 <td>Sentiment analysis</td>
-<td><a href="https://www.tidytextmining.com/sentiment.html">tidytextmining</a></td>
-<td>Sentiment analysis can be useful for understanding the “emotional intent” of text data.</td>
+<td><a
+href="https://www.tidytextmining.com/sentiment.html">tidytextmining</a></td>
+<td>Sentiment analysis can be useful for understanding the “emotional
+intent” of text data.</td>
 </tr>
 <tr class="odd">
 <td>Importing Google Sheet data</td>
-<td><a href="http://sisbid.github.io/Data-Wrangling/lecture_notes/Advanced_Data_IO.pdf">Advanced Data IO - UW Course</a> <br> <a href="https://jhudatascience.org/tidyversecourse/get-data.html#google-sheets">Tidyverse Course - Google Sheets</a></td>
-<td>Securely bring Google Sheet data into R without downloading data.</td>
+<td><a
+href="http://sisbid.github.io/Data-Wrangling/lecture_notes/Advanced_Data_IO.pdf">Advanced
+Data IO - UW Course</a> <br> <a
+href="https://jhudatascience.org/tidyversecourse/get-data.html#google-sheets">Tidyverse
+Course - Google Sheets</a></td>
+<td>Securely bring Google Sheet data into R without downloading
+data.</td>
 </tr>
 </tbody>
 </table>
@@ -500,13 +564,32 @@ $(document).ready(function () {
 <tbody>
 <tr class="odd">
 <td>General Resource</td>
-<td>Why? <br> <a href="https://peerj.com/preprints/3159v2/">Excuse me, do you have a moment to talk about version control? (<em>PeerJ</em> paper)</a> <br> <a href="https://stackoverflow.com/questions/1408450/why-should-i-use-version-control">Why should I use version control?</a> <br> How? <br> <a href="https://happygitwithr.com/">Happy Git and GitHub for the use R</a> <br> <a href="https://rogerdudler.github.io/git-guide/">Git - the Simple Guide</a> <br> <a href="https://www.rstudio.com/resources/webinars/managing-part-2-github-and-rstudio/">Managing GitHub and RStudio</a> <br> <a href="https://youtu.be/4s5yAxa99cE">Video - Using Git and Github in RStudio</a> <br><a href="https://r-pkgs.org/git.html">Best Practices for Git and GitHub</a> <br> <a href="https://git-school.github.io/visualizing-git/">Danger-free Git Practice</a></td>
-<td>Git and GitHub are great for version control to ensure that you don’t lose any of your work and you can clearly see how your code (or other files) changed over time</td>
+<td>Why? <br> <a href="https://peerj.com/preprints/3159v2/">Excuse me,
+do you have a moment to talk about version control? (<em>PeerJ</em>
+paper)</a> <br> <a
+href="https://stackoverflow.com/questions/1408450/why-should-i-use-version-control">Why
+should I use version control?</a> <br> How? <br> <a
+href="https://happygitwithr.com/">Happy Git and GitHub for the use R</a>
+<br> <a href="https://rogerdudler.github.io/git-guide/">Git - the Simple
+Guide</a> <br> <a
+href="https://www.rstudio.com/resources/webinars/managing-part-2-github-and-rstudio/">Managing
+GitHub and RStudio</a> <br> <a href="https://youtu.be/4s5yAxa99cE">Video
+- Using Git and Github in RStudio</a> <br><a
+href="https://r-pkgs.org/git.html">Best Practices for Git and GitHub</a>
+<br> <a href="https://git-school.github.io/visualizing-git/">Danger-free
+Git Practice</a></td>
+<td>Git and GitHub are great for version control to ensure that you
+don’t lose any of your work and you can clearly see how your code (or
+other files) changed over time</td>
 </tr>
 <tr class="even">
 <td>Reproducibility &amp; GitHub Actions</td>
-<td><a href="https://jhudatascience.org/Adv_Reproducibility_in_Cancer_Informatics/">ITN Advanced Reproducibility Course</a></td>
-<td>GitHub Actions can help you to automate aspects about your work. It is especially helpful when you are rendering files and working with a team.</td>
+<td><a
+href="https://jhudatascience.org/Adv_Reproducibility_in_Cancer_Informatics/">ITN
+Advanced Reproducibility Course</a></td>
+<td>GitHub Actions can help you to automate aspects about your work. It
+is especially helpful when you are rendering files and working with a
+team.</td>
 </tr>
 </tbody>
 </table>
