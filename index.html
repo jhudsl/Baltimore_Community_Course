@@ -13,8 +13,8 @@
 
 <title>Baltimore Community Data Science</title>
 
-<script src="site_libs/header-attrs-2.10/header-attrs.js"></script>
-<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<script src="site_libs/header-attrs-2.22/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
@@ -32,8 +32,8 @@
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
-<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
-<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.4.0/css/all.min.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.4.0/css/v4-shims.min.css" rel="stylesheet" />
 <link rel="shortcut icon" href="resources/images/BCDS_favicon.ico" />
 
 <style type="text/css">
@@ -55,6 +55,7 @@ if (window.hljs) {
   }
 }
 </script>
+
 
 
 
@@ -84,6 +85,9 @@ button.code-folding-btn:focus {
 }
 summary {
   display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
 }
 pre code {
   padding: 0;
@@ -141,11 +145,15 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -174,8 +182,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -183,16 +191,9 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -236,7 +237,7 @@ $(document).ready(function () {
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -285,45 +286,62 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore"><strong>Baltimore Community Data Science</strong></h1>
+<h1 class="title toc-ignore"><strong>Baltimore Community Data
+Science</strong></h1>
 
 </div>
 
 
-<div class="banner">
-<p>Welcome to the course website for Baltimore Community Data Science (PH140.840)!</p>
-</div>
+<p><br></p>
 <div id="about" class="section level3">
 <h3><strong>About</strong></h3>
-<p>This course was developed in partnership with <a href="https://source.jhu.edu/">SOURCE</a>, the community engagement and service-learning center at the Johns Hopkins Bloomberg School of Public health, which is focused on community engagement that involves:<br />
-<strong>Social Change / Authentic Relationships / Redistributing Power</strong></p>
-<p><img src="resources/images/BCDS.png" title="BCDC logo" alt="BCDC logo" width="25%" style="display: block; margin: auto;" /></p>
+<p>Baltimore Community Data Science (PH.140.801 + 802) was developed in
+partnership with <a href="https://source.jhu.edu/">SOURCE</a> at the
+Johns Hopkins Bloomberg School of Public Health. Their mission focuses
+on <strong>social change</strong>, <strong>authentic
+relationships</strong>, and <strong>redistributing power</strong>.</p>
+<p><br></p>
 </div>
 <div id="logistics" class="section level3">
 <h3><strong>Logistics</strong></h3>
-<p>This course will be taught the <strong>3rd and 4th terms</strong> of this academic year (2021-2022) as a special topics course.</p>
-<p>Class will be <strong>on Zoom</strong> but with an optional location at the school of public health (W3031) for students to work together.</p>
-<p>Most communications will be through Slack. A link to join the Slack workspace will be emailed to students.</p>
-<p>Class sessions will be <strong>Friday 1:30- 3:00 PM EST</strong>.</p>
+<ul>
+<li>Class sessions are <strong>1st and 2nd terms</strong> (2023-2024)
+<strong>Friday 1:30 - 2:50pm EST</strong></li>
+<li><strong>Zoom</strong> will be used for classes.</li>
+<li><strong>Slack</strong> will be used for communication.</li>
+<li>Please refer to the <a href="syllabus.html">Syllabus</a> for more
+details</li>
+</ul>
+<p><br></p>
 </div>
-<div id="main-goal" class="section level3">
-<h3><strong>Main Goal</strong></h3>
-<p>This course is focused on helping students learn how to apply their data science knowledge in non-academic settings. Students will <strong>reflect on their role</strong> as a statistician in society. They will learn more about being <strong>mindful and ethical</strong> practitioners of data science techniques <strong>to advocate for social change</strong>. Students will partner with community-based organizations (CBOs) in Baltimore to work on a data science related goal.</p>
-<p>Students will focus on developing:</p>
+<div id="course-goals" class="section level3">
+<h3><strong>Course Goals</strong></h3>
+<p>In this course, students partner with <a
+href="https://source.jhu.edu/about/partner-organizations">community-based
+organizations (CBOs)</a> in Baltimore to work on a data science related
+goal. CBOs work with youths, advocate for resource equity, and meet
+other needs within their communities. Students will:</p>
 <ul>
-<li>critical service-learning skills</li>
-<li>data science skills</li>
-<li>professional skills</li>
+<li>Apply their data science knowledge in non-academic settings</li>
+<li><strong>Reflect on their role</strong> as a statistician in
+society</li>
+<li>Learn more about being <strong>mindful and ethical</strong>
+practitioners of data science techniques <strong>to advocate for social
+change</strong></li>
+<li>Develop critical service-learning, data science, and professional
+skills</li>
+<li>Develop <strong>data science product(s)</strong> such as a
+dashboard, data analysis, series of visualizations, etc.</li>
+<li>Create <strong>training material</strong> to help CBOs use and
+implement the product(s)</li>
+<li>Design <strong>sustainability / maintenance plans</strong> for CBOs
+to continue using the product(s) long-term</li>
 </ul>
-<p>Students will work in teams with a CBO to:</p>
-<ul>
-<li>develop <strong>data science products</strong> (such as a dashboard, data analysis, series of visualizations, etc.)</li>
-<li>develop <strong>training material</strong> for CBO users to use and implement the products</li>
-<li>develop <strong>sustainability / maintenance plans</strong> for CBOs to continue with the data science product in the future and how they can continue to use more data science methods more generally</li>
-</ul>
-<p>CBOs include those that work with youths, work for resource equity, and more.</p>
+<p><br></p>
+<img src="resources/images/BCDS.png" alt="BCDC logo" width="25%" style="display: block; margin: auto;" />
 <div class="center">
-<p>“Working with community-based organizations in Baltimore to support data science related goals”</p>
+<p>“Working with community-based organizations in Baltimore to support
+data science related goals”</p>
 </div>
 </div>
 

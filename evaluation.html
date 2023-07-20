@@ -13,8 +13,8 @@
 
 <title>Student Evaluation</title>
 
-<script src="site_libs/header-attrs-2.10/header-attrs.js"></script>
-<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<script src="site_libs/header-attrs-2.22/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
@@ -32,8 +32,8 @@
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
-<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
-<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.4.0/css/all.min.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.4.0/css/v4-shims.min.css" rel="stylesheet" />
 <link rel="shortcut icon" href="resources/images/BCDS_favicon.ico" />
 
 <style type="text/css">
@@ -55,6 +55,7 @@ if (window.hljs) {
   }
 }
 </script>
+
 
 
 
@@ -84,6 +85,9 @@ button.code-folding-btn:focus {
 }
 summary {
   display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
 }
 pre code {
   padding: 0;
@@ -141,11 +145,15 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -174,8 +182,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -183,16 +191,9 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -236,7 +237,7 @@ $(document).ready(function () {
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -290,15 +291,16 @@ $(document).ready(function () {
 </div>
 
 
-<p>All grading for the course will be <strong>pass / fail</strong>.</p>
-<p>We hope that this will take some pressure off the grade and help students focus on:</p>
-<ul>
-<li>the process of their professional development</li>
-<li>the process of their critical service-learning skills</li>
-<li>the progress of the project for the needs of the CBO</li>
-</ul>
-<p>Students will be assessed based on feedback from the faculty, the CBO, project peers, and the students themselves.</p>
-<p><strong>Students will be assessed based on the following assessment areas:</strong></p>
+<p><br></p>
+<p>All grading for the course will be <strong>letter grade</strong> or
+<strong>pass/fail</strong>.</p>
+<p>Students will NOT be assessed based on the success of the product, as
+this is not entirely within our control. Students will instead be
+assessed on the process in which they work to achieve the goals of the
+project.</p>
+<p><strong>Students will be assessed based on feedback from the faculty,
+the CBO, project peers, and self-assessment in the following
+areas:</strong></p>
 <div class="table_style">
 <table>
 <colgroup>
@@ -316,39 +318,82 @@ $(document).ready(function () {
 <tbody>
 <tr class="odd">
 <td><strong>Partnership skills</strong></td>
-<td>The ability to work well with a team to make progress on a project is useful for nearly every field. As statisticians and data scientists, this skill is useful for both jobs in academia and industry. Honing this skill can be helpful for effectively working on collaborative projects, managing labs, and acting as a consultant.</td>
-<td><strong>Efforts to contribute:</strong> <br> * taking notes<br> * Managing scheduling<br> <strong>Efforts to support:</strong> <br>* Open to equitable sharing of roles and tasks (justification for who does what?)<br> * Open to feedback and adaptable to project changes</td>
+<td>The ability to work well with a team to make progress on a project
+is useful for nearly every field. As statisticians and data scientists,
+this skill is useful for both jobs in academia and industry. Honing this
+skill can be helpful for effectively working on collaborative projects,
+managing labs, and acting as a consultant.</td>
+<td><strong>Efforts to contribute:</strong> <br> * taking notes<br> *
+Managing scheduling<br> <strong>Efforts to support:</strong> <br>* Open
+to equitable sharing of roles and tasks (justification for who does
+what?)<br> * Open to feedback and adaptable to project changes</td>
 </tr>
 <tr class="even">
 <td><strong>Communication/<br> Consulting Skills</strong></td>
-<td>As data scientists and statisticians we are often asked to explain to others how to work with data.</td>
-<td><strong>Efforts to stay connected:</strong> <br> * Help to establish a relationship <br> * Regular communication with the CBO through meetings and emails <br> * Regular communication with group members <br> * Emails are informative, mindful, and concise <br> <strong>Consideration of the CBO:</strong> <br> * continued effort to reassess goals and products <br> * continually assess if the project goals and progress achieve the larger goals of the CBO <br> * Willingness to adapt the data science products based on CBO feedback <br> * Mindfulness about how the CBO can use and maintain the data science products <br> * Mindfulness about possible limitations for the CBO (time, resources etc.)</td>
+<td>As data scientists and statisticians we are often asked to explain
+to others how to work with data.</td>
+<td><strong>Efforts to stay connected:</strong> <br> * Help to establish
+a relationship <br> * Regular communication with the CBO through
+meetings and emails <br> * Regular communication with group members <br>
+* Emails are informative, mindful, and concise <br>
+<strong>Consideration of the CBO:</strong> <br> * continued effort to
+reassess goals and products <br> * continually assess if the project
+goals and progress achieve the larger goals of the CBO <br> *
+Willingness to adapt the data science products based on CBO feedback
+<br> * Mindfulness about how the CBO can use and maintain the data
+science products <br> * Mindfulness about possible limitations for the
+CBO (time, resources etc.)</td>
 </tr>
 <tr class="odd">
 <td><strong>Initiative/<br> Work Ethic</strong></td>
-<td>Data science careers involve self-motivation. Scientific progress can often be achieved by applying new methods, thinking of a new angle or perspective.</td>
-<td><strong>Efforts to think beyond the data science products for the CBOs:</strong> <br> * New ideas for products <br> * New way of approach <br> * Attempt to learn something new where possible/applicable <br> <strong>Efforts to achieve the project goals</strong> <br> * Progress towards creating the data science products</td>
+<td>Data science careers involve self-motivation. Scientific progress
+can often be achieved by applying new methods, thinking of a new angle
+or perspective.</td>
+<td><strong>Efforts to think beyond the data science products for the
+CBOs:</strong> <br> * New ideas for products <br> * New way of approach
+<br> * Attempt to learn something new where possible/applicable <br>
+<strong>Efforts to achieve the project goals</strong> <br> * Progress
+towards creating the data science products</td>
 </tr>
 <tr class="even">
 <td><strong>Critical Reflection Skills</strong></td>
-<td>The ability to see how your work fits into the larger context of your field or society is essential for identifying projects, questions, and changes to protocols that are more likely to achieve scientific progress and social change. Understanding your context as well as your unique experiences and perspectives, as well as possible blind spots can help you to be a better scientist.</td>
-<td><strong>Efforts to engage in critical reflection activities:</strong> <br> * Substantive contributions to written prompts <br> * Students aim to be: <br>      - Thorough <br>      - Novel      <br>      - Genuine <br>      - Authentic</td>
+<td>The ability to see how your work fits into the larger context of
+your field or society is essential for identifying projects, questions,
+and changes to protocols that are more likely to achieve scientific
+progress and social change. Understanding your context as well as your
+unique experiences and perspectives, as well as possible blind spots can
+help you to be a better scientist.</td>
+<td><strong>Efforts to engage in critical reflection
+activities:</strong> <br> * Substantive contributions to written prompts
+<br> * Students aim to be: <br>      - Thorough <br>      - Novel     
+<br>      - Genuine <br>      - Authentic</td>
 </tr>
 <tr class="odd">
 <td><strong>Instruction / Education Skills</strong></td>
-<td>The ability to clearly explain your work and thoughts is critical as a scientist and educator. An understanding who your audience is and how to effectively reach your audience is essential for productive instruction.</td>
-<td><strong>Efforts are made to know and consider the CBO members that will implement and sustain the data science project:</strong> <br> * perspective <br> * experience <br> * skill level <br> * interests <br> <strong>Efforts are made create documentation</strong> <br> * steps are clear <br> * easy to navigate <br> * steps are appropriately thorough <br> * published is some formal way</td>
+<td>The ability to clearly explain your work and thoughts is critical as
+a scientist and educator. An understanding who your audience is and how
+to effectively reach your audience is essential for productive
+instruction.</td>
+<td><strong>Efforts are made to know and consider the CBO members that
+will implement and sustain the data science project:</strong> <br> *
+perspective <br> * experience <br> * skill level <br> * interests <br>
+<strong>Efforts are made create documentation</strong> <br> * steps are
+clear <br> * easy to navigate <br> * steps are appropriately thorough
+<br> * published is some formal way</td>
 </tr>
 <tr class="even">
 <td><strong>Organizational Skills</strong></td>
-<td>Strong organizational skills are important for greater transparency and reproducibility in scientific research.</td>
-<td><strong>Efforts are made to coordinate with group members and the CBO</strong> <br> * organized communications <br> * saving communications <br> <strong>Efforts are made throughout to help progress the project : </strong> <br> * organized notes coordinated with communications <br> * data and code in an organized system</td>
+<td>Strong organizational skills are important for greater transparency
+and reproducibility in scientific research.</td>
+<td><strong>Efforts are made to coordinate with group members and the
+CBO</strong> <br> * organized communications <br> * saving
+communications <br> <strong>Efforts are made throughout to help progress
+the project : </strong> <br> * organized notes coordinated with
+communications <br> * data and code in an organized system</td>
 </tr>
 </tbody>
 </table>
 </div>
-<p>Students will NOT be assessed based on the success of the product, as this is not entirely within our control.</p>
-<p>Students will instead be assessed on the process in which they work to achieve the goals of the project.</p>
 
 
 
