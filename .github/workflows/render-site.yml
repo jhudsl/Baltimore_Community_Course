@@ -56,11 +56,6 @@ jobs:
       - name: Render assignments
         id: assignments
         run: Rscript -e "for (i in list.files(path = './Assignments', pattern = 'Rmd$', recursive = FALSE, full.names = TRUE)){rmarkdown::render(i)}"
-        
-       # Render all module files
-      - name: Render html of modules
-        run: |
-          Rscript --vanilla "scripts/render_modules.R" --files "${{ steps.changed-files.outputs.all_changed_files }}"
 
       # This checks on the steps before it and makes sure that they completed.
       # If the renders didn't complete we don't want to commit the file changes
