@@ -1,71 +1,89 @@
 ---
-title: '**Baltimore Community Data Science (PH140.801) Syllabus**'
+title: '**Syllabus**'
 output:
   pdf_document: default
   html_document: default
 ---
+
+```{r setup, echo = FALSE, message = FALSE}
+library(config)
+
+knitr::opts_chunk$set(warning = FALSE, message = FALSE)
+```
 
 <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
 
 
 <!-- <a href="syllabus.pdf" target="_blank" download = "syllabus.pdf"  ><button class="btn"><i class="fas fa-file-alt"></i> PDF version</button></a> -->
 
-
+<br>
 
 ### Course Description
 
-This course is focused on helping students learn how to apply their data science knowledge in non-academic settings. Students will partner with community-based organizations (CBOs) in Baltimore to work on a data science related goal. Students will focus on developing critical service-learning and professional skills as they work with CBOs to accomplish a data science related goal.
+This course is focused on helping students learn how to apply their data science knowledge in non-academic settings. Students will partner with [community-based organizations (CBOs)](https://source.jhu.edu/about/partner-organizations) in Baltimore to work on a data science related goal. Students will focus on developing critical service-learning and professional skills as they work with CBOs to accomplish a data science related goal. _This course can feel uncomfortable: students are expected to be self motivated and work on solutions to problems without being told what to do._ While difficult, experiencing this kind of uncertainty is similar to working as a data scientist in academic settings or industry.
 
+<br>
 
 ### Important Links
 
 - **Class Website:** https://jhudatascience.org/Baltimore_Community_Course 
-- **CoursePlus:** coming...
-- **Zoom link** - will be emailed to registered students
+- **Zoom link**: Instructors will send to registered students
+- **Slack Workspace**: Instructors will send to registered students
 
-
-
+<br>
 
 ### Logistics
 
+* **Class Sessions:** 
+    + The course will meet `r config::get("course_time")` during `r config::get("terms")`.
+    + Students who take the class must commit to **both** terms for project continuity.
+    + Each term is worth 1.5 credit hours (3 total).
+    + [Part I dates](`r config::get("catalog_pt1")`): `r config::get("catalog_pt1_dates")`
+    + [Part II dates](`r config::get("catalog_pt2")`): `r config::get("catalog_pt2_dates")`
 
-* **Date:** The course will meet on **Fridays** during 1st and 2nd terms (1.5 credits each term).  
-Students who take the class need to commit to **both** terms (for continuity of the projects they will work on).
-    + [First term dates](https://publichealth.jhu.edu/academics/academic-calendar/2023-2024): Monday, August 28 - Monday, October 23
-  * [Second term dates](https://publichealth.jhu.edu/academics/academic-calendar/2023-2024): 	Wednesday, October 25 - Friday, December 22
-- **Time:** 1:30-2:50 PM EST
-- **Location:** Students will meet in class (virtually) once per week. Students will work in groups outside of class on community-based projects virtually on zoom.
-- **How often will students and CBOs meet?**
-This depends on the project goals, but approximately 30 min - 1 hr every 2 weeks for the duration of the terms. Meetings will also be supplemented by emails. Keep in mind that CBO members are busy and staff may not be getting paid for their work.
+- **Location:** 
+    + Students will meet in class (virtually) once per week.
+    + Students will work in groups outside of class on community-based projects virtually on Zoom.
 
-**Communication will mainly occur through Slack and we will email you about how to connect to Slack.**
+- **CBO Meetings:** 
+    + This depends on the project goals, but students are expected to meet with CBO leadership for approximately 30 min - 1 hr every 2 weeks for the duration of the terms. 
+    + Meetings will also be supplemented by emails. 
+    + Keep in mind that CBO members are busy and staff may not be getting paid for this work.
+    
+- **Communication:** 
+    + Instructors and students will communicate through Slack.
+    + Instructors will email you about how to connect to Slack.
+
+<br>
 
 ### Instructors
 
-* Carrie Wright
-    + website: https://carriewright11.github.io/
-    + email: cwrigh60 at jhu.edu
-* Ava Hoffman
-    + website: https://www.avahoffman.com/ 
-    + email: ava.hoffman at jhu.edu
-* Michael Rosenblum
-    + website: https://mrosenblumbiostat.wordpress.com/
-    + email: mrosen at jhu.edu
+- `r config::get("instructor_1")`
+- `r config::get("instructor_2")`
+- `r config::get("instructor_3")`
 
-
+<br>
 
 ### Requirements
 
-Students are required to have some prior experience with R programming (or other languages). 
+- Students are required to have some prior experience with R programming (or other languages) and need to have taken the following data science courses (or have equivalent experience):
+    + 140.711 Advanced Data Science I and 140.712 Advanced Data Science II
+- Instructor permission is required to enroll in the course. 
 
-Instructor permission is required to enroll in the course. 
+<br>
+
+### Schedule and Materials
+
+Please see the [Schedule](schedule.html) tab.
+
+<br>
 
 ### Expectations of Students
  
 Students will work with CBO partners as a team (3-5) for the following deliverables:
 
-- learn about the partner CBO, the goals of the CBO, and how data may be helpful for these goals
-- discuss the data needs of the create a plan to work with the CBO
+- Learn about the partner CBO, the goals of the CBO, and how data may be helpful for these goals
+- Discuss the data needs of the create a plan to work with the CBO
 - Create a data science product that aligns with the goals of the CBO
 - Create an implementation plan and training for the CBO
 - Create a sustainability plan for the CBO to work with and continue to maintain the data science product respectively including narratives ("story") about the data product - what it means, the limitations etc.
@@ -75,9 +93,13 @@ In addition to working on data science projects, students are also expected to i
 
 See the [project page](https://jhudatascience.org/Baltimore_Community_Course/projects.html) for more information about project guidelines.
 
+<br>
+
 ### Expectations of CBOs
 
 Partners will need to provide students with details on the project goals and uses, access to relevant data (could be de-identified or simulated if privacy is an issue), feedback about whether their goals are being met, and time and willingness to learn about how to use and possibly maintain the data product that the students work with them to create.
+
+<br>
 
 ### Student Learning Objectives
 
@@ -90,6 +112,12 @@ Students who complete the course will be able to:
 5) Work with others to **create an implementation plan** for the data science products that is viable and useful for the respective CBO members. Work with stakeholders at a high level to understand their needs as well as the limitations of the data.
 6) Use teaching methods to **teach others** from various backgrounds and experiences  to use data science techniques to work with data and communicate effectively about data. 
 7) Plan for CBO to continue to work with data science products in a **sustainable way** even after projects are over.
+
+<br>
+
+### Grading
+
+Please see the [Evaluation](evaluation.html) tab.
 
 
 <!-- ```{r, child="code_of_conduct.Rmd"} -->

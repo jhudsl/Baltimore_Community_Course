@@ -4,52 +4,46 @@ output:
   html_document
 ---
 
-<div class = "banner">
-Welcome to the course website for Baltimore Community Data Science (PH140.840)!  
-</div>
+```{r setup, echo = FALSE, message = FALSE}
+library(config)
+
+knitr::opts_chunk$set(warning = FALSE, message = FALSE)
+```
+
+<br>
 
 ### **About**
-This course was developed in partnership with [SOURCE](https://source.jhu.edu/), the community engagement and service-learning center at the Johns Hopkins Bloomberg School of Public health, which is focused on community engagement that involves:  
-**Social Change / Authentic Relationships / Redistributing Power**
+
+`r config::get("course_name_long")` was developed in partnership with [SOURCE](https://source.jhu.edu/) at the Johns Hopkins Bloomberg School of Public Health. Their mission focuses on **social change**, **authentic relationships**, and **redistributing power**.
+
+<br>
+ 
+### **Logistics**
+
+- Class sessions are `r config::get("terms")` (`r config::get("acad_year")`) `r config::get("course_time")`
+- **Zoom** will be used for classes.
+- **Slack** will be used for communication.
+- Please refer to the [Syllabus](syllabus.html) for more details
+
+<br>
+
+### **Course Goals**
+
+In this course, students partner with [community-based organizations (CBOs)](https://source.jhu.edu/about/partner-organizations) in Baltimore to work on a data science related goal. CBOs work with youths, advocate for resource equity, and meet other needs within their communities. Students will:
+
+- Apply their data science knowledge in non-academic settings
+- **Reflect on their role** as a statistician in society
+- Learn more about being **mindful and ethical** practitioners of data science techniques **to advocate for social change**
+- Develop critical service-learning, data science, and professional skills
+- Develop **data science product(s)** such as a dashboard, data analysis, series of visualizations, etc.
+- Create **training material** to help CBOs use and implement the product(s)
+- Design **sustainability / maintenance plans** for CBOs to continue using the product(s) long-term
+
+<br>
 
 ```{r, fig.align='center', fig.alt= "BCDC logo", echo = FALSE, out.width= "25%"}
 knitr::include_graphics("resources/images/BCDS.png")
 ```
-
- 
-### **Logistics**
-
-This course will be taught the **3rd and 4th terms** of this academic year (2021-2022) as a special topics course. 
-
-Class will be **on Zoom** but with an optional location at the school of public health (W3031) for students to work together. 
-
-Most communications will be through Slack. A link to join the Slack workspace will be emailed to students.
-
-Class sessions will be **Friday 1:30- 3:00 PM EST**.
-
-### **Main Goal**
-
-This course is focused on helping students learn how to apply their data science knowledge in non-academic settings. Students will **reflect on their role** as a statistician in society. They will learn more about being **mindful and ethical** practitioners of data science techniques **to advocate for social change**. Students will partner with community-based organizations (CBOs) in Baltimore to work on a data science related goal.
-
-Students will focus on developing:
-
-- critical service-learning skills
-- data science skills
-- professional skills
-
-Students will work in teams with a CBO to:
-
-- develop **data science products** (such as a dashboard, data analysis, series of visualizations, etc.)
-- develop **training material** for CBO users to use and implement the products
-- develop **sustainability / maintenance plans** for CBOs to continue with the data science product in the future and how they can continue to use more data science methods more generally 
-
-CBOs include those that work with youths, work for resource equity, and more.
-
 <div class = "center">
 "Working with community-based organizations in Baltimore to support data science related goals"  
 </div>
-
-
-
-
-
