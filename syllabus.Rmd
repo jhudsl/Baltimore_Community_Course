@@ -20,7 +20,7 @@ knitr::opts_chunk$set(warning = FALSE, message = FALSE)
 
 ### Course Description
 
-This course is focused on helping students learn how to apply their data science knowledge in non-academic settings. Students will partner with [community-based organizations (CBOs)](https://source.jhu.edu/about/partner-organizations) in Baltimore to work on a data science related goal. Students will focus on developing critical service-learning and professional skills as they work with CBOs to accomplish a data science related goal. _This course can feel uncomfortable: students are expected to be self motivated and work on solutions to problems without being told what to do._
+This course is focused on helping students learn how to apply their data science knowledge in non-academic settings. Students will partner with [community-based organizations (CBOs)](https://source.jhu.edu/about/partner-organizations) in Baltimore to work on a data science related goal. Students will focus on developing critical service-learning and professional skills as they work with CBOs to accomplish a data science related goal. _This course can feel uncomfortable: students are expected to be self motivated and work on solutions to problems without being told what to do._ While difficult, experiencing this kind of uncertainty is similar to working as a data scientist in academic settings or industry.
 
 <br>
 
@@ -82,8 +82,8 @@ Please see the [Schedule](schedule.html) tab.
  
 Students will work with CBO partners as a team (3-5) for the following deliverables:
 
-- learn about the partner CBO, the goals of the CBO, and how data may be helpful for these goals
-- discuss the data needs of the create a plan to work with the CBO
+- Learn about the partner CBO, the goals of the CBO, and how data may be helpful for these goals
+- Discuss the data needs of the create a plan to work with the CBO
 - Create a data science product that aligns with the goals of the CBO
 - Create an implementation plan and training for the CBO
 - Create a sustainability plan for the CBO to work with and continue to maintain the data science product respectively including narratives ("story") about the data product - what it means, the limitations etc.
