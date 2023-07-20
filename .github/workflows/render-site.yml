@@ -25,7 +25,7 @@ jobs:
     name: Render Main Site and Materials
     runs-on: ubuntu-latest
     container:
-      image: jhudsl/base_ottr:main
+      image: jhudsl/intro_to_r:1.1
     
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
