@@ -16,7 +16,7 @@ on:
       - 'styles.css'
       - '_site.yml'
       - 'Assignments/*.Rmd'
-      - 'site_libs/*''
+      - 'site_libs/*'
       - '**.md'
 
 jobs:
