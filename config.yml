@@ -5,6 +5,24 @@ default:
   instructor_2: "[Ava Hoffman](https://www.avahoffman.com/) ([ava.hoffman@jhu.edu](mailto:ava.hoffman@jhu.edu))"
   instructor_3: "[Michael Rosenblum](https://mrosenblumbiostat.wordpress.com/) ([mrosen@jhu.edu](mailto:mrosen@jhu.edu))"
   terms: "**1st and 2nd terms**"
+  term_dates_1:
+    wk1: "9/1"
+    wk2: "9/8"
+    wk3: "9/15"
+    wk4: "9/22"
+    wk5: "9/29"
+    wk6: "10/6"
+    wk7: "10/13"
+    wk8: "10/20"
+  term_dates_2:
+    wk1: "10/27"
+    wk2: "11/3"
+    wk3: "11/10"
+    wk4: "11/17"
+    wk5: "12/1"
+    wk6: "12/8"
+    wk7: "12/15"
+    wk8: "12/22"
   catalog_pt1: https://www.jhsph.edu/courses/course/38607/2023/140.801.01/baltimore-community-data-science
   catalog_pt1_dates: "Monday, August 28 - Monday, October 23"
   catalog_pt2: https://www.jhsph.edu/courses/course/38608/2023/140.802.01/baltimore-community-data-science-ii
