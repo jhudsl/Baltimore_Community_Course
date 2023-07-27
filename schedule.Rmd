@@ -19,7 +19,7 @@ Every class session will start and end with a writing prompt that will be used f
 
 #### **Third Term**{.tabset .tabset-fade}
 
-##### **Week 1 (`r config::get("acad_year")$wk1`)**
+##### **Week 1 (`r config::get("term_dates_1")$wk1`)**
 
 **Course and Context - Historical and Present**
 
