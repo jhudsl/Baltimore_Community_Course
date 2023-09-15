@@ -55,7 +55,7 @@ Every class session will start and end with a writing prompt that will be used f
 
 ##### **4 (`r config::get("term_dates_1")$wk4`)**
 
-**Project Planning and Forecasting**
+**Project Planning and Github**
 
 <div class = "table_style">
 |**Summary**| **Content** |**Homework <br> (please do before next week)**|**Resources**|
@@ -65,12 +65,12 @@ Every class session will start and end with a writing prompt that will be used f
 
 ##### **5 (`r config::get("term_dates_1")$wk5`)**
 
-**Data Security/Privacy/Ethics**
+**Shiny & Data Security/Privacy/Ethics**
 
 <div class = "table_style">
 |**Summary**|  **Content** |**Homework <br> (please do before next week)**|**Resources**|
 |----------------|----------------|-----------------|-----------------|
-|This week we will discuss topics related to data privacy, security, and ethics and how we can incorporate best practices into our projects. We will also discuss updates about each project.| |* [CBO Research and Reflection Assignment](https://jhudatascience.org/Baltimore_Community_Course/Assignments/CBO_Research_and_Reflection_Assignment.html)| * [Ethical Data Handling Course]() |
+|This week we will discuss topics related to data privacy, security, and ethics and how we can incorporate best practices into our projects. We will also discuss updates about each project. We will also discuss Shiny, an R tool for applications and dashboards.| Shiny (slides coming soon) |* [CBO Research and Reflection Assignment](https://jhudatascience.org/Baltimore_Community_Course/Assignments/CBO_Research_and_Reflection_Assignment.html)| * [Ethical Data Handling Course]() |
 </div>
 
 ##### **6 (`r config::get("term_dates_1")$wk6`)**
