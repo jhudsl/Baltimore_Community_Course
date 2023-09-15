@@ -115,3 +115,6 @@ Every class session will start and end with a writing prompt that will be used f
 |**Week 16 (`r config::get("term_dates_2")$wk8`)**| Reflections, Future plans, and Wrap-up| This week we will focus on how the implementation is going, lessons learned, and thoughts about future directions for the community organization.|
 
 </div>
+
+
+
