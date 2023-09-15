@@ -70,7 +70,7 @@ Every class session will start and end with a writing prompt that will be used f
 <div class = "table_style">
 |**Summary**|  **Content** |**Homework <br> (please do before next week)**|**Resources**|
 |----------------|----------------|-----------------|-----------------|
-|This week we will discuss topics related to data privacy, security, and ethics and how we can incorporate best practices into our projects. We will also discuss updates about each project. We will also discuss Shiny, an R tool for applications and dashboards.| Shiny (slides coming soon) |* [Approaching Critical Service-Learning Assignment](https://jhudatascience.org/Baltimore_Community_Course/Assignments/Approaching_Critical_Service_Learning_Assignment.html)| * [Ethical Data Handling Course]() |
+|This week we will discuss topics related to data privacy, security, and ethics and how we can incorporate best practices into our projects. We will also discuss updates about each project. We will also discuss Shiny, an R tool for applications and dashboards.| * Shiny (slides coming soon) |* [Approaching Critical Service-Learning Assignment](https://jhudatascience.org/Baltimore_Community_Course/Assignments/Approaching_Critical_Service_Learning_Assignment.html)| * [Ethical Data Handling Course]() |
 </div>
 
 ##### **6 (`r config::get("term_dates_1")$wk6`)**
