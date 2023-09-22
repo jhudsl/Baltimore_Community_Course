@@ -3,11 +3,11 @@ title: "Shiny Gallery Assignment"
 output: html_document
 ---
 
-For this assignment we would like you to visit the [Shiny Gallery](https://shiny.posit.co/r/gallery/) to familiarize yourself with what is possible with Shiny and how people have used it.  Please be sure to scroll to the bottom of the Gallery!
+For this assignment we would like you to visit the [Shiny Gallery](https://shiny.posit.co/r/gallery/) to familiarize yourself with what is possible with Shiny and how people have used it. Please be sure to scroll to the bottom of the gallery!
 
 **Slack Questions:**
 
-On Slack for this weeks channel write about:
+On Slack for the homework channel this week write about:
 
 1) Which app did you find most inspiring and why?
 2) Find an app that used Shiny in a more unusual or unconventional way. What could you possibly learn from this? 
