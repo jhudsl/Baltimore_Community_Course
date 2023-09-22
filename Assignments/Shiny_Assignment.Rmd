@@ -3,7 +3,7 @@ title: "Shiny Gallery Assignment"
 output: html_document
 ---
 
-For this assignment we would like you to visit the [Shiny Gallery](https://shiny.posit.co/r/gallery/) to familiarize yourself with what is possible with Shiny and how people have used it.  Please be sure to scroll to the bottom of the Gallary!
+For this assignment we would like you to visit the [Shiny Gallery](https://shiny.posit.co/r/gallery/) to familiarize yourself with what is possible with Shiny and how people have used it.  Please be sure to scroll to the bottom of the Gallery!
 
 **Slack Questions:**
 
