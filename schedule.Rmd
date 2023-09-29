@@ -65,12 +65,12 @@ Every class session will start and end with a writing prompt that will be used f
 
 ##### **5 (`r config::get("term_dates_1")$wk5`)**
 
-**Shiny & Data Security/Privacy/Ethics**
+**Shiny, Flexdashboard, & Data Security/Privacy/Ethics**
 
 <div class = "table_style">
 |**Summary**|  **Content** |**Homework <br> (please do before next week)**|**Resources**|
 |----------------|----------------|-----------------|-----------------|
-|This week we will discuss topics related to data privacy, security, and ethics and how we can incorporate best practices into our projects. We will also discuss updates about each project. We will also discuss Shiny, an R tool for applications and dashboards.| * Shiny (slides coming soon) |* [Approaching Critical Service-Learning Assignment](https://jhudatascience.org/Baltimore_Community_Course/Assignments/Approaching_Critical_Service_Learning_Assignment.html)| * [Ethical Data Handling Course]() |
+|This week we will learn about Shiny, an R tool for applications and dashboards. We will also discuss topics related to data privacy, security, and ethics and how we can incorporate best practices into our projects. | * Shiny (slides coming soon) <br> * [Flexdashboard case study](https://www.opencasestudies.org/ocs-bp-school-shootings-dashboard/) <br> * [Data Security, privacy, and Ethics](https://docs.google.com/presentation/d/10dYo9t6FmmH9uazAvXKrTAcmirjZ_CGi1_SEv9YC60M/edit?usp=sharing) |* [Approaching Critical Service-Learning Assignment](https://jhudatascience.org/Baltimore_Community_Course/Assignments/Approaching_Critical_Service_Learning_Assignment.html) | * [Welcome to Shiny](https://shiny.posit.co/r/getstarted/shiny-basics/lesson1/) <br> * [Mastering Shiny Book](https://mastering-shiny.org/) <br> * [Ethical Data Handling Course](https://hutchdatascience.org/Ethical_Data_Handling_for_Cancer_Research/)|
 </div>
 
 ##### **6 (`r config::get("term_dates_1")$wk6`)**

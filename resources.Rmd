@@ -50,7 +50,8 @@ The following resources may be helpful to students as they work on their project
 <div class = table_style>
 |Topic| Resource| Use |
 |-------------------|--------------------|--------------------|
-|Dashboards|[School Shooting Open Case Study](https://www.opencasestudies.org/ocs-bp-school-shootings-dashboard/)[Data visualization and organization branding](https://rfortherestofus.com/2022/02/data-viz-org-branding/)| Dashboards can be a great way to demonstrate many aspects about a data set efficiently. They can help tell a data story. 
+|Flexashboards|[School Shooting Open Case Study](https://www.opencasestudies.org/ocs-bp-school-shootings-dashboard/) <br> [Data visualization and organization branding](https://rfortherestofus.com/2022/02/data-viz-org-branding/)| Dashboards can be a great way to demonstrate many aspects about a data set efficiently. They can help tell a data story. Flexdashboard is a fairly simple and free tool to make dashboards.
+|Shiny|[Welcome to Shiny](https://shiny.posit.co/r/getstarted/shiny-basics/lesson1/) <br> [Mastering Shiny Book](https://mastering-shiny.org/) | Shiny can be used to create dashboards and other interactive applications.
 |Data Visualization| [Data visualization and organization branding](https://rfortherestofus.com/2022/02/data-viz-org-branding/)| R has many opportunities for customizing visualizations to the organization's needs.|
 |Extracting text from images|[Youth Disconnection Open Case Study](https://www.opencasestudies.org/ocs-bp-youth-disconnection/)| You might  find that you need to import text from image files.|
 |Importing data from an API|[Opioid Case Study](https://www.opencasestudies.org/ocs-bp-opioid-rural-urban/)| Some common websites (like many social media websites) have APIs that allow you to access data.|
