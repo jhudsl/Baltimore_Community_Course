@@ -1,0 +1,15 @@
+---
+title: "Reflection: Starting the Project"
+output: html_document
+---
+
+This in-class reflection is intended to help you reflect on the project you have now started with your teammates and the Community Based Organization. At this point, you should have met with a staff member from the CBO as well as your teammates internally to discuss, plan, and delegate action items.
+
+Please take 10 minutes to record your reflections to the following in your private Google Doc journal:
+
+1) Reflect on your experiences working with the CBO so far. How is it going? What feelings have come up?
+
+2) Reflect on your own work so far through self evaluation. Have you approached your work through a critical service learning lens? Use the [Evaluation page](https://jhudatascience.org/Baltimore_Community_Course/evaluation.html) to guide your response here.
+
+3) Reflect on your experiences working with your team so far. Describe any successes and challenges you’ve had working and communicating with teammates. How is working together helping meet the CBO's needs?
+
