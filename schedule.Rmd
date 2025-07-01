@@ -107,7 +107,7 @@ Every class session will start and end with a writing prompt that will be used f
 <div class = "table_style">
 |**Time**|**Focus**|**Summary**|
 |:-----------:|:------------------:|--------------------------|
-|**Week 9 & 10 & 11 (`r config::get("term_dates_2")$wk1`, `r config::get("term_dates_2")$wk2`, `r config::get("term_dates_2")$wk3`)**| Focus on projects! | These weeks we will focus on the products for our projects. |
+|**Week 9 & 10 & 11 (`r config::get("term_dates_2")$wk1`, `r config::get("term_dates_2")$wk2`, `r config::get("term_dates_2")$wk3`)**| Focus on projects! <br> [Start of Project Reflection](https://jhudatascience.org/Baltimore_Community_Course/Assignments/Reflection_Starting_the_Project.html)| These weeks we will focus on the products for our projects. |
 |**Week 12 (`r config::get("term_dates_2")$wk4`)**| 20 min (15 min + 5 min for questions) Internal presentations | This week we will check in with the class to describe what we have done so far. **The core data science products should largely be complete.** Last 30 min for adjustment plan. In the following weeks we will shift focus to implementation plans and documentation.|
 |**Week 13 (`r config::get("term_dates_2")$wk5`)**| Implementation and Sustainability |These weeks we will especially focus on how the community partners will use the data project product and how they might sustain the product over time, as well as training for the community partners if they asked for it.|
 |**Week 14 (`r config::get("term_dates_2")$wk6`)**| Presentation of products to organizations | This week we will present our core data science products to the organizations. We will discuss our implementation/training plans with them and continue to work on these materials.|
