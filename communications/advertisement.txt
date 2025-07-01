@@ -1,0 +1,12 @@
+We’re excited to announce Baltimore Community Data Science, a course offered in both the 1st and 2nd quarters (PH.140.801 + 802) this academic year (2025-2026) at the Bloomberg School of Public Health in the Biostatistics Department.
+Students will learn how to apply their knowledge in non-academic settings, where they will partner with community-based organizations (CBOs) in Baltimore. Students will work in teams to develop a data science product (such as a dashboard, data analysis, series of visualizations, etc.) as well as training material on how to use and interpret the product to help the organization achieve a specified goal. Students will focus on developing data science skills to work with community partners and critically reflect on their role as data scientists in society - to be mindful and ethical practitioners of data science techniques enabling social change.
+Please contact Carrie Wright (cwrigh60@jhu.edu) and/or Ava Hoffman (ava.hoffman@jhu.edu) with questions. Students will be able to register on SIS, but will need faculty approval.
+
+
+Details:
+- Class will be Friday 1:30 - 2:50pm ET (virtually on Zoom)
+- Students are required to have some prior experience with R programming (or other languages) and need to have taken the following data science courses (or have equivalent experience):
+140.711 Advanced Data Science I and 140.712 Advanced Data Science II
+
+
+Find out more about the course here: https://jhudatascience.org/Baltimore_Community_Course/
