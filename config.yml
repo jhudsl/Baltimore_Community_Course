@@ -6,7 +6,7 @@ default:
   instructor_3: "[Michael Rosenblum](https://mrosenblumbiostat.wordpress.com/) ([mrosen@jhu.edu](mailto:mrosen@jhu.edu))"
   terms: "**1st and 2nd terms**"
   catalog_pt1: https://www.jhsph.edu/courses/course/38607/2023/140.801.01/baltimore-community-data-science
-  catalog_pt1_dates: "Monday, August 25th - Monday, October 20th"
+  catalog_pt1_dates: "Monday, August 25 - Monday, October 20"
   term_dates_1:
     overall: "First"
     wk1: "8/29"
